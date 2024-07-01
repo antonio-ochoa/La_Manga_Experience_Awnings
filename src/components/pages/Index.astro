@@ -1,0 +1,25 @@
+---
+import Benefits from "@/main/Benefits.astro";
+import ContactUs from "@/main/ContactUs.astro";
+import Hero from "@/main/Hero.astro";
+import TopProducts from "@/main/TopProducts.astro";
+import SectionSpecialists from "@/main/SectionSpecialists.astro";
+import SectionUsDifferent from "@/main/SectionUsDifferent.astro";
+import SectionChooseAwning from "@/main/SectionChooseAwning.astro";
+import Maintenance from "@/main/banner/Maintenance.astro";
+import Layout from "@layouts/Layout.astro";
+import { getI18N } from "@i18n/index";
+const i18n = getI18N(Astro,"index").SEO_TAGS;
+
+---
+
+<Layout title={i18n.TITLE} descr={i18n.DESCRIPTION} path="" index="index" follow="follow">
+    <Hero />
+    <Benefits />
+    <SectionSpecialists />
+    <SectionUsDifferent />
+    <TopProducts />
+    <SectionChooseAwning />
+    <Maintenance />
+    <ContactUs />
+</Layout>

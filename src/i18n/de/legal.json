@@ -1,0 +1,40 @@
+{
+    "META_TAGS": {
+        "TITLE":"Allgemeine Geschäftsbedingungen | La Manga Experience",
+        "DESCRIPTION": "Allgemeine Geschäftsbedingungen, denen jeder Benutzer zustimmt, wenn er die Website von La Manga Experience Awnings nutzt."
+    },
+    "TITLE": "Allgemeine Geschäftsbedingungen",
+    "INTRO": "La Manga Experience, S.L., verantwortlich für die Website, im Folgenden als der VERANTWORTLICHE bezeichnet, stellt dieses Dokument den Benutzern zur Verfügung, um die in Gesetz 34/2002 vom 11. Juli über Dienstleistungen der Informationsgesellschaft und elektronischen Handel (LSSICE) festgelegten Verpflichtungen zu erfüllen sowie alle Benutzer der Website über die Nutzungsbedingungen zu informieren.",
+    "TERMS_OF_USE": {
+        "TITLE": "NUTZUNGSBEDINGUNGEN",
+        "DESCRIPTION": "Durch die Nutzung dieser Website erklären Sie sich mit den folgenden Nutzungsbedingungen einverstanden:",
+        "CONDITIONS": [
+            "Der Inhalt dieser Website dient nur allgemeinen Informationszwecken und kann ohne Vorankündigung geändert werden.",
+            "Die Vervielfältigung, Verbreitung oder Änderung des Inhalts der Website ist ohne die Zustimmung des Eigentümers nicht gestattet, es sei denn, dies ist durch spezifische Lizenzen erlaubt.",
+            "Die unbefugte Nutzung der Website kann zu Schadensersatzansprüchen und/oder strafrechtlich verfolgt werden."
+        ]
+    },
+    "INTELLECTUAL_PROPERTY": {
+        "TITLE": "GEISTIGES EIGENTUM",
+        "DESCRIPTION": [
+            "Alle Inhalte von La Manga Experience, einschließlich Text, Bilder, Grafiken und anderer Materialien, sind durch Urheberrechte oder andere geistige Eigentumsrechte geschützt. Die unbefugte Nutzung von Website-Inhalten ist untersagt.",
+            "Darüber hinaus verwenden wir Bilder mit Attributionslizenzen von Unsplash. Insbesondere das Hintergrundbild im Hero-Bereich und das Hintergrundbild im Kontaktbereich. Für weitere Informationen zur Nutzung von Bildern konsultieren Sie bitte die Richtlinien zum geistigen Eigentum von Unsplash."
+        ]
+    },
+    "LIMITATION_OF_LIABILITY": {
+        "TITLE": "HAFTUNGSBESCHRÄNKUNG",
+        "DESCRIPTION": [
+            "Der Eigentümer von La Manga Experience ist nicht verantwortlich für Fehler oder Ungenauigkeiten im Inhalt der Website.",
+            "Diese Website wurde überprüft und getestet, um sicherzustellen, dass sie korrekt funktioniert. Im Prinzip kann eine ordnungsgemäße Funktionalität 365 Tage im Jahr, 24 Stunden am Tag, garantiert werden. Es kann jedoch nicht garantiert werden, dass die Website immer verfügbar ist, da Programmierfehler oder höhere Gewalt auftreten können.",
+            "Die Nutzung von Links zu externen Seiten erfolgt auf eigenes Risiko, und wir sind nicht für den Inhalt solcher Seiten verantwortlich, da sie sich plötzlich ohne unsere Kenntnis ändern können."
+        ]
+    },
+    "JURISDICTION_AND_LAWS": {
+        "TITLE": "GERICHTSBARKEIT UND ANWENDBARE GESETZE",
+        "DESCRIPTION": ["Diese Website unterliegt spanischem Recht. Alle Streitigkeiten, die im Zusammenhang mit der Nutzung der Website entstehen, werden vor den nächstgelegenen Gerichten von La Manga del Mar Menor beigelegt."]
+    },
+    "CHANGES_TO_NOTICE": {
+        "TITLE": "ÄNDERUNGEN DES RECHTLICHEN HINWEISES",
+        "DESCRIPTION": ["Wir können diesen rechtlichen Hinweis von Zeit zu Zeit ändern. Wir empfehlen, diese Seite regelmäßig zu überprüfen, um über Änderungen informiert zu bleiben. Alle Aktualisierungen werden über die Website kommuniziert."]
+    }
+}

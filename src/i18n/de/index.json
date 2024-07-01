@@ -1,9 +1,13 @@
-{   
-    "LANGUAGE": "EN",
+{
+    "LANGUAGE": "DE",
+    "SEO_TAGS": {
+        "TITLE": "Markisen in La Manga del Mar Menor | La Manga Experience",
+        "DESCRIPTION": "Lokale Experten für die Installation und den Verkauf von Markisen, Pergolen und Poolabdeckungen in La Manga und Umgebung. Wir sprechen fließend Englisch."
+    },
     "NAVIGATION": {
         "HEADER": {
             "HOME_LINK": {
-                "TITLE": "Home",
+                "TITLE": "Startseite",
                 "HREF": "/"
             },
             "LANGUAGES": [
@@ -16,22 +20,22 @@
                     "HREF": "/fr"
                 }
             ],
-            "BTN_TITLE": "Request a quote"
+            "BTN_TITLE": "Angebot anfordern"
         },
         "LINKS": [
             {
-                "CATEGORY": "Awnings",
+                "CATEGORY": "Markisen",
                 "SUB_CATEGORIES": [
                     {
                         "TITLE": "Punto recto",
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Retráctil",
+                        "TITLE": "Einziehbar",
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Cofre",
+                        "TITLE": "Kassette",
                         "HREF": ""
                     },
                     {
@@ -39,11 +43,11 @@
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Vela",
+                        "TITLE": "Segel",
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Vertical",
+                        "TITLE": "Vertikal",
                         "HREF": ""
                     },
                     {
@@ -53,10 +57,10 @@
                 ]
             },
             {
-                "CATEGORY": "Pergolas",
+                "CATEGORY": "Pergolen",
                 "SUB_CATEGORIES": [
                     {
-                        "TITLE": "Bioclimáticas",
+                        "TITLE": "Bioklimatisch",
                         "HREF": ""
                     },
                     {
@@ -64,170 +68,169 @@
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Madera",
+                        "TITLE": "Holz",
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Aluminio",
+                        "TITLE": "Aluminium",
                         "HREF": ""
                     }
                 ]
             },
             {
-                "CATEGORY": "Pool Covers",
+                "CATEGORY": "Poolabdeckungen",
                 "SUB_CATEGORIES": [
                     {
-                        "TITLE": "Redonda",
+                        "TITLE": "Rund",
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Rectangular",
+                        "TITLE": "Rechteckig",
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Invierno",
+                        "TITLE": "Winter",
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Verano",
+                        "TITLE": "Sommer",
                         "HREF": ""
                     }
                 ]
             }
         ],
         "FOOTER": {
-            "DESCRIPTION": "La Manga Experience connects travelers with trusted local businesses in La Manga del Mar Menor, ensuring fair prices, personalized recommendations, and seamless communication for an authentic vacation.",
+            "DESCRIPTION": "La Manga Experience verbindet Reisende mit vertrauenswürdigen lokalen Unternehmen in La Manga del Mar Menor und sorgt für faire Preise, personalisierte Empfehlungen und reibungslose Kommunikation für einen authentischen Urlaub.",
             "NEWSLETTER": {
                 "TITLE": "Newsletter",
                 "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "PLACEHOLDER": "example@adkwa.com",
-                "BTN_ALT": ""
+                "BTN_ALT": "Symbol eines nach rechts zeigenden Pfeils"
             },
             "TERMS_AND_CONDITIONS": {
-                "TITLE": "Terms and Conditions",
-                "HREF": "/"
+                "TITLE": "Allgemeine Geschäftsbedingungen",
+                "HREF": "/de/legal"
             }
         }
     },
     "HERO_SECTION": {
-        "TITLE": "Awnings in La Manga del Mar Menor",
-        "HEADLINE": "Enjoy the sun like never before.",
-        "BTN_TITLE": "Top Products",
-        "IMG_URL": "/imgs/awning-beach-bar.jpg",
-        "IMG_ALT": ""
+        "TITLE": "Markisen in La Manga del Mar Menor",
+        "HEADLINE": "Genießen Sie die Sonne wie nie zuvor.",
+        "BTN_TITLE": "Top Produkte",
+        "IMG_ALT": "Viele Markisen, die einem Strandbar in La Manga Schatten spenden"
     },
     "BENEFITS_SECTION": {
-        "TITLE": "Our Benefits",
+        "TITLE": "Unsere Vorteile",
         "BENEFITS": [
             {
-                "TITLE": "Local Expertise",
-                "DESCRIPTION": "Local professionals who understand the specific needs of La Manga's climate",
-                "SVG_ALT": ""
+                "TITLE": "Lokale Expertise",
+                "DESCRIPTION": "Lokale Fachleute, die die spezifischen Bedürfnisse des Klimas in La Manga verstehen",
+                "SVG_ALT": "Symbol eines Standortpunkts"
             },
             {
-                "TITLE": "Made in Spain",
-                "DESCRIPTION": "Durable and reliable products that stand the test of time and local weather conditions",
-                "SVG_ALT": ""
+                "TITLE": "Hergestellt in Spanien",
+                "DESCRIPTION": "Langlebige und zuverlässige Produkte, die die Zeit und die lokalen Wetterbedingungen überstehen",
+                "SVG_ALT": "Symbol eines Häkchens in einem Kreis"
             },
             {
-                "TITLE": "Stainless Steel",
-                "DESCRIPTION": "We use it in our awnings to provide superior durability and resistance to corrosion",
-                "SVG_ALT": ""
+                "TITLE": "Edelstahl",
+                "DESCRIPTION": "Wir verwenden es in unseren Markisen, um eine überlegene Haltbarkeit und Korrosionsbeständigkeit zu bieten",
+                "SVG_ALT": "Symbol einer Schraube"
             }
         ]
     },
     "SPECIALISTS_IN_AWNINGS": {
-        "TITLE": "Specialists in Awnings Installation",
-        "P1": "La Manga Experience's team consists of local experts specializing in awnings, pergolas, and pool covers. Managed by a <strong>fluent English speaker</strong>, we ensure accurate measurements and the selection of the best quality-price products to suit your needs.",
-        "P2": "We offer a variety of awnings, from straightforward models requiring basic installation tools to advanced retractable systems needing electrical expertise. Our team includes <strong>professionals with over ten years of experience</strong>, guaranteeing a clean and long-lasting installation for you.",
+        "TITLE": "Spezialisten für Markiseninstallation",
+        "P1": "Das Team von La Manga Experience besteht aus lokalen Experten, die sich auf Markisen, Pergolen und Poolabdeckungen spezialisiert haben. Geleitet von einem <strong>fließend Englisch sprechenden</strong> Mitarbeiter, sorgen wir für präzise Messungen und die Auswahl der besten Produkte im Hinblick auf Qualität und Preis, die Ihren Bedürfnissen entsprechen.",
+        "P2": "Wir bieten eine Vielzahl von Markisen an, von einfachen Modellen, die nur grundlegende Installationswerkzeuge erfordern, bis hin zu fortschrittlichen einziehbaren Systemen, die elektrische Fachkenntnisse erfordern. Unser Team umfasst <strong>Fachleute mit über zehn Jahren Erfahrung</strong>, die eine saubere und langlebige Installation für Sie gewährleisten.",
         "ACHIEVEMENTS": [
             {
                 "NUMBER": "+10",
-                "TITLE": "Years of Experience"
+                "TITLE": "Jahre Erfahrung"
             },
             {
                 "NUMBER": "+700",
-                "TITLE": "Completed Installations"
+                "TITLE": "Abgeschlossene Installationen"
             }
         ],
-        "IMG_ALT": ""
+        "IMG_ALT": "Markise an einer kleinen Bar im La Manga Club Resort"
     },
     "WHAT_MAKES_US_DIFFERENT": {
-        "TITLE": "What makes us different?",
-        "P1": "We guarantee <strong>precise communication in English</strong> and offer unmatched speed throughout the ordering and installation process. Our efficiency stems from partnerships with multiple awning companies that provide flexible shipping options and collaborative installation services.",
-        "P2": "<strong>Choosing us means avoiding the typical 'tourist/foreigner price'</strong> as we handle negotiations with third-party companies. These companies prefer participating in installations because we recommend removing awnings after the summer season for better maintenance, <strong>ensuring the same experts handle both installation and removal.</strong>",
-        "IMG_ALT": ""
+        "TITLE": "Was unterscheidet uns?",
+        "P1": "Wir garantieren eine <strong>präzise Kommunikation in Englisch</strong> und bieten eine unübertroffene Geschwindigkeit während des gesamten Bestell- und Installationsprozesses. Unsere Effizienz beruht auf Partnerschaften mit mehreren Markisenfirmen, die flexible Versandoptionen und kollaborative Installationsdienste anbieten.",
+        "P2": "Wenn Sie sich für uns entscheiden, vermeiden Sie den typischen <strong>'Touristen-/Ausländerpreis'</strong>, da wir die Verhandlungen mit Drittfirmen übernehmen. Diese Firmen nehmen lieber an den Installationen teil, da wir empfehlen, die Markisen nach der Sommersaison zu entfernen, um eine bessere Wartung zu gewährleisten, <strong>wodurch die gleichen Experten sowohl die Installation als auch die Entfernung durchführen.</strong>",
+        "IMG_ALT": "Junger Mann installiert eine Markise"
     },
     "TOP_PRODUCTS": {
-        "TITLE": "Top Products",
+        "TITLE": "Top Produkte",
         "PRODUCTS": [
             {
-                "CATEGORY": "Awnings",
-                "TITLE": "Retractable",
-                "DESCRIPTION": "Our retractable awnings provide excellent shade and can be conveniently extended or retracted based on your needs.",
-                "IMG_ALT": "",
+                "CATEGORY": "Markisen",
+                "TITLE": "Einziehbar",
+                "DESCRIPTION": "Unsere einziehbaren Markisen bieten hervorragenden Schatten und können je nach Bedarf bequem ein- oder ausgefahren werden.",
+                "IMG_ALT": "Einziehbare Markise in einem Außenwohnzimmer",
                 "BTN_HREF": "/"
             },
             {
-                "CATEGORY": "Pergolas",
+                "CATEGORY": "Pergolen",
                 "TITLE": "Gazebo",
-                "DESCRIPTION": "Our gazebo pergolas offer a stylish and functional addition to any outdoor area, being perfect for outdoor activities.",
-                "IMG_ALT": "",
+                "DESCRIPTION": "Unsere Gazebo-Pergolen bieten eine stilvolle und funktionale Ergänzung für jeden Außenbereich und sind perfekt für Outdoor-Aktivitäten.",
+                "IMG_ALT": "Gazebo-Pergola in einem Außenwohnzimmer",
                 "BTN_HREF": "/"
             },
             {
-                "CATEGORY": "Pool Covers",
-                "TITLE": "Rounded",
-                "DESCRIPTION": "Our rounded pool covers are designed to keep your pool clean and safe. They are easy to install and remove.",
-                "IMG_ALT": "",
+                "CATEGORY": "Poolabdeckungen",
+                "TITLE": "Rund",
+                "DESCRIPTION": "Unsere runden Poolabdeckungen sind so konzipiert, dass sie Ihren Pool sauber und sicher halten. Sie sind einfach zu installieren und zu entfernen.",
+                "IMG_ALT": "Runde Poolabdeckung auf einem Pool",
                 "BTN_HREF": "/"
             }
         ],
-        "BTN_TITLE": "More info"
+        "BTN_TITLE": "Mehr Infos"
     },
     "WHAT_AWNING_CHOOSE": {
-        "TITLE": "What awning should I choose?",
-        "P1": "When choosing an awning, <strong>comfort should be your top priority.</strong> While awnings might seem like a significant investment initially, opting for an automatic retractable model can save you time and effort over the years.",
-        "P2": "From our extensive experience, <strong>the most common regret among clients who have purchased large awnings is not choosing a retractable one.</strong> What initially seems like a simple task of turning a handle can quickly become a cumbersome chore.",
-        "P3": "If you need shade in a spacious area with trees, consider exploring our sail options. They offer a stylish and practical solution for larger spaces, providing ample shade and enhancing the overall aesthetic of your outdoor area.",
-        "IMG_ALT": ""
+        "TITLE": "Welche Markise sollte ich wählen?",
+        "P1": "Beim Kauf einer Markise sollte <strong>der Komfort oberste Priorität haben.</strong> Obwohl Markisen anfangs wie eine große Investition erscheinen mögen, kann die Wahl eines automatischen einziehbaren Modells Ihnen im Laufe der Jahre Zeit und Mühe ersparen.",
+        "P2": "Aus unserer umfangreichen Erfahrung heraus ist <strong>das häufigste Bedauern bei Kunden, die große Markisen gekauft haben, dass sie keine einziehbare Markise gewählt haben.</strong> Was zunächst wie eine einfache Aufgabe erscheint, den Griff zu drehen, kann schnell zu einer lästigen Arbeit werden.",
+        "P3": "Wenn Sie in einem geräumigen Bereich mit Bäumen Schatten benötigen, sollten Sie unsere Segeloptionen in Betracht ziehen. Sie bieten eine stilvolle und praktische Lösung für größere Räume, spenden reichlich Schatten und verbessern die Gesamtästhetik Ihres Außenbereichs.",
+        "IMG_ALT": "Grüne und orangefarbene Segel, die die Sonne abdecken"
     },
     "BANNER_MAINTENANCE": {
-        "TITLE": "Need maintenance or new pieces for your awning?",
-        "DESCRIPTION": "We offer comprehensive <strong>maintenance services</strong> and <strong>replacement parts</strong> for your awnings. Whether you need routine upkeep or specific components, our team is ready to ensure your awning remains in top condition. Contact us for expert advice and support tailored to your needs.",
-        "IMG_ALT": "",
-        "BTN_TITLE": "Request a quote",
+        "TITLE": "Benötigen Sie Wartung oder neue Teile für Ihre Markise?",
+        "DESCRIPTION": "Wir bieten umfassende <strong>Wartungsdienste</strong> und <strong>Ersatzteile</strong> für Ihre Markisen. Ob Sie routinemäßige Pflege oder bestimmte Komponenten benötigen, unser Team ist bereit, Ihre Markise in Top-Zustand zu halten. Kontaktieren Sie uns für fachkundige Beratung und Unterstützung, die auf Ihre Bedürfnisse zugeschnitten ist.",
+        "IMG_ALT": "Verschmutzte weiße und grüne Markise",
+        "BTN_TITLE": "Angebot anfordern",
         "BTN_HREF": "/"
     },
     "CONTACT_US_SECTION": {
-        "IMG_ALT": "",
+        "IMG_ALT": "Großaufnahme des oberen Teils einer Pergola",
         "CONTACT_INFO": {
-            "TITLE": "Contact Us",
-            "DESCRIPTION": "We are here to assist you! If you have any questions or need assistance, please feel free to reach out to us.",
-            "EMAIL_ALT": "",
-            "PHONE_ALT":""
+            "TITLE": "Kontaktieren Sie uns",
+            "DESCRIPTION": "Wir sind hier, um Ihnen zu helfen! Wenn Sie Fragen haben oder Hilfe benötigen, können Sie sich gerne an uns wenden.",
+            "EMAIL_ALT": "Symbol einer E-Mail",
+            "PHONE_ALT": "Symbol eines Telefons"
         },
         "CONTACT_FORM": {
-            "TITLE": "Contact Form",
+            "TITLE": "Kontaktformular",
             "LABELS": {
                 "NAME": {
                     "TITLE": "Name",
                     "PLACEHOLDER": "Lucas Loarrasaba López"
                 },
                 "PHONE": {
-                    "TITLE": "Phone",
+                    "TITLE": "Telefon",
                     "PLACEHOLDER": "+34 644 86 79 23"
                 },
                 "MESSAGE": {
-                    "TITLE": "Message",
+                    "TITLE": "Nachricht",
                     "PLACEHOLDER": "awnings@lasmdaiwmdoia"
                 }
             },
             "BTN_TITLE": {
-                "SUBMITTING": "Submitting...",
-                "SENT": "Sent!",
-                "DEFAULT": "Send Message",
-                "ERROR": "Error -.-"
+                "SUBMITTING": "Einreichen...",
+                "SENT": "Gesendet!",
+                "DEFAULT": "Nachricht senden",
+                "ERROR": "Fehler -.-"
             }
         }
     }

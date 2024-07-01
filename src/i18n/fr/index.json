@@ -1,9 +1,13 @@
-{   
-    "LANGUAGE": "EN",
+{
+    "LANGUAGE": "FR",
+    "SEO_TAGS": {
+        "TITLE": "Stores à La Manga del Mar Menor | La Manga Experience",
+        "DESCRIPTION": "Experts locaux dans l'installation et la vente de stores, pergolas et couvertures de piscine à La Manga et ses environs. Nous parlons couramment anglais."
+    },
     "NAVIGATION": {
         "HEADER": {
             "HOME_LINK": {
-                "TITLE": "Home",
+                "TITLE": "Accueil",
                 "HREF": "/"
             },
             "LANGUAGES": [
@@ -16,22 +20,22 @@
                     "HREF": "/fr"
                 }
             ],
-            "BTN_TITLE": "Request a quote"
+            "BTN_TITLE": "Demander un devis"
         },
         "LINKS": [
             {
-                "CATEGORY": "Awnings",
+                "CATEGORY": "Stores",
                 "SUB_CATEGORIES": [
                     {
                         "TITLE": "Punto recto",
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Retráctil",
+                        "TITLE": "Rétractable",
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Cofre",
+                        "TITLE": "Coffre",
                         "HREF": ""
                     },
                     {
@@ -39,7 +43,7 @@
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Vela",
+                        "TITLE": "Voile",
                         "HREF": ""
                     },
                     {
@@ -47,7 +51,7 @@
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Veranda",
+                        "TITLE": "Véranda",
                         "HREF": ""
                     }
                 ]
@@ -56,7 +60,7 @@
                 "CATEGORY": "Pergolas",
                 "SUB_CATEGORIES": [
                     {
-                        "TITLE": "Bioclimáticas",
+                        "TITLE": "Bioclimatiques",
                         "HREF": ""
                     },
                     {
@@ -64,158 +68,157 @@
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Madera",
+                        "TITLE": "Bois",
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Aluminio",
+                        "TITLE": "Aluminium",
                         "HREF": ""
                     }
                 ]
             },
             {
-                "CATEGORY": "Pool Covers",
+                "CATEGORY": "Couvertures de Piscine",
                 "SUB_CATEGORIES": [
                     {
-                        "TITLE": "Redonda",
+                        "TITLE": "Ronde",
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Rectangular",
+                        "TITLE": "Rectangulaire",
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Invierno",
+                        "TITLE": "Hiver",
                         "HREF": ""
                     },
                     {
-                        "TITLE": "Verano",
+                        "TITLE": "Été",
                         "HREF": ""
                     }
                 ]
             }
         ],
         "FOOTER": {
-            "DESCRIPTION": "La Manga Experience connects travelers with trusted local businesses in La Manga del Mar Menor, ensuring fair prices, personalized recommendations, and seamless communication for an authentic vacation.",
+            "DESCRIPTION": "La Manga Experience connecte les voyageurs avec des entreprises locales de confiance à La Manga del Mar Menor, garantissant des prix justes, des recommandations personnalisées et une communication fluide pour des vacances authentiques.",
             "NEWSLETTER": {
                 "TITLE": "Newsletter",
                 "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "PLACEHOLDER": "example@adkwa.com",
-                "BTN_ALT": ""
+                "BTN_ALT": "Icône d'une flèche pointant vers la droite"
             },
             "TERMS_AND_CONDITIONS": {
-                "TITLE": "Terms and Conditions",
-                "HREF": "/"
+                "TITLE": "Conditions Générales",
+                "HREF": "/fr/legal"
             }
         }
     },
     "HERO_SECTION": {
-        "TITLE": "Awnings in La Manga del Mar Menor",
-        "HEADLINE": "Enjoy the sun like never before.",
-        "BTN_TITLE": "Top Products",
-        "IMG_URL": "/imgs/awning-beach-bar.jpg",
-        "IMG_ALT": ""
+        "TITLE": "Stores à La Manga del Mar Menor",
+        "HEADLINE": "Profitez du soleil comme jamais auparavant.",
+        "BTN_TITLE": "Produits phares",
+        "IMG_ALT": "Beaucoup de stores donnant de l'ombre à un bar de plage à La Manga"
     },
     "BENEFITS_SECTION": {
-        "TITLE": "Our Benefits",
+        "TITLE": "Nos Avantages",
         "BENEFITS": [
             {
-                "TITLE": "Local Expertise",
-                "DESCRIPTION": "Local professionals who understand the specific needs of La Manga's climate",
-                "SVG_ALT": ""
+                "TITLE": "Expertise Locale",
+                "DESCRIPTION": "Des professionnels locaux qui comprennent les besoins spécifiques du climat de La Manga",
+                "SVG_ALT": "Icône d'un point de localisation"
             },
             {
-                "TITLE": "Made in Spain",
-                "DESCRIPTION": "Durable and reliable products that stand the test of time and local weather conditions",
-                "SVG_ALT": ""
+                "TITLE": "Fabriqué en Espagne",
+                "DESCRIPTION": "Des produits durables et fiables qui résistent à l'épreuve du temps et aux conditions météorologiques locales",
+                "SVG_ALT": "Icône d'une coche dans un cercle"
             },
             {
-                "TITLE": "Stainless Steel",
-                "DESCRIPTION": "We use it in our awnings to provide superior durability and resistance to corrosion",
-                "SVG_ALT": ""
+                "TITLE": "Acier Inoxydable",
+                "DESCRIPTION": "Nous l'utilisons dans nos stores pour offrir une durabilité et une résistance supérieures à la corrosion",
+                "SVG_ALT": "Icône d'une vis"
             }
         ]
     },
     "SPECIALISTS_IN_AWNINGS": {
-        "TITLE": "Specialists in Awnings Installation",
-        "P1": "La Manga Experience's team consists of local experts specializing in awnings, pergolas, and pool covers. Managed by a <strong>fluent English speaker</strong>, we ensure accurate measurements and the selection of the best quality-price products to suit your needs.",
-        "P2": "We offer a variety of awnings, from straightforward models requiring basic installation tools to advanced retractable systems needing electrical expertise. Our team includes <strong>professionals with over ten years of experience</strong>, guaranteeing a clean and long-lasting installation for you.",
+        "TITLE": "Spécialistes de l'Installation de Stores",
+        "P1": "L'équipe de La Manga Experience est composée d'experts locaux spécialisés dans les stores, pergolas et couvertures de piscine. Géré par un <strong>anglophone courant</strong>, nous assurons des mesures précises et la sélection des meilleurs produits qualité-prix pour répondre à vos besoins.",
+        "P2": "Nous offrons une variété de stores, des modèles simples nécessitant des outils d'installation de base aux systèmes rétractables avancés nécessitant une expertise électrique. Notre équipe comprend des <strong>professionnels ayant plus de dix ans d'expérience</strong>, garantissant une installation propre et durable pour vous.",
         "ACHIEVEMENTS": [
             {
                 "NUMBER": "+10",
-                "TITLE": "Years of Experience"
+                "TITLE": "Années d'Expérience"
             },
             {
                 "NUMBER": "+700",
-                "TITLE": "Completed Installations"
+                "TITLE": "Installations Réalisées"
             }
         ],
-        "IMG_ALT": ""
+        "IMG_ALT": "Store sur un petit bar au La Manga Club Resort"
     },
     "WHAT_MAKES_US_DIFFERENT": {
-        "TITLE": "What makes us different?",
-        "P1": "We guarantee <strong>precise communication in English</strong> and offer unmatched speed throughout the ordering and installation process. Our efficiency stems from partnerships with multiple awning companies that provide flexible shipping options and collaborative installation services.",
-        "P2": "<strong>Choosing us means avoiding the typical 'tourist/foreigner price'</strong> as we handle negotiations with third-party companies. These companies prefer participating in installations because we recommend removing awnings after the summer season for better maintenance, <strong>ensuring the same experts handle both installation and removal.</strong>",
-        "IMG_ALT": ""
+        "TITLE": "Qu'est-ce qui nous rend différents ?",
+        "P1": "Nous garantissons une <strong>communication précise en anglais</strong> et offrons une rapidité inégalée tout au long du processus de commande et d'installation. Notre efficacité découle de partenariats avec plusieurs entreprises de stores qui offrent des options d'expédition flexibles et des services d'installation collaboratifs.",
+        "P2": "En nous choisissant, vous évitez le <strong>prix typique des touristes/étrangers</strong> car nous gérons les négociations avec les entreprises tierces. Ces entreprises préfèrent participer aux installations car nous recommandons de retirer les stores après la saison estivale pour une meilleure maintenance, <strong>garantissant que les mêmes experts s'occupent à la fois de l'installation et du retrait.</strong>",
+        "IMG_ALT": "Jeune homme installant un store"
     },
     "TOP_PRODUCTS": {
-        "TITLE": "Top Products",
+        "TITLE": "Produits phares",
         "PRODUCTS": [
             {
-                "CATEGORY": "Awnings",
-                "TITLE": "Retractable",
-                "DESCRIPTION": "Our retractable awnings provide excellent shade and can be conveniently extended or retracted based on your needs.",
-                "IMG_ALT": "",
+                "CATEGORY": "Stores",
+                "TITLE": "Rétractable",
+                "DESCRIPTION": "Nos stores rétractables offrent une excellente ombre et peuvent être facilement étendus ou rétractés selon vos besoins.",
+                "IMG_ALT": "Store rétractable sur un salon extérieur",
                 "BTN_HREF": "/"
             },
             {
                 "CATEGORY": "Pergolas",
                 "TITLE": "Gazebo",
-                "DESCRIPTION": "Our gazebo pergolas offer a stylish and functional addition to any outdoor area, being perfect for outdoor activities.",
-                "IMG_ALT": "",
+                "DESCRIPTION": "Nos pergolas gazebo offrent un ajout élégant et fonctionnel à tout espace extérieur, parfait pour les activités en plein air.",
+                "IMG_ALT": "Pergola gazebo sur un salon extérieur",
                 "BTN_HREF": "/"
             },
             {
-                "CATEGORY": "Pool Covers",
-                "TITLE": "Rounded",
-                "DESCRIPTION": "Our rounded pool covers are designed to keep your pool clean and safe. They are easy to install and remove.",
-                "IMG_ALT": "",
+                "CATEGORY": "Couvertures de Piscine",
+                "TITLE": "Ronde",
+                "DESCRIPTION": "Nos couvertures de piscine rondes sont conçues pour garder votre piscine propre et sûre. Elles sont faciles à installer et à enlever.",
+                "IMG_ALT": "Couverture de piscine ronde sur une piscine",
                 "BTN_HREF": "/"
             }
         ],
-        "BTN_TITLE": "More info"
+        "BTN_TITLE": "Plus d'info"
     },
     "WHAT_AWNING_CHOOSE": {
-        "TITLE": "What awning should I choose?",
-        "P1": "When choosing an awning, <strong>comfort should be your top priority.</strong> While awnings might seem like a significant investment initially, opting for an automatic retractable model can save you time and effort over the years.",
-        "P2": "From our extensive experience, <strong>the most common regret among clients who have purchased large awnings is not choosing a retractable one.</strong> What initially seems like a simple task of turning a handle can quickly become a cumbersome chore.",
-        "P3": "If you need shade in a spacious area with trees, consider exploring our sail options. They offer a stylish and practical solution for larger spaces, providing ample shade and enhancing the overall aesthetic of your outdoor area.",
-        "IMG_ALT": ""
+        "TITLE": "Quel store dois-je choisir ?",
+        "P1": "Lors du choix d'un store, <strong>le confort doit être votre priorité absolue.</strong> Bien que les stores puissent sembler être un investissement important au départ, opter pour un modèle rétractable automatique peut vous faire gagner du temps et des efforts au fil des ans.",
+        "P2": "D'après notre vaste expérience, <strong>le regret le plus courant parmi les clients ayant acheté de grands stores est de ne pas avoir choisi un modèle rétractable.</strong> Ce qui semble au départ être une simple tâche consistant à tourner une manivelle peut rapidement devenir une corvée fastidieuse.",
+        "P3": "Si vous avez besoin d'ombre dans un grand espace avec des arbres, envisagez d'explorer nos options de voiles. Elles offrent une solution élégante et pratique pour les grands espaces, fournissant une ombre abondante et améliorant l'esthétique générale de votre espace extérieur.",
+        "IMG_ALT": "Voiles vertes et orange couvrant le soleil"
     },
     "BANNER_MAINTENANCE": {
-        "TITLE": "Need maintenance or new pieces for your awning?",
-        "DESCRIPTION": "We offer comprehensive <strong>maintenance services</strong> and <strong>replacement parts</strong> for your awnings. Whether you need routine upkeep or specific components, our team is ready to ensure your awning remains in top condition. Contact us for expert advice and support tailored to your needs.",
-        "IMG_ALT": "",
-        "BTN_TITLE": "Request a quote",
+        "TITLE": "Besoin d'entretien ou de nouvelles pièces pour votre store ?",
+        "DESCRIPTION": "Nous proposons des <strong>services d'entretien complets</strong> et des <strong>pièces de rechange</strong> pour vos stores. Que vous ayez besoin d'un entretien de routine ou de composants spécifiques, notre équipe est prête à garantir que votre store reste en parfait état. Contactez-nous pour des conseils et un soutien d'experts adaptés à vos besoins.",
+        "IMG_ALT": "Store blanc et vert taché",
+        "BTN_TITLE": "Demander un devis",
         "BTN_HREF": "/"
     },
     "CONTACT_US_SECTION": {
-        "IMG_ALT": "",
+        "IMG_ALT": "Gros plan de la partie supérieure d'une pergola",
         "CONTACT_INFO": {
-            "TITLE": "Contact Us",
-            "DESCRIPTION": "We are here to assist you! If you have any questions or need assistance, please feel free to reach out to us.",
-            "EMAIL_ALT": "",
-            "PHONE_ALT":""
+            "TITLE": "Contactez-nous",
+            "DESCRIPTION": "Nous sommes là pour vous aider ! Si vous avez des questions ou besoin d'aide, n'hésitez pas à nous contacter.",
+            "EMAIL_ALT": "Icône d'un email",
+            "PHONE_ALT": "Icône d'un téléphone"
         },
         "CONTACT_FORM": {
-            "TITLE": "Contact Form",
+            "TITLE": "Formulaire de Contact",
             "LABELS": {
                 "NAME": {
-                    "TITLE": "Name",
+                    "TITLE": "Nom",
                     "PLACEHOLDER": "Lucas Loarrasaba López"
                 },
                 "PHONE": {
-                    "TITLE": "Phone",
+                    "TITLE": "Téléphone",
                     "PLACEHOLDER": "+34 644 86 79 23"
                 },
                 "MESSAGE": {
@@ -224,10 +227,10 @@
                 }
             },
             "BTN_TITLE": {
-                "SUBMITTING": "Submitting...",
-                "SENT": "Sent!",
-                "DEFAULT": "Send Message",
-                "ERROR": "Error -.-"
+                "SUBMITTING": "Envoi en cours...",
+                "SENT": "Envoyé !",
+                "DEFAULT": "Envoyer Message",
+                "ERROR": "Erreur -.-"
             }
         }
     }

@@ -1,0 +1,40 @@
+{
+    "META_TAGS": {
+        "TITLE":"Terms & Conditions | La Manga Experience",
+        "DESCRIPTION": "Terms and Conditions that every user agrees to comply with when using the website of La Manga Experience Awnings."
+    },
+    "TITLE": "Terms & Conditions",
+    "INTRO": "La Manga Experience, S.L., responsible for the website, hereinafter referred to as the RESPONSIBLE, makes this document available to users with the aim of fulfilling the obligations set forth in Law 34/2002, of July 11, on Information Society Services and Electronic Commerce (LSSICE), as well as informing all users of the website about the terms of use.",
+    "TERMS_OF_USE": {
+        "TITLE": "TERMS OF USE",
+        "DESCRIPTION": "By using this website, you agree to comply with the following terms of use:",
+        "CONDITIONS": [
+            "The content of this website is for general information purposes only and may change without notice.",
+            "Reproduction, distribution, or modification of the website content is not permitted without the owner's consent, except where allowed by specific licenses.",
+            "Unauthorized use of the website may lead to claims for damages and/or be considered a criminal offense."
+        ]
+    },
+    "INTELLECTUAL_PROPERTY": {
+        "TITLE": "INTELLECTUAL PROPERTY",
+        "DESCRIPTION": [
+            "All content on La Manga Experience, including text, images, graphics, and other materials, is protected by copyright or other intellectual property rights. Unauthorized use of website content is prohibited.",
+            "In addition to this, we use images with attribution licenses from Unsplash. In specific, the background image in the hero section and the background image in the contact-us section. For more information on the use of images, please consult Unsplash's intellectual property policy."
+        ]
+    },
+    "LIMITATION_OF_LIABILITY": {
+        "TITLE": "LIMITATION OF LIABILITY",
+        "DESCRIPTION": [
+            "The owner of La Manga Experience is not responsible for errors or inaccuracies in the website's content.",
+            "This website has been reviewed and tested to ensure it functions correctly. In principle, proper functionality can be guaranteed 365 days a year, 24 hours a day. However, it cannot be guaranteed that the website will always be available due to programming errors or force majeure.",
+            "Using links to external sites is at your own risk, and we are not responsible for the content of such sites since they can suddenly without our notice."
+        ]
+    },
+    "JURISDICTION_AND_LAWS": {
+        "TITLE": "JURISDICTION AND APPLICABLE LAWS",
+        "DESCRIPTION": ["This website is subject to Spanish law. Any disputes arising in connection with the use of the website will be resolved in the closest courts to La Manga del Mar Menor."]
+    },
+    "CHANGES_TO_NOTICE": {
+        "TITLE": "CHANGES TO THE LEGAL NOTICE",
+        "DESCRIPTION": ["We may modify this Legal Notice from time to time. We recommend reviewing this page periodically to stay informed of any changes. Any updates will be communicated through the website."]
+    }
+}

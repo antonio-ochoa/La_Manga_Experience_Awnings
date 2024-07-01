@@ -1,5 +1,9 @@
 {   
     "LANGUAGE": "EN",
+    "SEO_TAGS": {
+        "TITLE": "Awnings in La Manga del Mar Menor | La Manga Experience",
+        "DESCRIPTION": "Local experts in installation and selling of awnings, pergolas and pool covers in La Manga and surroundings. We are fluent in English."
+    },
     "NAVIGATION": {
         "HEADER": {
             "HOME_LINK": {
@@ -101,11 +105,11 @@
                 "TITLE": "Newsletter",
                 "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "PLACEHOLDER": "example@adkwa.com",
-                "BTN_ALT": ""
+                "BTN_ALT": "Icon of an arrow pointing to the right"
             },
             "TERMS_AND_CONDITIONS": {
                 "TITLE": "Terms and Conditions",
-                "HREF": "/"
+                "HREF": "legal"
             }
         }
     },
@@ -113,8 +117,7 @@
         "TITLE": "Awnings in La Manga del Mar Menor",
         "HEADLINE": "Enjoy the sun like never before.",
         "BTN_TITLE": "Top Products",
-        "IMG_URL": "/imgs/awning-beach-bar.jpg",
-        "IMG_ALT": ""
+        "IMG_ALT": "Lots of awnings giving shade to a beach bar in La Manga"
     },
     "BENEFITS_SECTION": {
         "TITLE": "Our Benefits",
@@ -122,17 +125,17 @@
             {
                 "TITLE": "Local Expertise",
                 "DESCRIPTION": "Local professionals who understand the specific needs of La Manga's climate",
-                "SVG_ALT": ""
+                "SVG_ALT": "Icon of a location dot"
             },
             {
                 "TITLE": "Made in Spain",
                 "DESCRIPTION": "Durable and reliable products that stand the test of time and local weather conditions",
-                "SVG_ALT": ""
+                "SVG_ALT": "Icon of a check mark in a circle"
             },
             {
                 "TITLE": "Stainless Steel",
                 "DESCRIPTION": "We use it in our awnings to provide superior durability and resistance to corrosion",
-                "SVG_ALT": ""
+                "SVG_ALT": "Icon of a screw"
             }
         ]
     },
@@ -150,13 +153,13 @@
                 "TITLE": "Completed Installations"
             }
         ],
-        "IMG_ALT": ""
+        "IMG_ALT": "Awning on a small bar in La Manga Club Resort"
     },
     "WHAT_MAKES_US_DIFFERENT": {
         "TITLE": "What makes us different?",
         "P1": "We guarantee <strong>precise communication in English</strong> and offer unmatched speed throughout the ordering and installation process. Our efficiency stems from partnerships with multiple awning companies that provide flexible shipping options and collaborative installation services.",
         "P2": "<strong>Choosing us means avoiding the typical 'tourist/foreigner price'</strong> as we handle negotiations with third-party companies. These companies prefer participating in installations because we recommend removing awnings after the summer season for better maintenance, <strong>ensuring the same experts handle both installation and removal.</strong>",
-        "IMG_ALT": ""
+        "IMG_ALT": "Young man installing an awning"
     },
     "TOP_PRODUCTS": {
         "TITLE": "Top Products",
@@ -165,21 +168,21 @@
                 "CATEGORY": "Awnings",
                 "TITLE": "Retractable",
                 "DESCRIPTION": "Our retractable awnings provide excellent shade and can be conveniently extended or retracted based on your needs.",
-                "IMG_ALT": "",
+                "IMG_ALT": "Retractable awning on an outdoor living room",
                 "BTN_HREF": "/"
             },
             {
                 "CATEGORY": "Pergolas",
                 "TITLE": "Gazebo",
                 "DESCRIPTION": "Our gazebo pergolas offer a stylish and functional addition to any outdoor area, being perfect for outdoor activities.",
-                "IMG_ALT": "",
+                "IMG_ALT": "Gazebo pergola on an outdoor living room",
                 "BTN_HREF": "/"
             },
             {
                 "CATEGORY": "Pool Covers",
                 "TITLE": "Rounded",
                 "DESCRIPTION": "Our rounded pool covers are designed to keep your pool clean and safe. They are easy to install and remove.",
-                "IMG_ALT": "",
+                "IMG_ALT": "Rounded pool cover on top of a pool",
                 "BTN_HREF": "/"
             }
         ],
@@ -190,22 +193,22 @@
         "P1": "When choosing an awning, <strong>comfort should be your top priority.</strong> While awnings might seem like a significant investment initially, opting for an automatic retractable model can save you time and effort over the years.",
         "P2": "From our extensive experience, <strong>the most common regret among clients who have purchased large awnings is not choosing a retractable one.</strong> What initially seems like a simple task of turning a handle can quickly become a cumbersome chore.",
         "P3": "If you need shade in a spacious area with trees, consider exploring our sail options. They offer a stylish and practical solution for larger spaces, providing ample shade and enhancing the overall aesthetic of your outdoor area.",
-        "IMG_ALT": ""
+        "IMG_ALT": "Green and orange sails covering the sun"
     },
     "BANNER_MAINTENANCE": {
         "TITLE": "Need maintenance or new pieces for your awning?",
         "DESCRIPTION": "We offer comprehensive <strong>maintenance services</strong> and <strong>replacement parts</strong> for your awnings. Whether you need routine upkeep or specific components, our team is ready to ensure your awning remains in top condition. Contact us for expert advice and support tailored to your needs.",
-        "IMG_ALT": "",
+        "IMG_ALT": "Stained white and green awning",
         "BTN_TITLE": "Request a quote",
         "BTN_HREF": "/"
     },
     "CONTACT_US_SECTION": {
-        "IMG_ALT": "",
+        "IMG_ALT": "Big zoom of the top part of a pergola",
         "CONTACT_INFO": {
             "TITLE": "Contact Us",
             "DESCRIPTION": "We are here to assist you! If you have any questions or need assistance, please feel free to reach out to us.",
-            "EMAIL_ALT": "",
-            "PHONE_ALT":""
+            "EMAIL_ALT": "Icon of an email",
+            "PHONE_ALT":"Icon of a phone"
         },
         "CONTACT_FORM": {
             "TITLE": "Contact Form",

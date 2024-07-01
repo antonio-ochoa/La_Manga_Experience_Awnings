@@ -1,0 +1,40 @@
+{
+    "META_TAGS": {
+        "TITLE":"Conditions Générales | La Manga Experience",
+        "DESCRIPTION": "Conditions générales que chaque utilisateur s'engage à respecter lors de l'utilisation du site Web de La Manga Experience Awnings."
+    },
+    "TITLE": "Conditions Générales",
+    "INTRO": "La Manga Experience, S.L., responsable du site web, ci-après dénommée le RESPONSABLE, met ce document à disposition des utilisateurs dans le but de remplir les obligations énoncées dans la Loi 34/2002 du 11 juillet, relative aux Services de la Société de l'Information et au Commerce Électronique (LSSICE), ainsi que d'informer tous les utilisateurs du site web sur les conditions d'utilisation.",
+    "TERMS_OF_USE": {
+        "TITLE": "CONDITIONS D'UTILISATION",
+        "DESCRIPTION": "En utilisant ce site web, vous acceptez de respecter les conditions d'utilisation suivantes :",
+        "CONDITIONS": [
+            "Le contenu de ce site web est à titre informatif général uniquement et peut être modifié sans préavis.",
+            "La reproduction, la distribution ou la modification du contenu du site web n'est pas autorisée sans le consentement du propriétaire, sauf lorsque cela est permis par des licences spécifiques.",
+            "L'utilisation non autorisée du site web peut entraîner des réclamations en dommages et intérêts et/ou être considérée comme une infraction pénale."
+        ]
+    },
+    "INTELLECTUAL_PROPERTY": {
+        "TITLE": "PROPRIÉTÉ INTELLECTUELLE",
+        "DESCRIPTION": [
+            "Tout le contenu de La Manga Experience, y compris le texte, les images, les graphiques et autres matériaux, est protégé par des droits d'auteur ou d'autres droits de propriété intellectuelle. L'utilisation non autorisée du contenu du site web est interdite.",
+            "De plus, nous utilisons des images avec des licences d'attribution d'Unsplash. En particulier, l'image de fond dans la section d'accueil et l'image de fond dans la section contactez-nous. Pour plus d'informations sur l'utilisation des images, veuillez consulter la politique de propriété intellectuelle d'Unsplash."
+        ]
+    },
+    "LIMITATION_OF_LIABILITY": {
+        "TITLE": "LIMITATION DE RESPONSABILITÉ",
+        "DESCRIPTION": [
+            "Le propriétaire de La Manga Experience n'est pas responsable des erreurs ou des inexactitudes dans le contenu du site web.",
+            "Ce site web a été révisé et testé pour s'assurer qu'il fonctionne correctement. En principe, le bon fonctionnement peut être garanti 365 jours par an, 24 heures par jour. Cependant, il ne peut pas être garanti que le site web sera toujours disponible en raison d'erreurs de programmation ou de force majeure.",
+            "L'utilisation de liens vers des sites externes est à vos propres risques, et nous ne sommes pas responsables du contenu de ces sites puisqu'ils peuvent changer soudainement sans notre préavis."
+        ]
+    },
+    "JURISDICTION_AND_LAWS": {
+        "TITLE": "JURIDICTION ET LOIS APPLICABLES",
+        "DESCRIPTION": ["Ce site web est soumis à la loi espagnole. Tout litige découlant de l'utilisation du site web sera résolu devant les tribunaux les plus proches de La Manga del Mar Menor."]
+    },
+    "CHANGES_TO_NOTICE": {
+        "TITLE": "MODIFICATIONS DE L'AVIS LÉGAL",
+        "DESCRIPTION": ["Nous pouvons modifier cet avis légal de temps à autre. Nous vous recommandons de consulter cette page périodiquement pour rester informé de tout changement. Toute mise à jour sera communiquée via le site web."]
+    }
+}
