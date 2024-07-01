@@ -1,0 +1,51 @@
+---
+import CardBenefit from "@cards/CardBenefit.astro";
+import CenterSectHeader from "@/section_utils/CenterSectHeader.astro";
+import { getI18N } from "@i18n/index";
+const i18n = getI18N(Astro, "index").BENEFITS_SECTION;
+
+interface Benefit {
+    TITLE: string,
+    DESCRIPTION: string,
+    SVG_ALT: string
+}
+const benefits: [Benefit] = i18n.BENEFITS;
+
+const iconBenefit1 = "https://cdn.lamangaexperience.com/icons/location.svg";
+const iconBenefit2 = "https://cdn.lamangaexperience.com/icons/check-circle.svg";
+const iconBenefit3 = "https://cdn.lamangaexperience.com/icons/screw.svg";
+const icons = [iconBenefit1, iconBenefit2, iconBenefit3];
+
+---
+
+<section class="content-grid benefits">
+    <CenterSectHeader title={i18n.TITLE} />
+    <div class="wrapper">
+        {benefits.map((benefit, idx) => (
+            <CardBenefit
+                title={benefit.TITLE} descr={benefit.DESCRIPTION} 
+                svgUrl={icons[idx]} svgAlt={benefit.SVG_ALT} 
+            />
+        ))}
+    </div>
+</section>
+
+<style>
+    section.benefits {
+        background-color: var(--main-darker);
+        padding-block: 40px;
+    }
+    section.benefits .wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 24px 40px;
+        align-items: center;
+        justify-content: center;
+    }
+    @media screen and (min-width: 768px) {
+        section.benefits .wrapper { 
+            flex-direction: row; justify-content: space-between;
+        }
+    }
+    @media screen and (min-width: 1280px) { section.benefits { padding-block: 64px } }
+</style>

@@ -1,0 +1,109 @@
+---
+interface Props {
+    side: "left" | "right",
+    headline: string,
+    imgSrc: string,
+    imgAlt: string
+}
+const { side, headline, imgSrc, imgAlt } = Astro.props
+---
+
+<section class=`side-section content-grid ${side}`>
+
+    <header>
+        <h2 class="spaced">{headline}</h2>
+        <div class="line"></div>
+    </header>
+
+    <div class="content">
+        <div class="text">
+            <slot />
+        </div>
+        <img src={imgSrc} alt={imgAlt} loading="lazy">
+    </div>
+
+</section>
+
+<style>
+    section.side-section {
+        --text-max-width: 720px;
+
+        padding-block: 64px;
+        overflow-x: hidden;
+    }
+    section.side-section header {
+        position: relative;
+        width: fit-content;
+        margin-inline: auto;
+        margin-bottom: 36px;
+        text-align: center;
+    }
+    section.side-section .line {
+        position: absolute;
+        height: 3px;
+        width: 100dvw;
+        bottom: -2px;
+        right: 0;
+        border-radius: 12px;
+        background-color: var(--main);
+    }
+    section.side-section .content {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    section.side-section .text {
+        max-width: var(--text-max-width);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    section.side-section img {
+        position: relative;
+        max-width: 496px;
+        width: 100%;
+        aspect-ratio: 1.8;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 12px;
+        box-shadow: 9px 6px 0 var(--main);
+    }
+
+    /* RIGHT SIDE SECTION */
+    section.side-section.right .line {
+        right: auto; 
+        left: 0;
+    }
+    section.side-section.right .content {
+        flex-direction: column;
+    }
+    @media screen and (min-width: 768px) {
+        section.side-section {
+            padding-block: 100px;
+        }
+        section.side-section img { box-shadow: 12px 9px 0 var(--main) }
+    }
+    @media screen and (min-width: 1024px) {
+        section.side-section .text { gap: 16px }
+    }
+    @media screen and (min-width: 1280px) {
+        section.side-section { 
+            --text-max-width: 600px;
+            padding-block: 120px;
+        }
+        section.side-section header {
+            margin-inline: 0;
+            text-align: left;
+        }
+        section.side-section .content { flex-direction: row }
+        section.side-section.right header {
+            width: var(--text-max-width); 
+            margin-left: auto;
+        }
+        section.side-section.right .content { flex-direction: row-reverse }
+        section.side-section .text { gap: 24px }
+    }
+</style>

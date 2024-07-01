@@ -1,0 +1,99 @@
+---
+import ContactForm from "@/ContactForm.astro";
+import { getI18N } from "@i18n/index";
+const i18n = getI18N(Astro, "index").CONTACT_US_SECTION;
+const info = i18n.CONTACT_INFO
+const imgUrl = "https://cdn.lamangaexperience.com/imgs/pergola-dark.avif";
+const phoneUrl = "https://cdn.lamangaexperience.com/icons/phone.svg";
+const emailUrl = "https://cdn.lamangaexperience.com/icons/email.svg";
+
+---
+
+<section id="contact-us">
+    <img src={imgUrl} alt={i18n.IMG_ALT} />
+    <div class="content">
+        <div class="contact-info">
+            <h2>{info.TITLE}</h2>
+            <p>{info.DESCRIPTION}</p>
+            <div class="btns">
+                <a href="mailto:example@gmail.com"><img src={emailUrl} alt={info.EMAIL_ALT} /><span>awnings@lamangaexperience.com</span></a>
+                <a href="tel:+34644867923"><img src={phoneUrl} alt={info.PHONE_ALT} /><span>+34 644 867 923</span></a>
+            </div>
+        </div>
+        <ContactForm />
+    </div>
+</section>
+
+<style>
+    #contact-us {
+        position: relative;
+        margin-block: 120px;
+        padding-block: 100px;
+    }
+    #contact-us > img {
+        position: absolute;
+        top: 0;
+        width: 100%; height: 100%;
+        object-fit: cover;
+        object-position: center;
+        z-index: 0;
+    }
+    #contact-us::before {
+        content: "";
+        position: absolute;
+        width: 100%; height: 100%;
+        top: 0;
+        background-color: var(--black);
+        opacity: 0.1;
+        z-index: 1;
+    }
+    #contact-us .content {
+        position: relative;
+        max-width: 1280px;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+        padding: 48px 16px;
+        margin-inline: auto;
+        background-color: color-mix(in srgb, var(--black) 80%, transparent);
+        color: white;
+        z-index: 2;
+    }
+    #contact-us .content .contact-info { max-width: 496px }
+    #contact-us .content .contact-info h2 { margin-bottom: 24px }
+    #contact-us .content .contact-info .btns { 
+        display: flex; flex-direction: column; gap: 24px;
+        margin-top: 32px;
+    }
+    #contact-us .content .contact-info .btns a {
+        display: flex; gap: 16px; align-items: flex-end;
+    }
+    #contact-us .content .contact-info .btns span { position: relative }
+    #contact-us .content .contact-info .btns span::before {
+        content: "";
+        position: absolute;
+        width: 100%; height: 2px;
+        left: 0; bottom: -2px;
+        background-color: var(--secondary);
+        border-radius: 24px;
+    }
+    #contact-us .content .contact-info .btns a:hover { opacity: 0.75 }
+
+    @media screen and (min-width: 380px) { #contact-us .content { padding-inline: 32px } }
+    @media screen and (min-width: 768px) { #contact-us { padding-block: 132px } }
+    @media screen and (min-width: 1024px) {
+        #contact-us { padding-block: 164px }
+        #contact-us .content {
+            flex-direction: row;
+            gap: 52px;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 48px;
+        }
+        #contact-us .content .contact-info { width: 388px }
+        #contact-us .content .contact-info h2 { margin-bottom: 32px }
+    }
+    @media screen and (min-width: 1280px) { #contact-us { padding-block: 230px } }
+    @media screen and (min-width: 1440px) { #contact-us .content { border-radius: 12px } }
+</style>

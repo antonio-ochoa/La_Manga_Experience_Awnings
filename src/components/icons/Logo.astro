@@ -1,0 +1,34 @@
+<div class="main-logo">
+    <svg width="44" height="46" viewBox="0 0 44 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M43.648 23.246c.013 16.131-14.432 27.688-29.694 20.429C3.583 38.62-2.533 25.76 1.603 14.613 4.67 
+        6.125 13.32.063 22.39.214c12.716.057 21.34 10.788 21.252 23.032h.006Zm-.358 0C43.334 9.396 27.293.372 
+        15.042 5.45-.251 11.494-2.734 33.775 12.86 41.123c12.565 5.835 30.523-3.189 30.429-17.877Z" fill="currentColor"/>
+    </svg>
+    <div class="line"></div>
+    <div>
+        <p>la manga</p>
+        <p>experience</p>
+    </div>
+</div>
+
+<style>
+    .main-logo {
+        height: 32px;
+        display: flex; gap: 6px; align-items: center;
+        color: var(--logo-color);
+        font-family: KaiseiOpti, sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .main-logo svg { height: 100%; width: auto; }
+    .main-logo .line {
+        height: 100%; width: 1px;
+        border-radius: 12px;
+        background-color: var(--logo-color);
+    }
+    .main-logo:hover { opacity: 0.5; }
+
+    @media screen and (min-width: 768px) { .main-logo { height: 38.4px; gap: 8px; font-size: 16px; line-height: 19px } }
+    @media screen and (min-width: 1280px) { .main-logo { height: 46px; gap: 10px; font-size: 20px; line-height: 23px } }
+</style>

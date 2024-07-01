@@ -1,0 +1,92 @@
+---
+import { getI18N } from "@i18n/index";
+const i18n = getI18N(Astro, "index").BANNER_MAINTENANCE;
+const imgUrl = "https://cdn.lamangaexperience.com/imgs/awning-stained.avif";
+
+---
+
+<article class="banner-maintenance">
+    <img src={imgUrl} alt={i18n.IMG_ALT}>
+    <div class="content">
+        <ul>
+            <li>Cartagena</li> - <li>La Manga del Mar Menor</li> - 
+            <li>La Manga Club Resort</li> - <li>Los Alcázares</li>
+        </ul>
+        <h2 class="big">{i18n.TITLE}</h2>
+        <p set:html={i18n.DESCRIPTION}></p>
+        <a href={i18n.BTN_HREF}>{i18n.BTN_TITLE}</a>
+    </div>
+</article>
+
+<style>
+    article.banner-maintenance {
+        position: relative;
+        padding: 64px var(--padding-inline);
+        background-color: var(--main-darker);
+        text-align: center;
+        overflow: hidden
+    }
+    article.banner-maintenance img {
+        position: absolute;
+        width: 180px;
+        left: 0;
+        bottom: -64px;
+    }
+    article.banner-maintenance .content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    article.banner-maintenance ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 4px 8px;
+        margin-bottom: 8px;
+        font-weight: 700;
+    }
+    article.banner-maintenance h2 {
+        text-transform: none;
+        font-weight: 900;
+    }
+    article.banner-maintenance p {
+        margin-block: 28px 40px;
+    }
+    article.banner-maintenance a {
+        box-sizing: border-box;
+        padding: 13px 36px;
+        border: 1px solid var(--black);
+        border-radius: 24px;
+        background-color: var(--main);
+        text-transform: uppercase;
+        font-size: 18px;
+
+        animation: 2s ease-in-out infinite alternate shadowPulse;
+    }
+    article.banner-maintenance a:hover {
+        background-color: var(--black);
+        color: var(--main);
+    }
+    
+    @media screen and (min-width: 1024px) {
+        article.banner-maintenance img { width: 200px }
+    }
+    @media screen and (min-width: 1280px) {
+        article.banner-maintenance {
+            display: flex;
+            gap: 40px;
+            justify-content: space-between;
+            align-items: center;
+            padding-block: 0;
+            padding-inline: 0 max(var(--padding-inline), calc((100dvw - 1440px) / 2));
+        }
+        article.banner-maintenance img {
+            position: static;
+            width: 100%;
+            max-width: 400px;
+        }
+        article.banner-maintenance .content { max-width: 1100px }
+    }
+</style>

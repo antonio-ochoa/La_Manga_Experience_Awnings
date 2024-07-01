@@ -1,0 +1,83 @@
+---
+import { getI18N } from "@i18n/index";
+import NavDesktop from "@/header_utils/NavDesktop.astro";
+import NavPhone from "@/header_utils/NavPhone.astro"
+import NavLanguages from "./header_utils/NavLanguages.astro";
+import Logo from "@icons/Logo.astro"
+const i18n = getI18N(Astro, "index").NAVIGATION;
+
+const header = i18n.HEADER;
+const home = header.HOME_LINK;
+---
+<header class="navigation">
+    <a href="/"><Logo /></a>
+
+    <NavDesktop />
+
+    <div class="nav-btns">
+        <NavLanguages />
+        <a class="main-cta" href="#contact-us">{header.BTN_TITLE}</a>
+        <NavPhone />
+    </div>
+</header>
+
+<style>
+    header.navigation {
+        --header-height: 76px;
+        --logo-color: white;
+
+        box-sizing: border-box;
+        position: fixed;
+        top: 0;
+        height: var(--header-height);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: var(--padding-inline);
+        color: white;
+        z-index: 100;
+
+        animation-name: headerBg;
+        animation-timeline: scroll();
+        animation-range: 0 280px;
+        animation-fill-mode: both;
+    }
+    header.navigation .nav-btns a.main-cta {
+        box-sizing: border-box;
+        display: none;
+        padding: 8px 20px;
+        border: 1px solid white;
+        border-radius: 24px;
+        background-color: var(--black);
+        color: white;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    header.navigation .nav-btns a.main-cta:hover {
+        background-color: white;
+        color: var(--black);
+    }
+    header.navigation .nav-btns {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+    @media screen and (min-width: 768px) {
+        header.navigation { --header-height: 82px }
+        header.navigation .nav-btns { gap: 28px }
+    }
+    @media screen and (min-width: 1280px) {
+        header.navigation { --header-height: 90px }
+        header.navigation .nav-btns a.main-cta { display: block }
+    }
+
+    @keyframes headerBg {
+        to {
+            background-color: var(--main);
+            box-shadow: 0 0 4px rgba(0,0,0,0.75);
+            color: var(--black);
+            --logo-color: var(--black);
+        }
+    }
+</style>

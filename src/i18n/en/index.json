@@ -1,0 +1,234 @@
+{   
+    "LANGUAGE": "EN",
+    "NAVIGATION": {
+        "HEADER": {
+            "HOME_LINK": {
+                "TITLE": "Home",
+                "HREF": "/"
+            },
+            "LANGUAGES": [
+                {
+                    "TITLE": "DE",
+                    "HREF": "/de"
+                },
+                {
+                    "TITLE": "FR",
+                    "HREF": "/fr"
+                }
+            ],
+            "BTN_TITLE": "Request a quote"
+        },
+        "LINKS": [
+            {
+                "CATEGORY": "Awnings",
+                "SUB_CATEGORIES": [
+                    {
+                        "TITLE": "Punto recto",
+                        "HREF": ""
+                    },
+                    {
+                        "TITLE": "Retráctil",
+                        "HREF": ""
+                    },
+                    {
+                        "TITLE": "Cofre",
+                        "HREF": ""
+                    },
+                    {
+                        "TITLE": "Stor",
+                        "HREF": ""
+                    },
+                    {
+                        "TITLE": "Vela",
+                        "HREF": ""
+                    },
+                    {
+                        "TITLE": "Vertical",
+                        "HREF": ""
+                    },
+                    {
+                        "TITLE": "Veranda",
+                        "HREF": ""
+                    }
+                ]
+            },
+            {
+                "CATEGORY": "Pergolas",
+                "SUB_CATEGORIES": [
+                    {
+                        "TITLE": "Bioclimáticas",
+                        "HREF": ""
+                    },
+                    {
+                        "TITLE": "Gazebo",
+                        "HREF": ""
+                    },
+                    {
+                        "TITLE": "Madera",
+                        "HREF": ""
+                    },
+                    {
+                        "TITLE": "Aluminio",
+                        "HREF": ""
+                    }
+                ]
+            },
+            {
+                "CATEGORY": "Pool Covers",
+                "SUB_CATEGORIES": [
+                    {
+                        "TITLE": "Redonda",
+                        "HREF": ""
+                    },
+                    {
+                        "TITLE": "Rectangular",
+                        "HREF": ""
+                    },
+                    {
+                        "TITLE": "Invierno",
+                        "HREF": ""
+                    },
+                    {
+                        "TITLE": "Verano",
+                        "HREF": ""
+                    }
+                ]
+            }
+        ],
+        "FOOTER": {
+            "DESCRIPTION": "La Manga Experience connects travelers with trusted local businesses in La Manga del Mar Menor, ensuring fair prices, personalized recommendations, and seamless communication for an authentic vacation.",
+            "NEWSLETTER": {
+                "TITLE": "Newsletter",
+                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "PLACEHOLDER": "example@adkwa.com",
+                "BTN_ALT": ""
+            },
+            "TERMS_AND_CONDITIONS": {
+                "TITLE": "Terms and Conditions",
+                "HREF": "/"
+            }
+        }
+    },
+    "HERO_SECTION": {
+        "TITLE": "Awnings in La Manga del Mar Menor",
+        "HEADLINE": "Enjoy the sun like never before.",
+        "BTN_TITLE": "Top Products",
+        "IMG_URL": "/imgs/awning-beach-bar.jpg",
+        "IMG_ALT": ""
+    },
+    "BENEFITS_SECTION": {
+        "TITLE": "Our Benefits",
+        "BENEFITS": [
+            {
+                "TITLE": "Local Expertise",
+                "DESCRIPTION": "Local professionals who understand the specific needs of La Manga's climate",
+                "SVG_ALT": ""
+            },
+            {
+                "TITLE": "Made in Spain",
+                "DESCRIPTION": "Durable and reliable products that stand the test of time and local weather conditions",
+                "SVG_ALT": ""
+            },
+            {
+                "TITLE": "Stainless Steel",
+                "DESCRIPTION": "We use it in our awnings to provide superior durability and resistance to corrosion",
+                "SVG_ALT": ""
+            }
+        ]
+    },
+    "SPECIALISTS_IN_AWNINGS": {
+        "TITLE": "Specialists in Awnings Installation",
+        "P1": "La Manga Experience's team consists of local experts specializing in awnings, pergolas, and pool covers. Managed by a <strong>fluent English speaker</strong>, we ensure accurate measurements and the selection of the best quality-price products to suit your needs.",
+        "P2": "We offer a variety of awnings, from straightforward models requiring basic installation tools to advanced retractable systems needing electrical expertise. Our team includes <strong>professionals with over ten years of experience</strong>, guaranteeing a clean and long-lasting installation for you.",
+        "ACHIEVEMENTS": [
+            {
+                "NUMBER": "+10",
+                "TITLE": "Years of Experience"
+            },
+            {
+                "NUMBER": "+700",
+                "TITLE": "Completed Installations"
+            }
+        ],
+        "IMG_ALT": ""
+    },
+    "WHAT_MAKES_US_DIFFERENT": {
+        "TITLE": "What makes us different?",
+        "P1": "We guarantee <strong>precise communication in English</strong> and offer unmatched speed throughout the ordering and installation process. Our efficiency stems from partnerships with multiple awning companies that provide flexible shipping options and collaborative installation services.",
+        "P2": "<strong>Choosing us means avoiding the typical 'tourist/foreigner price'</strong> as we handle negotiations with third-party companies. These companies prefer participating in installations because we recommend removing awnings after the summer season for better maintenance, <strong>ensuring the same experts handle both installation and removal.</strong>",
+        "IMG_ALT": ""
+    },
+    "TOP_PRODUCTS": {
+        "TITLE": "Top Products",
+        "PRODUCTS": [
+            {
+                "CATEGORY": "Awnings",
+                "TITLE": "Retractable",
+                "DESCRIPTION": "Our retractable awnings provide excellent shade and can be conveniently extended or retracted based on your needs.",
+                "IMG_ALT": "",
+                "BTN_HREF": "/"
+            },
+            {
+                "CATEGORY": "Pergolas",
+                "TITLE": "Gazebo",
+                "DESCRIPTION": "Our gazebo pergolas offer a stylish and functional addition to any outdoor area, being perfect for outdoor activities.",
+                "IMG_ALT": "",
+                "BTN_HREF": "/"
+            },
+            {
+                "CATEGORY": "Pool Covers",
+                "TITLE": "Rounded",
+                "DESCRIPTION": "Our rounded pool covers are designed to keep your pool clean and safe. They are easy to install and remove.",
+                "IMG_ALT": "",
+                "BTN_HREF": "/"
+            }
+        ],
+        "BTN_TITLE": "More info"
+    },
+    "WHAT_AWNING_CHOOSE": {
+        "TITLE": "What awning should I choose?",
+        "P1": "When choosing an awning, <strong>comfort should be your top priority.</strong> While awnings might seem like a significant investment initially, opting for an automatic retractable model can save you time and effort over the years.",
+        "P2": "From our extensive experience, <strong>the most common regret among clients who have purchased large awnings is not choosing a retractable one.</strong> What initially seems like a simple task of turning a handle can quickly become a cumbersome chore.",
+        "P3": "If you need shade in a spacious area with trees, consider exploring our sail options. They offer a stylish and practical solution for larger spaces, providing ample shade and enhancing the overall aesthetic of your outdoor area.",
+        "IMG_ALT": ""
+    },
+    "BANNER_MAINTENANCE": {
+        "TITLE": "Need maintenance or new pieces for your awning?",
+        "DESCRIPTION": "We offer comprehensive <strong>maintenance services</strong> and <strong>replacement parts</strong> for your awnings. Whether you need routine upkeep or specific components, our team is ready to ensure your awning remains in top condition. Contact us for expert advice and support tailored to your needs.",
+        "IMG_ALT": "",
+        "BTN_TITLE": "Request a quote",
+        "BTN_HREF": "/"
+    },
+    "CONTACT_US_SECTION": {
+        "IMG_ALT": "",
+        "CONTACT_INFO": {
+            "TITLE": "Contact Us",
+            "DESCRIPTION": "We are here to assist you! If you have any questions or need assistance, please feel free to reach out to us.",
+            "EMAIL_ALT": "",
+            "PHONE_ALT":""
+        },
+        "CONTACT_FORM": {
+            "TITLE": "Contact Form",
+            "LABELS": {
+                "NAME": {
+                    "TITLE": "Name",
+                    "PLACEHOLDER": "Lucas Loarrasaba López"
+                },
+                "PHONE": {
+                    "TITLE": "Phone",
+                    "PLACEHOLDER": "+34 644 86 79 23"
+                },
+                "MESSAGE": {
+                    "TITLE": "Message",
+                    "PLACEHOLDER": "awnings@lasmdaiwmdoia"
+                }
+            },
+            "BTN_TITLE": {
+                "SUBMITTING": "Submitting...",
+                "SENT": "Sent!",
+                "DEFAULT": "Send Message",
+                "ERROR": "Error -.-"
+            }
+        }
+    }
+}

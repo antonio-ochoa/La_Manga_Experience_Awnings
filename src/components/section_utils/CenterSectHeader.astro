@@ -1,0 +1,29 @@
+---
+interface Props {
+    title: string
+}
+const { title } = Astro.props
+---
+
+<header class="center-section">
+    <div class="line"></div>
+    <h2>{title}</h2>
+</header>
+
+<style>
+    header.center-section {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    header.center-section .line {
+        height: 6px;
+        width: 80px;
+        background-color: var(--secondary);
+    }
+    @media screen and (min-width: 768px) {
+        header.center-section { margin-bottom: 60px }
+    }
+</style>

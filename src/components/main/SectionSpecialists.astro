@@ -1,0 +1,24 @@
+---
+import SideSect from "@/section_utils/SideSect.astro";
+import { getI18N } from "@i18n/index";
+const i18n = getI18N(Astro, "index").SPECIALISTS_IN_AWNINGS;
+const imgUrl = "https://cdn.lamangaexperience.com/imgs/awning-la-manga-club-resort.avif";
+
+---
+
+<SideSect
+    textSide="right"
+    marginWeight="top"
+    title={i18n.TITLE}
+    imgUrl={imgUrl}
+    imgAlt={i18n.IMG_ALT}
+>
+    <p set:html={i18n.P1}></p>
+    <p set:html={i18n.P2}></p>
+</SideSect>
+
+<style>
+    p:first-of-type {
+        margin-bottom: 24px;
+    }
+</style>

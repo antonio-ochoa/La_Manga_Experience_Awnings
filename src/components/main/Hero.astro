@@ -1,0 +1,98 @@
+---
+import { getI18N } from "@i18n/index";
+const i18n = getI18N(Astro, "index").HERO_SECTION;
+
+const bgImgDesktop = "https://cdn.lamangaexperience.com/imgs/awning-beach-bar.avif";
+const bgImgPhone = "https://cdn.lamangaexperience.com/imgs/awning-beach-bar-phone.avif";
+
+---
+
+<section class="hero">
+    <picture>
+        <source srcset={bgImgDesktop} media="(min-width:480px)">
+        <img src={bgImgPhone} alt={i18n.IMG_ALT}>
+    </picture>
+    <div class="content">
+        <h1 class="small">{i18n.TITLE}</h1>
+        <span class="title">{i18n.HEADLINE}</span>
+        <a class="smallest" href="#top-products">{i18n.BTN_TITLE}</a>
+    </div>
+</section>
+
+<style>
+    section.hero {
+        position: relative;
+        height: 640px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    section.hero::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: var(--black);
+        opacity: 0.2;
+        z-index: 1;
+    }
+    section.hero picture {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        user-select: none;
+        z-index: 0;
+    }
+    section.hero img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    section.hero .content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px 14px;
+        background-color: color-mix(in srgb, white 85%, transparent);
+        z-index: 2;
+    }
+    section.hero .content h1 {
+        padding: 2px 16px;
+        border-radius: 16px;
+        background-color: var(--secondary);
+        text-align: center;
+    }
+    section.hero .content span {
+        margin-block: 4px 28px;
+    }
+    section.hero .content a {
+        box-sizing: border-box;
+        border: 1px solid var(--black);
+        border-radius: 32px;
+        padding: 16px 40px;
+        text-transform: uppercase;
+        font-weight: 300;
+
+        animation: 2s ease-in-out infinite alternate shadowPulse;
+    }
+    section.hero .content a:hover {
+        background-color: var(--black);
+        color: white;
+    }
+
+    @media screen and (min-width: 380px) {
+        section.hero .content { padding-inline: 16px }
+    }
+    @media screen and (min-width: 768px) {
+        section.hero { height: 720px}
+        section.hero .content {
+            padding-inline: 48px;
+            border-radius: 4px;
+        }
+        section.hero .content span { margin-bottom: 40px }
+    }
+    @media screen and (min-width: 1024px) { section.hero { height: 792px} }
+    @media screen and (min-width: 1280px) { section.hero { height: 884px} }
+</style>

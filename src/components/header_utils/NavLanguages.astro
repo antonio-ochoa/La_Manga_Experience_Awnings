@@ -1,0 +1,55 @@
+---
+import Language from "@/icons/Language.astro";
+import { getI18N } from "@i18n/index";
+const i18n = getI18N(Astro, "index");
+
+interface SupportedLanguage {
+    TITLE: string,
+    HREF: string
+}
+const supportedLanguages: [SupportedLanguage] = i18n.NAVIGATION.HEADER.LANGUAGES;
+const selectedLanguage = i18n.LANGUAGE;
+
+---
+
+<div class="lang-btn small">
+    <Language />
+    {selectedLanguage}
+    <ul class="languages">
+        {supportedLanguages.map((language) => <li><a href={language.HREF}>{language.TITLE}</a></li> )}
+    </ul>
+</div>
+
+<style>
+    .lang-btn {
+        position: relative;
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        padding: 14px 8px;
+        cursor: pointer;
+    }
+    .lang-btn ul.languages {
+        box-sizing: border-box;
+        position: absolute;
+        display: none;
+        top: 100%;
+        left: -4px;
+        width: 84px;
+        padding: 8px;
+        background-color: var(--main-darker);
+        border-radius: 2px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    }
+    .lang-btn ul.languages a {
+        display: block;
+        padding: 6px 10px;
+        color: var(--black);
+        border-radius: 2px;
+    }
+    .lang-btn ul.languages a:hover {
+        background-color: var(--black);
+        color: white;
+    }
+    .lang-btn:hover ul.languages { display: block }
+</style>

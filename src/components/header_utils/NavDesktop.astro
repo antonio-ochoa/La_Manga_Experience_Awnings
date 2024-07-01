@@ -1,0 +1,80 @@
+---
+import DownArrow from "@/icons/DownArrow.astro";
+import { getI18N } from "@i18n/index";
+const i18n = getI18N(Astro, "index").NAVIGATION;
+
+interface SubCategory {
+    TITLE: string,
+    HREF: string
+}
+interface Link {
+    CATEGORY: string,
+    SUB_CATEGORIES: [SubCategory]
+}
+const links: [Link] = i18n.LINKS;
+const header = i18n.HEADER;
+const home = header.HOME_LINK;
+
+---
+
+<nav class="desktop small">
+    <ul class="category">
+        <li><a href={home.HREF}>{home.TITLE}</a></li>
+        {links.map((link) => (
+            <li>{link.CATEGORY}<DownArrow />
+                <ul class="subcategory">
+                    {link.SUB_CATEGORIES.map((e) => <li><a href={e.HREF}>{e.TITLE}</a></li> )}
+                </ul>
+            </li>
+        ))}
+    </ul>
+</nav>
+
+<style>
+    nav.desktop { display: none }
+    nav.desktop li {
+        position: relative;
+        display: flex;
+        gap: 6px;
+        align-items: center;
+    }
+    nav.desktop ul.category {
+        display: flex;
+        gap: 48px;
+        align-items: center;
+    }
+    nav.desktop ul.category > li,
+    nav.desktop ul.category > li > a {
+        padding: 14px 8px;
+        cursor: pointer;
+    }
+    nav.desktop ul.category > li:hover ul.subcategory {
+        display: flex;
+    }
+    nav.desktop ul.subcategory {
+        position: absolute;
+        width: 212px;
+        top: 100%;
+        left: -4px;
+        display: none;
+        flex-direction: column;
+        padding: 8px;
+        border-radius: 2px;
+        background-color: var(--main-darker);
+        color: var(--black);
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+        z-index: 101;
+    }
+    nav.desktop ul.subcategory a {
+        width: 100%;
+        padding: 6px 10px;
+        border-radius: 2px;
+    }
+    nav.desktop ul.subcategory a:hover {
+        background-color: var(--black);
+        color: white;
+    }
+    @media screen and (min-width: 1280px) {
+        nav.desktop { display: block }
+    }
+</style>

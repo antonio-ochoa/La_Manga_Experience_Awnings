@@ -1,0 +1,157 @@
+---
+import { getI18N } from "@i18n/index";
+import Logo from "./icons/Logo.astro";
+const i18n = getI18N(Astro, "index").NAVIGATION;
+
+interface SubCategory {
+    TITLE: string,
+    HREF: string
+}
+interface Link {
+    CATEGORY: string,
+    SUB_CATEGORIES: [SubCategory]
+}
+const links: [Link] = i18n.LINKS;
+const footer = i18n.FOOTER;
+const newsletter = footer.NEWSLETTER;
+const terms = footer.TERMS_AND_CONDITIONS;
+const arrowRightUrl = "https://cdn.lamangaexperience.com/icons/arrow-right.svg";
+
+---
+
+<footer class="content-grid small">
+    <div class="top breakout">
+        <div class="header">
+            <a href="/"><Logo /></a>
+            <p>{footer.DESCRIPTION}</p>
+        </div>
+
+        <div class="links-section">
+            {links.map((link) => (
+                <nav>
+                    <h2 class="small">{link.CATEGORY}</h2>
+                    <ul>
+                        {link.SUB_CATEGORIES.map((e) => <li><a href={e.HREF}>{e.TITLE}</a></li> )}
+                    </ul>
+                </nav>
+            ))}
+        </div>
+
+        <div class="newsletter">
+            <h2 class="small">{newsletter.TITLE}</h2>
+            <p>{newsletter.DESCRIPTION}</p>
+            <label>
+                <input type="email" name="email" placeholder="example@gmail.com" required>
+                <button><img src={arrowRightUrl} alt={newsletter.BTN_ALT}></button>
+            </label>
+        </div>
+    </div>
+
+    <div class="line breakout"></div>
+
+    <div class="bottom breakout smallest">
+        <small>Copyright @2024 La Manga Experience</small>
+        <a href={terms.HREF}>{terms.TITLE}</a>
+    </div>
+</footer>
+
+<style>
+    footer {
+        --logo-color: white;
+        background-color: var(--black);
+        color: white;
+        text-align: center;
+    }
+    footer .top, footer .top .links-section, footer .top .links-section ul,
+    footer .top .newsletter, footer .bottom  {
+        display: flex;
+        flex-direction: column;
+    }
+    footer .top { 
+        max-width: 600px;
+        width: 100%;
+        gap: 64px;
+        padding-block: 48px;
+        margin-inline: auto;
+    }
+    footer .top .header a {display: block; width: fit-content; margin-bottom: 24px }
+    footer .top .header p, footer .top .newsletter p { opacity: 0.9 }
+    footer .top .links-section { gap: 40px }
+    footer .top h2 { margin-bottom: 12px }
+    footer .top .links-section li { width: fit-content; padding-block: 4px; opacity: 0.7 }
+    footer .top .links-section li:hover { opacity: 1 }
+    footer .top .newsletter { align-items: center }
+    footer .top .newsletter p { margin-bottom: 20px }
+    footer .top .newsletter label { display: flex }
+    footer .top .newsletter input {
+        box-sizing: border-box;
+        width: 249px;
+        height: 38px;
+        padding: 8px;
+        border: none;
+        border-radius: 4px 0 0 4px;
+        background-color: white;
+        font-size: 16px;
+    }
+    footer .top .newsletter button {
+        box-sizing: border-box;
+        display: block;
+        width: 42px;
+        height: 38px;
+        border-radius: 0 4px 4px 0;
+        border: 1px solid white;
+        color: white;
+        cursor: pointer;
+    }
+    footer .line {
+        width: 100%;
+        height: 2px;
+        background-color: white;
+        opacity: 0.2;
+    }
+    footer .bottom {
+        align-items: center;
+        padding-block: 24px 16px;
+    }
+    footer .bottom a:hover, footer .top .newsletter button:hover { opacity: 0.75 }
+    @media screen and (min-width: 425px) {
+        footer .top .links-section {
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: left
+        }
+    }
+    @media screen and (min-width: 480px) {
+        footer .bottom {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        footer .top { padding-block: 64px }
+        footer .bottom { padding-bottom: 20px }
+    }
+    @media screen and (min-width: 1280px) {
+        footer .top {
+            max-width: none;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            text-align: left;
+        }
+        footer .top .header { max-width: 400px }
+        footer .top .links-section { gap: 80px }
+        footer .top .newsletter {
+            max-width: 522px;
+            margin-inline: auto;
+        }
+    }
+    @media screen and (min-width: 1536px) {
+        footer .top { flex-wrap: nowrap }
+        footer .top .newsletter {
+            max-width: 364px;
+            align-items: flex-start;
+            margin-inline: 0;
+        }
+    }
+</style>
