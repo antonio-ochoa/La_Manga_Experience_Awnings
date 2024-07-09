@@ -1,0 +1,81 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Store Banne - Simplicité et Fonctionnalité pour les Petits Espaces",
+        "DESCRIPTION": "Découvrez la simplicité et la fonctionnalité du store banne. Idéal pour les balcons et les petites terrasses, offrant un design peu encombrant et des options de personnalisation."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Store Banne",
+        "HEADLINE": "Simplicité et Fonctionnalité pour les Petits Espaces",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/stor/stor-yellow-awning.avif",
+        "IMG_ALT": "Store banne jaune",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Gain de Place",
+                "DESCRIPTION": "Design discret qui n'envahit pas l'espace, semblable à un store",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "Icône de maison"
+            },
+            {
+                "TITLE": "Personnalisable",
+                "DESCRIPTION": "Deux positions, avec les bras déployés ou repliés",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/options.svg",
+                "SVG_ALT": "Icône d'options"
+            },
+            {
+                "TITLE": "Tissu Recommandé : Acrylique de Couleur Claire",
+                "DESCRIPTION": "Déjà bonne circulation de l'air, choisissez simplement la couleur",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/cloth.svg",
+                "SVG_ALT": "Icône de tissu"
+            }
+        ],
+        "BTN_TITLE": "Demander un devis"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "Le <strong>store banne se distingue par sa simplicité esthétique</strong>, son installation rapide et son fonctionnement manuel facile. Conçu spécialement pour les balcons et les petites terrasses, ce modèle est fait sur mesure pour profiter au maximum de votre espace extérieur avec de l'ombre.",
+            "Ses bras en aluminium, équipés de ressorts, se replient discrètement contre la barre de charge lorsqu'ils ne sont pas utilisés. Lorsque le store est déployé, les bras sont fixés à la balustrade avec un système de crochet à goupille, offrant une plus grande résistance et stabilité.",
+            "Une fois fixé, le store banne permet de continuer à abaisser le tissu pour déplacer la barre de charge vers l'extérieur. <strong>Cela facilite l'entrée de la lumière et la ventilation</strong> et offre une vue dégagée sur la rue."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Caractéristiques Techniques",
+        "OPENING": {
+            "TITLE": "Ouverture",
+            "OPTIONS": {
+                "CRANK": "Manuel",
+                "CRANK_ICON_ALT": "Icône de manivelle de store",
+                "MOTOR": "Motorisé",
+                "MOTOR_ICON_ALT": "Icône motorisé"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Mur",
+                "ROOF": "Toit"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Travaux Précédents",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/stor/stor-white-awning.avif",
+                "IMG_ALT": "Store banne blanc"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/stor/stor-red-awning.avif",
+                "IMG_ALT": "Store banne rouge"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/stor/stor-black-awning.avif",
+                "IMG_ALT": "Store banne noir"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/stor/stor-green-awning.avif",
+                "IMG_ALT": "Store banne vert"
+            }
+        ]
+    }
+}

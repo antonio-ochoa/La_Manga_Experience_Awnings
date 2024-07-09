@@ -1,0 +1,81 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Store Coffre - Élégance et Durabilité pour Tous les Espaces",
+        "DESCRIPTION": "Découvrez l'élégance et la durabilité du Store Coffre. Parfait pour tous les espaces, offrant un style moderne, une durabilité extrême et des options de personnalisation avancées."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Store Coffre",
+        "HEADLINE": "Élégance et durabilité pour tous les espaces",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/boxed/boxed-white-awning.avif",
+        "IMG_ALT": "Store coffre blanc",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Style Moderne et Compact",
+                "DESCRIPTION": "S'intègre parfaitement dans tous les espaces",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "Icône de maison"
+            },
+            {
+                "TITLE": "Durabilité Extrême",
+                "DESCRIPTION": "Le coffre protège la toile et les composants du store lorsqu'il est fermé",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/wind.svg",
+                "SVG_ALT": "Icône de vent"
+            },
+            {
+                "TITLE": "Personnalisation Avancée",
+                "DESCRIPTION": "Option d'ajouter un capteur de vent et un éclairage LED",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/led.svg",
+                "SVG_ALT": "Icône de LED"
+            }
+        ],
+        "BTN_TITLE": "Demander un devis"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "La caractéristique clé du <strong>store coffre</strong> est son système de coffre complet, qui <strong>enferme et protège</strong> à la fois la toile, les bras extensibles et d'autres composants fonctionnels. Ce design innovant garantit que tous les éléments du store sont protégés des intempéries lorsqu'ils ne sont pas utilisés, prolongeant ainsi considérablement la durée de vie du produit.",
+            "De plus, le coffre <strong>minimise l'entretien nécessaire</strong> et maintient le store en parfait état plus longtemps, offrant un excellent rapport qualité-prix sur la durée.",
+            "Pour une expérience encore plus moderne et fonctionnelle, vous pouvez opter pour l'ajout d'<strong>éclairage LED intégré</strong>, créant une ambiance chaleureuse la nuit. De plus, l'ajout de <strong>capteurs de vent</strong> offre une protection supplémentaire, car le store se rétracte automatiquement en cas de vents forts, évitant ainsi les dommages et garantissant sa durabilité."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Caractéristiques Techniques",
+        "OPENING": {
+            "TITLE": "Ouverture",
+            "OPTIONS": {
+                "CRANK": "Manuel",
+                "CRANK_ICON_ALT": "Icône de manivelle de store",
+                "MOTOR": "Motorisé",
+                "MOTOR_ICON_ALT": "Icône de moteur"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Mur",
+                "ROOF": "Toit"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Travaux Précédents",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/boxed/boxed-closed-black-awning.avif",
+                "IMG_ALT": "Store coffre noir"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/boxed/boxed-closed-awning.avif",
+                "IMG_ALT": "Store coffre fermé"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/boxed/boxed-brown-awning.webp",
+                "IMG_ALT": "Store coffre marron"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/boxed/boxed-blue-awning.avif",
+                "IMG_ALT": "Store coffre bleu"
+            }
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Sonnensegel - Eleganz und Vielseitigkeit für Außenbereiche",
+        "DESCRIPTION": "Entdecken Sie die Eleganz und Vielseitigkeit von Sonnensegeln. Ideal zur Beschattung von Außenbereichen, mit einfacher Installation und anpassbaren Designs."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Sonnensegel",
+        "HEADLINE": "Eleganz und Vielseitigkeit für Außenbereiche",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/shade-sail/shade-sail-bar-beach.avif",
+        "IMG_ALT": "Sonnensegel über einer Bar am Strand",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Einfache Installation",
+                "DESCRIPTION": "Schneller und einfacher Aufbau ohne komplizierte Konstruktion",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "Haus-Icon"
+            },
+            {
+                "TITLE": "Design-Vielseitigkeit",
+                "DESCRIPTION": "Erhältlich in dreieckigen, rechteckigen, quadratischen und anderen Formen",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/shapes.svg",
+                "SVG_ALT": "Formen-Icon"
+            },
+            {
+                "TITLE": "Effektiver Sonnenschutz",
+                "DESCRIPTION": "Schützt Möbel und Dekor vor UV-Strahlen und Sonnenschäden",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/sun.svg",
+                "SVG_ALT": "Sonnen-Icon"
+            }
+        ],
+        "BTN_TITLE": "Angebot anfordern"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Beschreibung",
+        "PARRAGRAPHS": [
+            "<strong>Sonnensegel sind eine ideale Lösung für Schatten in sonnenexponierten Außenbereichen</strong>. Dank ihres Designs und ihrer Funktionalität passen sie sich an jedes Zuhause oder Geschäft an und bieten effektiven Sonnenschutz, ohne an Eleganz oder Modernität zu verlieren.",
+            "Maßgefertigte Sonnensegel können mit einer breiten Auswahl an Stoffen und Formkombinationen wie <strong>dreieckig, rechteckig, quadratisch oder sogar unregelmäßig</strong> individuell gestaltet werden. Dies macht sie extrem vielseitig und ermöglicht es ihnen, sich den Eigenschaften und Stilen verschiedener Räume anzupassen.",
+            "Sonnensegel bieten auch eine hohe Windbeständigkeit dank ihres Spannsystems, was sie <strong>ideal für jede Jahreszeit</strong> macht. Zudem sind sie leicht abnehmbar, sodass sie im Winter gelagert und im Frühjahr wieder installiert werden können."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technische Merkmale",
+        "OPENING": {
+            "TITLE": "Öffnung",
+            "OPTIONS": {
+                "CRANK": "Manuell",
+                "CRANK_ICON_ALT": "Markisenkurbel-Icon",
+                "MOTOR": "Motorisiert",
+                "MOTOR_ICON_ALT": "Motor-Icon"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Wand",
+                "ROOF": "Dach"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Frühere Arbeiten",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/shade-sail/shade-sail-red.avif",
+                "IMG_ALT": "Rotes Sonnensegel"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/shade-sail/shade-sail-yellow.avif",
+                "IMG_ALT": "Gelbes Sonnensegel"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/shade-sail/shade-sail-blue.avif",
+                "IMG_ALT": "Blaues Sonnensegel"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/shade-sail/shade-sail-gray.avif",
+                "IMG_ALT": "Graues Sonnensegel"
+            }
+        ]
+    }
+}

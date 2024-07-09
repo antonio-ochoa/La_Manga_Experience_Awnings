@@ -1,0 +1,80 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Rollo / Vertikale Markise - Schutz und Komfort das ganze Jahr über",
+        "DESCRIPTION": "Entdecken Sie den Schutz und Komfort unserer Rollo-/Vertikalen Markisen. Ideal für Terrassen, Balkone und Patios, bieten sie das ganze Jahr über Wetterschutz und einfache Wartung."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Rollo / Vertikale Markise",
+        "HEADLINE": "Schutz und Komfort das ganze Jahr über",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/blind/vertical-black-awning.avif",
+        "IMG_ALT": "Schwarze vertikale Markise",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Totale Isolierung",
+                "DESCRIPTION": "Schützt vor Regen, Wind und Sonne; perfekt für jede Jahreszeit",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "Haus-Icon"
+            },
+            {
+                "TITLE": "Transparente Optionen",
+                "DESCRIPTION": "Integriert Fenster, die Licht einlassen",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/options.svg",
+                "SVG_ALT": "Optionen-Icon"
+            },
+            {
+                "TITLE": "Einfache Wartung",
+                "DESCRIPTION": "Einfache Reinigung mit einem feuchten Tuch, keine Maschinenwäsche erforderlich",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/clean-hands.svg",
+                "SVG_ALT": "Saubere Hände-Icon"
+            }
+        ],
+        "BTN_TITLE": "Angebot anfordern"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Beschreibung",
+        "PARRAGRAPHS": [
+            "Vertikale Außenmarkisen, auch bekannt als <strong>Wind Zip Screens</strong>, sind die perfekte Lösung zum Einhausen und Schützen von Seiten von Terrassen, Balkonen, Veranden, Pergolen und Patios. Sie bieten nicht nur Schutz vor dem Wetter, sondern auch thermische Isolierung und Privatsphäre, wodurch das ganze Jahr über eine angenehme Umgebung geschaffen wird.",
+            "Unsere <strong>transparenten vertikalen Markisen</strong> ermöglichen die Integration eines klaren PVC-Fensters, das Helligkeit bietet und die Sicht nach außen erhält. Dieses Material ist behandelt, um Ausdehnung oder Schrumpfung aufgrund klimatischer Veränderungen zu verhindern."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technische Merkmale",
+        "OPENING": {
+            "TITLE": "Öffnung",
+            "OPTIONS": {
+                "CRANK": "Kurbel",
+                "CRANK_ICON_ALT": "Markisenkurbel-Icon",
+                "MOTOR": "Motorisiert",
+                "MOTOR_ICON_ALT": "Motor-Icon"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Wand",
+                "ROOF": "Dach"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Frühere Arbeiten",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/blind/vertical-light-awning.avif",
+                "IMG_ALT": "Helle vertikale Markise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/blind/vertical-white-awning.avif",
+                "IMG_ALT": "Weiße vertikale Markise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/blind/vertical-beige-awning.avif",
+                "IMG_ALT": "Beige vertikale Markise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/blind/vertical-transparent-awning.avif",
+                "IMG_ALT": "Transparente vertikale Markise"
+            }
+        ]
+    }
+}

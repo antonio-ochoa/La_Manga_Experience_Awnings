@@ -1,0 +1,39 @@
+---
+interface Props {
+    title: string,
+    descr: string,
+    imgUrl: string,
+    imgAlt: string
+}
+const { title, descr, imgUrl, imgAlt } = Astro.props
+
+---
+<div class="product-main-benefit">
+    <div class="circle">
+        <img src={imgUrl} alt={imgAlt}>
+    </div>
+    <div class="content">
+        <p><strong>{title}</strong></p>
+        <p class="small">{descr}</p>
+    </div>
+</div>
+
+<style>
+    .product-main-benefit { display: flex; gap: 16px }
+    .product-main-benefit .circle, .product-main-benefit img { aspect-ratio: 1 }
+    .product-main-benefit .circle { height: 40px; background-color: var(--secondary); border-radius: 50%; align-content: center }
+    .product-main-benefit img { display: block; height: 27px; margin-inline: auto }
+    .product-main-benefit .content { display: flex; flex-direction: column; gap: 4px; align-items: flex-start }
+    .product-main-benefit .content strong { opacity: 0.8 }
+
+    @media screen and (min-width: 768px) {
+        .product-main-benefit { gap: 20px }
+        .product-main-benefit .circle { height: 44px }
+        .product-main-benefit img { height: 30px }
+    }
+    @media screen and (min-width: 768px) {
+        .product-main-benefit { gap: 24px }
+        .product-main-benefit .circle { height: 48px }
+        .product-main-benefit img { height: 33px }
+    }
+</style>

@@ -12,12 +12,12 @@
             },
             "LANGUAGES": [
                 {
-                    "TITLE": "DE",
-                    "HREF": "/de"
+                    "TITLE": "EN",
+                    "HREF": ""
                 },
                 {
                     "TITLE": "FR",
-                    "HREF": "/fr"
+                    "HREF": "fr"
                 }
             ],
             "BTN_TITLE": "Angebot anfordern"
@@ -28,31 +28,31 @@
                 "SUB_CATEGORIES": [
                     {
                         "TITLE": "Punto recto",
-                        "HREF": ""
+                        "HREF": "awnings/straight-point"
                     },
                     {
                         "TITLE": "Einziehbar",
-                        "HREF": ""
+                        "HREF": "awnings/retractable"
                     },
                     {
                         "TITLE": "Kassette",
-                        "HREF": ""
+                        "HREF": "awnings/boxed"
                     },
                     {
                         "TITLE": "Stor",
-                        "HREF": ""
+                        "HREF": "awnings/stor"
                     },
                     {
                         "TITLE": "Segel",
-                        "HREF": ""
+                        "HREF": "awnings/shade-sail"
                     },
                     {
                         "TITLE": "Vertikal",
-                        "HREF": ""
+                        "HREF": "awnings/blind"
                     },
                     {
                         "TITLE": "Veranda",
-                        "HREF": ""
+                        "HREF": "awnings/veranda"
                     }
                 ]
             },
@@ -61,40 +61,7 @@
                 "SUB_CATEGORIES": [
                     {
                         "TITLE": "Bioklimatisch",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Gazebo",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Holz",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Aluminium",
-                        "HREF": ""
-                    }
-                ]
-            },
-            {
-                "CATEGORY": "Poolabdeckungen",
-                "SUB_CATEGORIES": [
-                    {
-                        "TITLE": "Rund",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Rechteckig",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Winter",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Sommer",
-                        "HREF": ""
+                        "HREF": "pergolas/bioclimatic"
                     }
                 ]
             }
@@ -169,14 +136,14 @@
                 "TITLE": "Einziehbar",
                 "DESCRIPTION": "Unsere einziehbaren Markisen bieten hervorragenden Schatten und können je nach Bedarf bequem ein- oder ausgefahren werden.",
                 "IMG_ALT": "Einziehbare Markise in einem Außenwohnzimmer",
-                "BTN_HREF": "/"
+                "BTN_HREF": "awnings/retractable"
             },
             {
                 "CATEGORY": "Pergolen",
                 "TITLE": "Gazebo",
                 "DESCRIPTION": "Unsere Gazebo-Pergolen bieten eine stilvolle und funktionale Ergänzung für jeden Außenbereich und sind perfekt für Outdoor-Aktivitäten.",
                 "IMG_ALT": "Gazebo-Pergola in einem Außenwohnzimmer",
-                "BTN_HREF": "/"
+                "BTN_HREF": "pergolas/bioclimatic"
             },
             {
                 "CATEGORY": "Poolabdeckungen",
@@ -200,7 +167,7 @@
         "DESCRIPTION": "Wir bieten umfassende <strong>Wartungsdienste</strong> und <strong>Ersatzteile</strong> für Ihre Markisen. Ob Sie routinemäßige Pflege oder bestimmte Komponenten benötigen, unser Team ist bereit, Ihre Markise in Top-Zustand zu halten. Kontaktieren Sie uns für fachkundige Beratung und Unterstützung, die auf Ihre Bedürfnisse zugeschnitten ist.",
         "IMG_ALT": "Verschmutzte weiße und grüne Markise",
         "BTN_TITLE": "Angebot anfordern",
-        "BTN_HREF": "/"
+        "BTN_HREF": "#contact-us"
     },
     "CONTACT_US_SECTION": {
         "IMG_ALT": "Großaufnahme des oberen Teils einer Pergola",

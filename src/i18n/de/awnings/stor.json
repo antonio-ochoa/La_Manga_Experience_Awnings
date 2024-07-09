@@ -1,0 +1,81 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Stor-Markise - Einfachheit und Funktionalität für kleine Räume",
+        "DESCRIPTION": "Entdecken Sie die Einfachheit und Funktionalität der Stor-Markise. Ideal für Balkone und kleine Terrassen, bietet platzsparendes Design und Anpassungsoptionen."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Stor-Markise",
+        "HEADLINE": "Einfachheit und Funktionalität für kleine Räume",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/stor/stor-yellow-awning.avif",
+        "IMG_ALT": "Gelbe Stor-Markise",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Platzsparend",
+                "DESCRIPTION": "Diskretes Design, das keinen Platz einnimmt, ähnlich einer Jalousie",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "Haus-Icon"
+            },
+            {
+                "TITLE": "Anpassbar",
+                "DESCRIPTION": "Zwei Positionen, mit ausgefahrenen oder gefalteten Armen",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/options.svg",
+                "SVG_ALT": "Optionen-Icon"
+            },
+            {
+                "TITLE": "Empfohlener Stoff: Hellfarbige Acrylstoffe",
+                "DESCRIPTION": "Bietet bereits gute Luftzirkulation, wählen Sie einfach die Farbe",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/cloth.svg",
+                "SVG_ALT": "Stoff-Icon"
+            }
+        ],
+        "BTN_TITLE": "Angebot anfordern"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Beschreibung",
+        "PARRAGRAPHS": [
+            "Die <strong>Stor-Markise zeichnet sich durch ihre ästhetische Einfachheit</strong>, schnelle Installation und einfache manuelle Bedienung aus. Speziell für Balkone und kleine Terrassen entwickelt, wird dieses Modell maßgefertigt, um Ihren Außenbereich optimal mit Schatten zu nutzen.",
+            "Ihre Aluminiumarme, ausgestattet mit Federn, falten sich diskret gegen die Laststange, wenn sie nicht in Gebrauch sind. Wenn die Markise ausgefahren ist, werden die Arme mit einem Hakenstiftsystem an der Geländerkonstruktion befestigt, was für größere Widerstandsfähigkeit und Stabilität sorgt.",
+            "Einmal befestigt, ermöglicht die Stor-Markise das weitere Absenken des Stoffes, um die Laststange nach außen zu bewegen. <strong>Dies erleichtert den Lichteinfall und die Belüftung</strong> und bietet einen klaren Blick auf die Straße."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technische Merkmale",
+        "OPENING": {
+            "TITLE": "Öffnung",
+            "OPTIONS": {
+                "CRANK": "Manuell",
+                "CRANK_ICON_ALT": "Markisenkurbel-Icon",
+                "MOTOR": "Motorisiert",
+                "MOTOR_ICON_ALT": "Motor-Icon"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Wand",
+                "ROOF": "Dach"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Frühere Arbeiten",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/stor/stor-white-awning.avif",
+                "IMG_ALT": "Weiße Stor-Markise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/stor/stor-red-awning.avif",
+                "IMG_ALT": "Rote Stor-Markise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/stor/stor-black-awning.avif",
+                "IMG_ALT": "Schwarze Stor-Markise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/stor/stor-green-awning.avif",
+                "IMG_ALT": "Grüne Stor-Markise"
+            }
+        ]
+    }
+}

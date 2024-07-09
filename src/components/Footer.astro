@@ -77,6 +77,7 @@ const arrowRightUrl = "https://cdn.lamangaexperience.com/icons/arrow-right.svg";
     footer .top .header a {display: block; width: fit-content; margin-bottom: 24px }
     footer .top .header p, footer .top .newsletter p { opacity: 0.9 }
     footer .top .links-section { gap: 40px }
+    footer .top .links-section ul { align-items: center }
     footer .top h2 { margin-bottom: 12px }
     footer .top .links-section li { width: fit-content; padding-block: 4px; opacity: 0.7 }
     footer .top .links-section li:hover { opacity: 1 }
@@ -116,10 +117,10 @@ const arrowRightUrl = "https://cdn.lamangaexperience.com/icons/arrow-right.svg";
     footer .bottom a:hover, footer .top .newsletter button:hover { opacity: 0.75 }
     @media screen and (min-width: 425px) {
         footer .top .links-section {
-            flex-direction: row;
-            justify-content: space-between;
-            text-align: left
+            flex-direction: row; justify-content: space-between;
+            text-align: left;
         }
+        footer .top .links-section ul { align-items: flex-start }
     }
     @media screen and (min-width: 480px) {
         footer .bottom {

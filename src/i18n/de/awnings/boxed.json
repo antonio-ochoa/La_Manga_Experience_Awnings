@@ -1,0 +1,81 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Kastenmarkise - Eleganz und Haltbarkeit für jeden Raum",
+        "DESCRIPTION": "Entdecken Sie die Eleganz und Haltbarkeit der Kastenmarkise. Perfekt für jeden Raum, bietet sie modernen Stil, extreme Haltbarkeit und fortschrittliche Anpassungsmöglichkeiten."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Kastenmarkise",
+        "HEADLINE": "Eleganz und Haltbarkeit für jeden Raum",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/boxed/boxed-white-awning.avif",
+        "IMG_ALT": "Weiße Kastenmarkise",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Moderner und kompakter Stil",
+                "DESCRIPTION": "Integriert sich perfekt in jeden Raum",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "Haus-Icon"
+            },
+            {
+                "TITLE": "Extreme Haltbarkeit",
+                "DESCRIPTION": "Der Kasten schützt das Gewebe und die Markisenkomponenten, wenn sie geschlossen ist",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/wind.svg",
+                "SVG_ALT": "Wind-Icon"
+            },
+            {
+                "TITLE": "Erweiterte Anpassung",
+                "DESCRIPTION": "Option zum Hinzufügen von Windsensoren und LED-Beleuchtung",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/led.svg",
+                "SVG_ALT": "LED-Icon"
+            }
+        ],
+        "BTN_TITLE": "Angebot anfordern"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Beschreibung",
+        "PARRAGRAPHS": [
+            "Das Hauptmerkmal der <strong>Kastenmarkise</strong> ist ihr vollständiges Kastensystem, das sowohl das Gewebe als auch die ausziehbaren Arme und andere Funktionselemente <strong>umschließt und schützt</strong>. Dieses innovative Design stellt sicher, dass alle Elemente der Markise vor dem Wetter geschützt sind, wenn sie nicht in Gebrauch ist, was die Lebensdauer des Produkts erheblich verlängert.",
+            "Darüber hinaus minimiert der Kasten den Wartungsaufwand und hält die Markise länger in einwandfreiem Zustand, was auf lange Sicht ein hervorragendes Preis-Leistungs-Verhältnis bietet.",
+            "Für eine noch modernere und funktionalere Erfahrung können Sie <strong>integrierte LED-Beleuchtung</strong> hinzufügen, die nachts eine gemütliche Atmosphäre schafft. Darüber hinaus bieten die Hinzufügung von <strong>Windsensoren</strong> zusätzlichen Schutz, da die Markise bei starkem Wind automatisch eingefahren wird, um Schäden zu vermeiden und ihre Haltbarkeit zu gewährleisten."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technische Merkmale",
+        "OPENING": {
+            "TITLE": "Öffnung",
+            "OPTIONS": {
+                "CRANK": "Manuell",
+                "CRANK_ICON_ALT": "Markisenkurbel-Icon",
+                "MOTOR": "Motorisiert",
+                "MOTOR_ICON_ALT": "Motor-Icon"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Wand",
+                "ROOF": "Dach"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Frühere Arbeiten",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/boxed/boxed-closed-black-awning.avif",
+                "IMG_ALT": "Schwarze Kastenmarkise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/boxed/boxed-closed-awning.avif",
+                "IMG_ALT": "Geschlossene Kastenmarkise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/boxed/boxed-brown-awning.webp",
+                "IMG_ALT": "Braune Kastenmarkise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/boxed/boxed-blue-awning.avif",
+                "IMG_ALT": "Blaue Kastenmarkise"
+            }
+        ]
+    }
+}

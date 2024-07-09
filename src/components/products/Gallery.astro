@@ -1,0 +1,52 @@
+---
+import CenterSectHeader from "@/section_utils/CenterSectHeader.astro"
+import { getI18N } from "@i18n/index";
+
+interface Props {
+    product: 
+    | "awning-straight-point" 
+    | "awning-boxed"
+    | "awning-blind"
+    | "awning-retractable"
+    | "awning-shade-sail"
+    | "awning-stor"
+    | "awning-veranda"
+    | "pergola-bioclimatic"
+}
+const { product } = Astro.props
+
+const i18n = getI18N(Astro, product);
+
+const gallery = i18n.GALLERY_SECTION;
+interface GalleryImage {
+    IMG_URL: string,
+    IMG_ALT: string
+}
+const galleryImages: [GalleryImage] = gallery.IMAGES
+---
+<section class="product-gallery content-grid">
+    <CenterSectHeader title={gallery.TITLE} />
+    <div class="wrapper">
+        {galleryImages.map((image) => <img src={image.IMG_URL} alt={image.IMG_ALT} loading="lazy"/>)}
+    </div>
+</section>
+
+<style>
+    .product-gallery { padding-block: 40px 64px }
+    .product-gallery .wrapper {
+        display: flex; flex-wrap: wrap;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+    .product-gallery img {
+        aspect-ratio: 340/240;
+        max-width: min(100%, 340px);
+        object-fit: cover;
+        object-position: center;
+        border-radius: 4px;
+    }
+    @media screen and (min-width: 768px){ .product-gallery { padding-block: 64px 80px } }
+    @media screen and (min-width: 1280px){ .product-gallery { padding-block: 100px 140px } }
+    @media screen and (min-width: 1536px) { .product-gallery .wrapper { flex-wrap: nowrap; gap: 0; justify-content: space-between } }
+</style>

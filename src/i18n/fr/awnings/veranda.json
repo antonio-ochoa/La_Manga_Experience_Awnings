@@ -1,0 +1,80 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Store Véranda - Protection et Confort pour Vos Espaces Vitrés",
+        "DESCRIPTION": "Découvrez le store Véranda, idéal pour protéger tous les types d'enclos extérieurs vitrés et terrasses. Profitez d'une isolation thermique efficace et d'un confort tout au long de l'année."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Store Véranda",
+        "HEADLINE": "Protection et Confort pour Vos Espaces Vitrés",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/veranda/veranda-orange-awning.avif",
+        "IMG_ALT": "Store véranda orange",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Design Élégant",
+                "DESCRIPTION": "Finitions de qualité qui complètent tous les styles",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "Icône de maison"
+            },
+            {
+                "TITLE": "Protection Solaire",
+                "DESCRIPTION": "Maintient une température intérieure stable",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/sun.svg",
+                "SVG_ALT": "Icône de soleil"
+            },
+            {
+                "TITLE": "Recommandé: Boîtier de Protection",
+                "DESCRIPTION": "Protection supplémentaire pour le tissu et le mécanisme lorsqu'il n'est pas utilisé",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/wind.svg",
+                "SVG_ALT": "Icône de vent"
+            }
+        ],
+        "BTN_TITLE": "Demander un devis"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "Le store Véranda est la <strong>solution idéale pour protéger tous les types d'enclos extérieurs vitrés</strong> et terrasses. Ce système offre une isolation thermique efficace, procurant un confort véritable tout au long de l'année.",
+            "Si vous habitez dans une zone venteuse, le store Véranda est une option sûre et robuste. Sa structure et ses guides latéraux assurent une protection complète et une stabilité supérieure, même dans des conditions météorologiques défavorables."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Caractéristiques Techniques",
+        "OPENING": {
+            "TITLE": "Ouverture",
+            "OPTIONS": {
+                "CRANK": "Manivelle",
+                "CRANK_ICON_ALT": "Icône de manivelle de store",
+                "MOTOR": "Motorisé",
+                "MOTOR_ICON_ALT": "Icône motorisé"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Mur",
+                "ROOF": "Toit"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Travaux Précédents",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/veranda/veranda-dark-orange-awning.avif",
+                "IMG_ALT": "Store véranda orange foncé"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/veranda/veranda-gray-awning.avif",
+                "IMG_ALT": "Store véranda gris"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/veranda/veranda-white-awning.avif",
+                "IMG_ALT": "Store véranda blanc"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/veranda/veranda-dark-awning.avif",
+                "IMG_ALT": "Store véranda foncé"
+            }
+        ]
+    }
+}

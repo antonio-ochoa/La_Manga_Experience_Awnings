@@ -1,0 +1,80 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Store Rétractable - Élégance et Fonctionnalité pour Tous les Espaces",
+        "DESCRIPTION": "Découvrez l'élégance et la fonctionnalité du store rétractable. Parfait pour terrasses, balcons et façades, offrant des économies d'énergie et une grande durabilité."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Store Rétractable",
+        "HEADLINE": "Élégance et fonctionnalité pour tous les espaces",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-black-leds-awning.avif",
+        "IMG_ALT": "Bannière de store rétractable",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Extension de l'espace",
+                "DESCRIPTION": "Parfait pour terrasses, balcons et façades, offrant ombre et confort",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "Icône de maison"
+            },
+            {
+                "TITLE": "Haute Durabilité",
+                "DESCRIPTION": "Fabriqué avec des matériaux de haute qualité pour une longue durée de vie",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/wind.svg",
+                "SVG_ALT": "Icône de vent"
+            },
+            {
+                "TITLE": "Personnalisation Avancée",
+                "DESCRIPTION": "Possibilité d'ajouter un capteur de vent et des lumières LED",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/led.svg",
+                "SVG_ALT": "Icône de LED"
+            }
+        ],
+        "BTN_TITLE": "Demander un devis"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "Également appelé <strong>store à bras invisibles</strong> ou <strong>stores premium</strong>, le store rétractable s'adapte parfaitement lorsqu'on cherche à <strong>personnaliser un espace</strong> dans une maison ou une entreprise. Non seulement il offre un beau style, mais il s'harmonise aussi parfaitement avec l'environnement grâce à son élégance.",
+            "De plus, un store rétractable offre des avantages tels que <strong>l'extension de l'espace</strong> et des économies sur la facture d'électricité, ce qui en fait une option de plus en plus populaire pour les maisons et les établissements commerciaux."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Caractéristiques Techniques",
+        "OPENING": {
+            "TITLE": "Ouverture",
+            "OPTIONS": {
+                "CRANK": "",
+                "CRANK_ICON_ALT": "Icône de manivelle de store",
+                "MOTOR": "Motorisé",
+                "MOTOR_ICON_ALT": "Icône motorisé"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Mur",
+                "ROOF": "Toit"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Travaux Précédents",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-black-awning.avif",
+                "IMG_ALT": "Store rétractable noir"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-brown-awning.webp",
+                "IMG_ALT": "Store rétractable marron"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-light-awning.webp",
+                "IMG_ALT": "Store rétractable de couleur claire"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-orange-awning.avif",
+                "IMG_ALT": "Store rétractable orange"
+            }
+        ]
+    }
+}

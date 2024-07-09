@@ -1,6 +1,9 @@
 ---
 import DownArrow from "@/icons/DownArrow.astro";
+import { getUrl } from "src/utils/getUrl";
 import { getI18N } from "@i18n/index";
+const lang = Astro.currentLocale ?? "en"
+
 const i18n = getI18N(Astro, "index").NAVIGATION;
 
 interface SubCategory {
@@ -36,7 +39,7 @@ const toggleBars = Array(3).fill(0);
                     <label><input type="checkbox" />
                         <div class="category-name">{link.CATEGORY}<DownArrow /></div>
                         <ul class="subcategory small">
-                            {link.SUB_CATEGORIES.map((e) => <li><a href={e.HREF}>{e.TITLE}</a></li> )}
+                            {link.SUB_CATEGORIES.map((e) => <li><a href={getUrl(lang, e.HREF)}>{e.TITLE}</a></li> )}
                         </ul>
                     </label>
                 </li>
@@ -90,7 +93,7 @@ const toggleBars = Array(3).fill(0);
         max-width: 564px;
         top: 0;
         left: calc(-1 * min(564px, 100%));
-        background-color: var(--main-darker);
+        background-color: var(--main-dark);
         color: var(--black);
         transition: left 180ms ease-in-out;
         z-index: 103;

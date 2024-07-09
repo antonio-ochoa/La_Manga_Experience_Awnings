@@ -1,0 +1,74 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Bioclimatic Pergola - Innovation and Comfort for Your Outdoor Space",
+        "DESCRIPTION": "Discover the protection and comfort of our bioclimatic pergolas. Ideal for terraces, balconies, and patios, offering year-round weather protection and easy maintenance."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Bioclimatic Pergola",
+        "HEADLINE": "Innovation and Comfort for Your Outdoor Space",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-big-white-pergola.avif",
+        "IMG_ALT": "Black bioclimatic pergola",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Easy Installation",
+                "DESCRIPTION": "No need for complex works or installations",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "House icon"
+            },
+            {
+                "TITLE": "Intelligent Climate Control",
+                "DESCRIPTION": "Regulate the temperature and ventilation of your garden or terrace with motorized adjustable slats",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/wind.svg",
+                "SVG_ALT": "Wind icon"
+            },
+            {
+                "TITLE": "Customizable Design",
+                "DESCRIPTION": "Option to add LED lighting",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/led.svg",
+                "SVG_ALT": "LED icon"
+            }
+        ],
+        "BTN_TITLE": "Request a quote"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "<strong>Bioclimatic pergolas are the latest innovation in solutions for gardens and terraces</strong>. Designed to provide shade and regulate the temperature of your outdoor area without the need for complex works or installations.",
+            "The intelligent system of bioclimatic pergolas <strong>prevents the greenhouse effect</strong>, constantly renewing the air and avoiding heat accumulation. Additionally, their watertight slats allow you to enjoy the outdoors even on rainy or snowy days, thanks to a drainage system that prevents water from accumulating.",
+            "We offer <strong>models with integrated LED lighting</strong>, ideal for creating the perfect atmosphere at any time of day. Moreover, the high-quality aluminum structure is robust and elegant, with hidden screws for a clean and modern aesthetic."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technical Features",
+        "OPENING": {
+            "TITLE": "Opening",
+            "OPTIONS": {
+                "CRANK": "Crank",
+                "CRANK_ICON_ALT": "Pergola crank icon",
+                "MOTOR": "Motorized",
+                "MOTOR_ICON_ALT": "Motor icon"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Previous Works",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-white-pergola-2.avif",
+                "IMG_ALT": "White bioclimatic pergola"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-bar-white-pergola.avif",
+                "IMG_ALT": "Bar White bioclimatic pergola"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-white-pergola.avif",
+                "IMG_ALT": "White bioclimatic pergola"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-white-black-pergola.avif",
+                "IMG_ALT": "White and black bioclimatic pergola"
+            }
+        ]
+    }
+}

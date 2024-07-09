@@ -1,0 +1,80 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Straight Point Awning - Ideal for Balconies, Windows, and Facades",
+        "DESCRIPTION": "Discover the simplicity and effectiveness of the Straight Point Awning. Perfect for windows, small balconies, and facades, offering great wind resistance and various inclination angles."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Straight Point Awning",
+        "HEADLINE": "Ideal for balconies, windows, and facades",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/straight-point/straight-point-gray-awning.webp",
+        "IMG_ALT": "Gray straight point awning",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Great Angle of Inclination",
+                "DESCRIPTION": "Its movable arms allow for up to 170º of inclination",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/angle.svg",
+                "SVG_ALT": "Angle icon"
+            },
+            {
+                "TITLE": "Wind Resistance",
+                "DESCRIPTION": "Offers more robustness as it doesn't have spring arms",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/wind.svg",
+                "SVG_ALT": "Wind icon"
+            },
+            {
+                "TITLE": "Recommended Fabric: Microperforated",
+                "DESCRIPTION": "Allows wind to pass through while reducing heat accumulation",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/cloth.svg",
+                "SVG_ALT": "Cloth icon"
+            }
+        ],
+        "BTN_TITLE": "Request a quote"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "The <strong>straight point awning represents simplicity at its finest</strong>, offering a practical and effective solution for sun protection. Designed especially for windows, small balconies, and facades, this model is perfect for keeping the interior cool and protected from glare and excessive heat.",
+            "The arms exert constant tension on the fabric, allowing it to withstand wind without deforming and offering a range of inclination angles up to 170º. This ensures total vertical coverage, <strong>protecting us from the sun's rays all day long.</strong>"
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technical Features",
+        "OPENING": {
+            "TITLE": "Opening",
+            "OPTIONS": {
+                "CRANK": "Crank",
+                "CRANK_ICON_ALT": "Awning crank icon",
+                "MOTOR": "Motorized",
+                "MOTOR_ICON_ALT": "Motor icon"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Wall",
+                "ROOF": "Roof"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Previous Works",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/straight-point/straight-point-black-awning.avif",
+                "IMG_ALT": "Black straight point awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/straight-point/straight-point-red-awning.avif",
+                "IMG_ALT": "Red straight point awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/straight-point/straight-point-maroon-awning.avif",
+                "IMG_ALT": "Maroon straight point awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/straight-point/straight-point-gray-yellow-awning.avif",
+                "IMG_ALT": "Gray and yellow straight point awning"
+            }
+        ]
+    }
+}

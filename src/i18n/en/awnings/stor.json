@@ -1,0 +1,81 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Stor Awning - Simplicity and Functionality for Small Spaces",
+        "DESCRIPTION": "Discover the simplicity and functionality of the Stor Awning. Ideal for balconies and small terraces, offering space-saving design and customization options."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Stor Awning",
+        "HEADLINE": "Simplicity and Functionality for Small Spaces",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/stor/stor-yellow-awning.avif",
+        "IMG_ALT": "Yellow stor awning",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Space Saving",
+                "DESCRIPTION": "Discreet design that does not invade space, similar to a blind",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "House icon"
+            },
+            {
+                "TITLE": "Customizable",
+                "DESCRIPTION": "Two positions, with the arms extended or folded",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/options.svg",
+                "SVG_ALT": "Options icon"
+            },
+            {
+                "TITLE": "Recommended Fabric: Light-Colored Acrylics",
+                "DESCRIPTION": "Already has good air circulation, just choose the color",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/cloth.svg",
+                "SVG_ALT": "Fabric icon"
+            }
+        ],
+        "BTN_TITLE": "Request a quote"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "The <strong>stor awning stands out for its aesthetic simplicity</strong>, quick installation, and easy manual operation. Designed especially for balconies and small terraces, this model is custom-made to make the most of your outdoor space with shade.",
+            "Its aluminum arms, equipped with springs, fold discreetly against the load bar when not in use. When the awning is extended, the arms are fixed to the railing with a pin hook system, providing greater resistance and stability.",
+            "Once fixed, the stor awning allows you to continue lowering the fabric to move the load bar outward. <strong>This facilitates the entry of light and ventilation</strong> and offers a clear view of the street."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technical Features",
+        "OPENING": {
+            "TITLE": "Opening",
+            "OPTIONS": {
+                "CRANK": "Manual",
+                "CRANK_ICON_ALT": "Awning crank icon",
+                "MOTOR": "Motorized",
+                "MOTOR_ICON_ALT": "Motorized icon"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Wall",
+                "ROOF": "Roof"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Previous Works",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/stor/stor-white-awning.avif",
+                "IMG_ALT": "White stor awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/stor/stor-red-awning.avif",
+                "IMG_ALT": "Red stor awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/stor/stor-black-awning.avif",
+                "IMG_ALT": "Black stor awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/stor/stor-green-awning.avif",
+                "IMG_ALT": "Green stor awning"
+            }
+        ]
+    }
+}

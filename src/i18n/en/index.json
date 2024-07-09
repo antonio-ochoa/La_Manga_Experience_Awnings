@@ -13,11 +13,11 @@
             "LANGUAGES": [
                 {
                     "TITLE": "DE",
-                    "HREF": "/de"
+                    "HREF": "de"
                 },
                 {
                     "TITLE": "FR",
-                    "HREF": "/fr"
+                    "HREF": "fr"
                 }
             ],
             "BTN_TITLE": "Request a quote"
@@ -27,32 +27,32 @@
                 "CATEGORY": "Awnings",
                 "SUB_CATEGORIES": [
                     {
-                        "TITLE": "Punto recto",
-                        "HREF": ""
+                        "TITLE": "Straight Point",
+                        "HREF": "awnings/straight-point"
                     },
                     {
-                        "TITLE": "Retráctil",
-                        "HREF": ""
+                        "TITLE": "Retractable",
+                        "HREF": "awnings/retractable"
                     },
                     {
-                        "TITLE": "Cofre",
-                        "HREF": ""
+                        "TITLE": "Boxed",
+                        "HREF": "awnings/boxed"
                     },
                     {
                         "TITLE": "Stor",
-                        "HREF": ""
+                        "HREF": "awnings/stor"
                     },
                     {
-                        "TITLE": "Vela",
-                        "HREF": ""
+                        "TITLE": "Shade Sails",
+                        "HREF": "awnings/shade-sail"
                     },
                     {
-                        "TITLE": "Vertical",
-                        "HREF": ""
+                        "TITLE": "Blind / Vertical",
+                        "HREF": "awnings/blind"
                     },
                     {
                         "TITLE": "Veranda",
-                        "HREF": ""
+                        "HREF": "awnings/veranda"
                     }
                 ]
             },
@@ -61,40 +61,7 @@
                 "SUB_CATEGORIES": [
                     {
                         "TITLE": "Bioclimáticas",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Gazebo",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Madera",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Aluminio",
-                        "HREF": ""
-                    }
-                ]
-            },
-            {
-                "CATEGORY": "Pool Covers",
-                "SUB_CATEGORIES": [
-                    {
-                        "TITLE": "Redonda",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Rectangular",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Invierno",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Verano",
-                        "HREF": ""
+                        "HREF": "pergolas/bioclimatic"
                     }
                 ]
             }
@@ -169,14 +136,14 @@
                 "TITLE": "Retractable",
                 "DESCRIPTION": "Our retractable awnings provide excellent shade and can be conveniently extended or retracted based on your needs.",
                 "IMG_ALT": "Retractable awning on an outdoor living room",
-                "BTN_HREF": "/"
+                "BTN_HREF": "awnings/retractable"
             },
             {
                 "CATEGORY": "Pergolas",
-                "TITLE": "Gazebo",
-                "DESCRIPTION": "Our gazebo pergolas offer a stylish and functional addition to any outdoor area, being perfect for outdoor activities.",
-                "IMG_ALT": "Gazebo pergola on an outdoor living room",
-                "BTN_HREF": "/"
+                "TITLE": "Bioclimatic",
+                "DESCRIPTION": "Our bioclimatic pergolas offer a stylish and functional addition to any outdoor area, being perfect for outdoor activities.",
+                "IMG_ALT": "Bioclimatic pergola on an outdoor living room",
+                "BTN_HREF": "pergolas/bioclimatic"
             },
             {
                 "CATEGORY": "Pool Covers",
@@ -200,7 +167,7 @@
         "DESCRIPTION": "We offer comprehensive <strong>maintenance services</strong> and <strong>replacement parts</strong> for your awnings. Whether you need routine upkeep or specific components, our team is ready to ensure your awning remains in top condition. Contact us for expert advice and support tailored to your needs.",
         "IMG_ALT": "Stained white and green awning",
         "BTN_TITLE": "Request a quote",
-        "BTN_HREF": "/"
+        "BTN_HREF": "#contact-us"
     },
     "CONTACT_US_SECTION": {
         "IMG_ALT": "Big zoom of the top part of a pergola",

@@ -1,0 +1,81 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Shade Sail - Elegance and Versatility for Outdoor Spaces",
+        "DESCRIPTION": "Explore the elegance and versatility of Shade Sails. Ideal for providing shade in outdoor spaces, with easy installation and customizable designs."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Shade Sail",
+        "HEADLINE": "Elegance and Versatility for Outdoor Spaces",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/shade-sail/shade-sail-bar-beach.avif",
+        "IMG_ALT": "Shade sail over a bar on the beach",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Easy Installation",
+                "DESCRIPTION": "Quick and easy setup without complex construction",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "House icon"
+            },
+            {
+                "TITLE": "Design Versatility",
+                "DESCRIPTION": "Available in triangular, rectangular, square, and other shapes",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/shapes.svg",
+                "SVG_ALT": "Shapes icon"
+            },
+            {
+                "TITLE": "Effective Sun Protection",
+                "DESCRIPTION": "Protects furniture and decor from UV rays and sun damage",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/sun.svg",
+                "SVG_ALT": "Sun icon"
+            }
+        ],
+        "BTN_TITLE": "Request a quote"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "<strong>Shade sails are an ideal solution for shade in outdoor spaces</strong> exposed to the sun. Thanks to their design and functionality, they adapt to any home or commercial establishment, offering effective sun protection without losing elegance or modernity.",
+            "Made to measure, shade sails can be customized with a wide range of fabrics and shape combinations such as <strong>triangular, rectangular, square, or even irregular shapes</strong>. This makes them extremely versatile, allowing them to adapt to the characteristics and styles of various spaces.",
+            "Shade sails also offer great wind resistance thanks to their tensioning system, making them <strong>ideal for any time of the year</strong>. Additionally, they are easily removable, allowing them to be stored during the winter months and reinstalled in the spring."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technical Features",
+        "OPENING": {
+            "TITLE": "Opening",
+            "OPTIONS": {
+                "CRANK": "Manual",
+                "CRANK_ICON_ALT": "Awning crank icon",
+                "MOTOR": "Motorized",
+                "MOTOR_ICON_ALT": "Motor icon"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Wall",
+                "ROOF": "Roof"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Previous Works",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/shade-sail/shade-sail-red.avif",
+                "IMG_ALT": "Red shade sail"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/shade-sail/shade-sail-yellow.avif",
+                "IMG_ALT": "Yellow shade sail"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/shade-sail/shade-sail-blue.avif",
+                "IMG_ALT": "Blue shade sail"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/shade-sail/shade-sail-gray.avif",
+                "IMG_ALT": "Gray shade sail"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Retractable Awning - Elegance and Functionality for Any Space",
+        "DESCRIPTION": "Discover the elegance and functionality of the Retractable Awning. Perfect for terraces, balconies, and facades, offering energy savings and high durability."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Retractable Awning",
+        "HEADLINE": "Elegance and functionality for any space",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-black-leds-awning.avif",
+        "IMG_ALT": "Retractable awning banner",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Space Expansion",
+                "DESCRIPTION": "Perfect for terraces, balconies, and facades, offering shade and comfort",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "House icon"
+            },
+            {
+                "TITLE": "High Durability",
+                "DESCRIPTION": "Made with high-quality materials for a long lifespan",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/wind.svg",
+                "SVG_ALT": "Wind icon"
+            },
+            {
+                "TITLE": "Advanced Customization",
+                "DESCRIPTION": "Possibility of adding a wind sensor and LED lights",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/led.svg",
+                "SVG_ALT": "Led icon"
+            }
+        ],
+        "BTN_TITLE": "Request a quote"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "Also called <strong>invisible arms awning</strong>, or <strong>premium awnings</strong>, the retractable awning fits perfectly when looking to <strong>customize a space</strong> in a home or business. Not only does it provide a beautiful style, but it also harmonizes perfectly with the surroundings thanks to its elegance.",
+            "Additionally, a retractable awning offers benefits such as <strong>space expansion</strong> and savings on the electricity bill, making it an increasingly popular option for homes and commercial establishments."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technical Features",
+        "OPENING": {
+            "TITLE": "Opening",
+            "OPTIONS": {
+                "CRANK": "",
+                "CRANK_ICON_ALT": "Awning crank icon",
+                "MOTOR": "Motorized",
+                "MOTOR_ICON_ALT": "Motorized icon"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Wall",
+                "ROOF": "Roof"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Previous Works",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-black-awning.avif",
+                "IMG_ALT": "Black retractable awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-brown-awning.webp",
+                "IMG_ALT": "Brown retractable awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-light-awning.webp",
+                "IMG_ALT": "Light color retractable awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-orange-awning.avif",
+                "IMG_ALT": "Orange retractable awning"
+            }
+        ]
+    }
+}

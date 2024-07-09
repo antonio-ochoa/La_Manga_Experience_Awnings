@@ -1,0 +1,74 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Bioklimatische Pergola - Innovation und Komfort für Ihren Außenbereich",
+        "DESCRIPTION": "Entdecken Sie den Schutz und Komfort unserer bioklimatischen Pergolen. Ideal für Terrassen, Balkone und Innenhöfe, bieten sie ganzjährigen Wetterschutz und einfache Wartung."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Bioklimatische Pergola",
+        "HEADLINE": "Innovation und Komfort für Ihren Außenbereich",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-big-white-pergola.avif",
+        "IMG_ALT": "Schwarze bioklimatische Pergola",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Einfache Installation",
+                "DESCRIPTION": "Keine komplexen Bauarbeiten oder Installationen erforderlich",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "Haus-Icon"
+            },
+            {
+                "TITLE": "Intelligente Klimaregelung",
+                "DESCRIPTION": "Regulieren Sie die Temperatur und Belüftung Ihres Gartens oder Ihrer Terrasse mit motorisierten verstellbaren Lamellen",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/wind.svg",
+                "SVG_ALT": "Wind-Icon"
+            },
+            {
+                "TITLE": "Anpassbares Design",
+                "DESCRIPTION": "Option zur Integration von LED-Beleuchtung",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/led.svg",
+                "SVG_ALT": "LED-Icon"
+            }
+        ],
+        "BTN_TITLE": "Angebot anfordern"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Beschreibung",
+        "PARRAGRAPHS": [
+            "<strong>Bioklimatische Pergolen sind die neueste Innovation bei Lösungen für Gärten und Terrassen</strong>. Sie sind darauf ausgelegt, Schatten zu spenden und die Temperatur Ihres Außenbereichs zu regulieren, ohne dass komplexe Bauarbeiten oder Installationen erforderlich sind.",
+            "Das intelligente System der bioklimatischen Pergolen <strong>verhindert den Treibhauseffekt</strong>, erneuert ständig die Luft und vermeidet Wärmeansammlung. Darüber hinaus ermöglichen ihre wasserdichten Lamellen, dass Sie auch an regnerischen oder schneereichen Tagen die Natur genießen können, dank eines Drainagesystems, das Wasseransammlungen verhindert.",
+            "Wir bieten <strong>Modelle mit integrierter LED-Beleuchtung</strong> an, ideal für die Schaffung der perfekten Atmosphäre zu jeder Tageszeit. Zudem ist die hochwertige Aluminiumstruktur robust und elegant, mit versteckten Schrauben für eine saubere und moderne Ästhetik."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technische Merkmale",
+        "OPENING": {
+            "TITLE": "Öffnung",
+            "OPTIONS": {
+                "CRANK": "Kurbel",
+                "CRANK_ICON_ALT": "Pergola-Kurbel-Icon",
+                "MOTOR": "Motorisiert",
+                "MOTOR_ICON_ALT": "Motor-Icon"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Vorherige Arbeiten",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-white-pergola-2.avif",
+                "IMG_ALT": "Weiße bioklimatische Pergola"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-bar-white-pergola.avif",
+                "IMG_ALT": "Bar weiße bioklimatische Pergola"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-white-pergola.avif",
+                "IMG_ALT": "Weiße bioklimatische Pergola"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-white-black-pergola.avif",
+                "IMG_ALT": "Weiße und schwarze bioklimatische Pergola"
+            }
+        ]
+    }
+}

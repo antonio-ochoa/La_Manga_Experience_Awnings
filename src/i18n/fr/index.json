@@ -12,12 +12,12 @@
             },
             "LANGUAGES": [
                 {
-                    "TITLE": "DE",
-                    "HREF": "/de"
+                    "TITLE": "EN",
+                    "HREF": ""
                 },
                 {
-                    "TITLE": "FR",
-                    "HREF": "/fr"
+                    "TITLE": "DE",
+                    "HREF": "de"
                 }
             ],
             "BTN_TITLE": "Demander un devis"
@@ -28,31 +28,31 @@
                 "SUB_CATEGORIES": [
                     {
                         "TITLE": "Punto recto",
-                        "HREF": ""
+                        "HREF": "awnings/straight-point"
                     },
                     {
                         "TITLE": "Rétractable",
-                        "HREF": ""
+                        "HREF": "awnings/retractable"
                     },
                     {
                         "TITLE": "Coffre",
-                        "HREF": ""
+                        "HREF": "awnings/boxed"
                     },
                     {
                         "TITLE": "Stor",
-                        "HREF": ""
+                        "HREF": "awnings/stor"
                     },
                     {
                         "TITLE": "Voile",
-                        "HREF": ""
+                        "HREF": "awnings/shade-sail"
                     },
                     {
                         "TITLE": "Vertical",
-                        "HREF": ""
+                        "HREF": "awnings/blind"
                     },
                     {
                         "TITLE": "Véranda",
-                        "HREF": ""
+                        "HREF": "awnings/veranda"
                     }
                 ]
             },
@@ -61,40 +61,7 @@
                 "SUB_CATEGORIES": [
                     {
                         "TITLE": "Bioclimatiques",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Gazebo",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Bois",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Aluminium",
-                        "HREF": ""
-                    }
-                ]
-            },
-            {
-                "CATEGORY": "Couvertures de Piscine",
-                "SUB_CATEGORIES": [
-                    {
-                        "TITLE": "Ronde",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Rectangulaire",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Hiver",
-                        "HREF": ""
-                    },
-                    {
-                        "TITLE": "Été",
-                        "HREF": ""
+                        "HREF": "pergolas/bioclimatic"
                     }
                 ]
             }
@@ -169,14 +136,14 @@
                 "TITLE": "Rétractable",
                 "DESCRIPTION": "Nos stores rétractables offrent une excellente ombre et peuvent être facilement étendus ou rétractés selon vos besoins.",
                 "IMG_ALT": "Store rétractable sur un salon extérieur",
-                "BTN_HREF": "/"
+                "BTN_HREF": "awnings/retractable"
             },
             {
                 "CATEGORY": "Pergolas",
                 "TITLE": "Gazebo",
                 "DESCRIPTION": "Nos pergolas gazebo offrent un ajout élégant et fonctionnel à tout espace extérieur, parfait pour les activités en plein air.",
                 "IMG_ALT": "Pergola gazebo sur un salon extérieur",
-                "BTN_HREF": "/"
+                "BTN_HREF": "pergolas/bioclimatic"
             },
             {
                 "CATEGORY": "Couvertures de Piscine",
@@ -200,7 +167,7 @@
         "DESCRIPTION": "Nous proposons des <strong>services d'entretien complets</strong> et des <strong>pièces de rechange</strong> pour vos stores. Que vous ayez besoin d'un entretien de routine ou de composants spécifiques, notre équipe est prête à garantir que votre store reste en parfait état. Contactez-nous pour des conseils et un soutien d'experts adaptés à vos besoins.",
         "IMG_ALT": "Store blanc et vert taché",
         "BTN_TITLE": "Demander un devis",
-        "BTN_HREF": "/"
+        "BTN_HREF": "#contact-us"
     },
     "CONTACT_US_SECTION": {
         "IMG_ALT": "Gros plan de la partie supérieure d'une pergola",

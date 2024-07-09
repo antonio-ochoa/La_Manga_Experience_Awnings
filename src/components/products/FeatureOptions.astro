@@ -1,0 +1,38 @@
+---
+interface Props {
+    title: string,
+    option1: string,
+    option2?: string,
+    svgUrl1?: string,
+    svgUrl2?: string,
+    svgAlt1?: string,
+    svgAlt2?: string
+}
+const { title, option1, option2, svgUrl1, svgUrl2, svgAlt1, svgAlt2 } = Astro.props
+---
+
+<div class="feature-options">
+    <h3 class="small">{title}:</h3>
+    <div class="options">
+        <div class="option">
+            {svgUrl1 && <img src={svgUrl1} alt={svgAlt1} />}
+            <p class="small">{option1}</p>
+        </div>
+
+        {option2 && (
+            <div class="line"></div>
+            <div class="option">
+                {svgUrl2 && <img src={svgUrl2} alt={svgAlt2} />}
+                <p class="small">{option2}</p>
+            </div>
+        )}
+    </div>
+</div>
+
+<style>
+    .feature-options .options { display: flex; justify-content: space-around; align-items: center }
+    .feature-options h3 { margin-bottom: 16px }
+    .feature-options .options .option { display: flex; flex-direction: column; gap: 12px; align-items: center }
+    .feature-options .options img { box-sizing: border-box; width: 64px; aspect-ratio: 1; border: 1px solid rgba(0, 0, 0, 0.5); border-radius: 8px;}
+    .feature-options .line { width: 1px; align-self: stretch; background-color: var(--black) }
+</style>

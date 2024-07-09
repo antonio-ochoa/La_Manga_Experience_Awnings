@@ -1,7 +1,10 @@
 ---
 import CardTopProduct from "@/cards/CardTopProduct.astro";
 import CenterSectHeader from "@/section_utils/CenterSectHeader.astro";
+import { getUrl } from "src/utils/getUrl"
 import { getI18N } from "@i18n/index";
+const lang = Astro.currentLocale ?? "en"
+
 const i18n = getI18N(Astro, "index").TOP_PRODUCTS;
 
 interface Product {
@@ -12,8 +15,8 @@ interface Product {
     BTN_HREF: string
 }
 const products: [Product] = i18n.PRODUCTS;
-const imgProduct1 = "https://cdn.lamangaexperience.com/imgs/retractable-awning.avif";
-const imgProduct2 = "https://cdn.lamangaexperience.com/imgs/pergola-gazebo.avif";
+const imgProduct1 = "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-black-leds-awning.avif";
+const imgProduct2 = "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-big-white-pergola.avif";
 const imgProduct3 = "https://cdn.lamangaexperience.com/imgs/pool-cover-rounded.avif";
 const imgs = [imgProduct1, imgProduct2, imgProduct3]
 
@@ -26,7 +29,7 @@ const imgs = [imgProduct1, imgProduct2, imgProduct3]
             <CardTopProduct 
                 category={product.CATEGORY} title={product.TITLE} descr={product.DESCRIPTION}
                 imgUrl={imgs[idx]} imgAlt={product.IMG_ALT}
-                btnTitle={i18n.BTN_TITLE} btnHref={product.BTN_HREF}
+                btnTitle={i18n.BTN_TITLE} btnHref={getUrl(lang, product.BTN_HREF)}
             />
         ))}
     </div>

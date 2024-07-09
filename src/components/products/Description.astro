@@ -1,0 +1,125 @@
+---
+import FeatureOptions from "@/products/FeatureOptions.astro"
+import { getI18N } from "@i18n/index";
+
+interface Props {
+    product: 
+    | "awning-straight-point" 
+    | "awning-boxed"
+    | "awning-blind"
+    | "awning-retractable"
+    | "awning-shade-sail"
+    | "awning-stor"
+    | "awning-veranda"
+    | "pergola-bioclimatic"
+}
+const { product } = Astro.props
+
+const i18n = getI18N(Astro, product);
+
+const description = i18n.DESCRIPTION_SECTION;
+const parragraphs: [string] = description.PARRAGRAPHS;
+
+const techFeatures = i18n.TECHNICAL_FEATURES;
+const opening = techFeatures.OPENING;
+const openingOptions = opening.OPTIONS;
+const installation = techFeatures.INSTALLATION ?? "";
+const installationOptions = installation.OPTIONS ?? ""
+
+const iconCrank = "https://cdn.lamangaexperience.com/subdomain-awnings/icons/awning-rack.webp"
+const iconMotor = "https://cdn.lamangaexperience.com/subdomain-awnings/icons/remote-control.webp"
+let option1 = ""
+let icon1 = ""
+let iconAlt1 = ""
+let option2 = ""
+let icon2 = ""
+let iconAlt2 = ""
+
+if (openingOptions.CRANK) { 
+    option1 = openingOptions.CRANK;
+    icon1 = iconCrank;
+    iconAlt1 = openingOptions.CRANK_ICON_ALT;
+    option2 = openingOptions.MOTOR;
+    icon2 = iconMotor;
+    iconAlt2 = openingOptions.MOTOR_ICON_ALT
+}
+else {
+    option1 = openingOptions.MOTOR;
+    icon1 = iconMotor;
+    iconAlt1 = openingOptions.MOTOR_ICON_ALT
+}
+
+---
+
+<section class="product-description content-grid">
+
+    <div class="description">
+        <h2>{description.TITLE}</h2>
+        {parragraphs.map((parragraph) => <p set:html={parragraph}></p>)}
+    </div>
+
+    <div class="technical-features full">
+        <h2>{techFeatures.TITLE}</h2>
+        <div class="wrapper">
+            <FeatureOptions title={opening.TITLE} 
+                option1={option1} svgUrl1={icon1} svgAlt1={iconAlt1}
+                option2={option2} svgUrl2={icon2} svgAlt2={iconAlt2}
+            />
+            {installation && (<FeatureOptions title={installation.TITLE} option1={installationOptions.WALL} option2={installationOptions.ROOF} />)}
+        </div>
+    </div>
+</section>
+
+<style>
+    .product-description {
+        position: relative;
+        padding-block: 40px;
+    }
+    .product-description .description {
+        max-width: 860px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        margin-bottom: 64px;
+        margin-inline: auto;
+    }
+    .product-description .description h2 {
+        position: relative;
+        width: fit-content;
+        margin-bottom: 12px;
+    }
+    .product-description .description h2::after {
+        content: "";
+        position: absolute;
+        bottom: -2px; right: 0;
+        height: 3px; width: max(400px, 80dvw);
+        border-radius: 20px;
+        background-color: var(--secondary);
+    }
+    .product-description .description p { line-height: 1.3 }
+    .product-description .technical-features {
+        max-width: 412px;
+        padding: 16px;
+        margin-inline: auto;
+        background-color: var(--main-darker);
+    }
+    .product-description .technical-features h2 { margin-bottom: 36px; font-weight: 400; }
+    .product-description .technical-features .wrapper { display: flex; flex-direction: column; gap: 40px }
+
+    @media screen and (min-width: 412px) { .product-description .technical-features { border-radius: 8px } }
+    @media screen and (min-width: 768px) {
+        .product-description { padding-block: 64px }
+        .product-description .description { margin-bottom: 80px }
+        .product-description .technical-features { padding: 32px }
+    }
+    @media screen and (min-width: 1280px) {
+        .product-description { padding-block: 100px }
+        .product-description .description { max-width: 50%; margin: 0 }
+        .product-description .description h2 { margin-top: 32px }
+        .product-description .technical-features {
+            position: absolute; top: 100px;
+            right: max(var(--padding-inline), calc((100% - 1440px) / 2));
+        }
+    }
+</style>

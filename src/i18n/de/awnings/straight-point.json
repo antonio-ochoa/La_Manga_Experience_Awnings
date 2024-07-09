@@ -1,0 +1,80 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Gerade Punkt Markise - Ideal für Balkone, Fenster und Fassaden",
+        "DESCRIPTION": "Entdecken Sie die Einfachheit und Wirksamkeit der geraden Punkt Markise. Perfekt für Fenster, kleine Balkone und Fassaden, bietet große Windbeständigkeit und verschiedene Neigungswinkel."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Gerade Punkt Markise",
+        "HEADLINE": "Ideal für Balkone, Fenster und Fassaden",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/straight-point/straight-point-gray-awning.webp",
+        "IMG_ALT": "Graue gerade Punkt Markise",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Großer Neigungswinkel",
+                "DESCRIPTION": "Seine beweglichen Arme ermöglichen bis zu 170º Neigung",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/angle.svg",
+                "SVG_ALT": "Winkel-Icon"
+            },
+            {
+                "TITLE": "Windbeständigkeit",
+                "DESCRIPTION": "Bietet mehr Robustheit, da es keine Federarme hat",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/wind.svg",
+                "SVG_ALT": "Wind-Icon"
+            },
+            {
+                "TITLE": "Empfohlener Stoff: Mikroporös",
+                "DESCRIPTION": "Lässt den Wind durch, während die Wärmeansammlung reduziert wird",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/cloth.svg",
+                "SVG_ALT": "Stoff-Icon"
+            }
+        ],
+        "BTN_TITLE": "Angebot anfordern"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Beschreibung",
+        "PARRAGRAPHS": [
+            "Die <strong>gerade Punkt Markise repräsentiert Einfachheit in ihrer reinsten Form</strong> und bietet eine praktische und effektive Lösung für den Sonnenschutz. Speziell für Fenster, kleine Balkone und Fassaden entwickelt, ist dieses Modell perfekt, um das Innere kühl zu halten und vor Blendung und übermäßiger Hitze zu schützen.",
+            "Die Arme üben konstanten Druck auf den Stoff aus, sodass er dem Wind standhält, ohne sich zu verformen, und bieten einen Neigungswinkel von bis zu 170º. Dies gewährleistet eine totale vertikale Abdeckung, <strong>die uns den ganzen Tag vor den Sonnenstrahlen schützt.</strong>"
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technische Merkmale",
+        "OPENING": {
+            "TITLE": "Öffnung",
+            "OPTIONS": {
+                "CRANK": "Kurbel",
+                "CRANK_ICON_ALT": "Markisenkurbel-Icon",
+                "MOTOR": "Motorisiert",
+                "MOTOR_ICON_ALT": "Motor-Icon"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Wand",
+                "ROOF": "Dach"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Frühere Arbeiten",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/straight-point/straight-point-black-awning.avif",
+                "IMG_ALT": "Schwarze gerade Punkt Markise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/straight-point/straight-point-red-awning.avif",
+                "IMG_ALT": "Rote gerade Punkt Markise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/straight-point/straight-point-maroon-awning.avif",
+                "IMG_ALT": "Weinrote gerade Punkt Markise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/straight-point/straight-point-gray-yellow-awning.avif",
+                "IMG_ALT": "Graue und gelbe gerade Punkt Markise"
+            }
+        ]
+    }
+}

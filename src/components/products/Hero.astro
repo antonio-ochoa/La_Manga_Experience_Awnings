@@ -1,0 +1,95 @@
+---
+import ProductHighlight from "@/products/ProductHighlight.astro"
+import { getI18N } from "@i18n/index";
+
+interface Props {
+    product: 
+    | "awning-straight-point" 
+    | "awning-boxed"
+    | "awning-blind"
+    | "awning-retractable"
+    | "awning-shade-sail"
+    | "awning-stor"
+    | "awning-veranda"
+    | "pergola-bioclimatic"
+}
+
+const { product } = Astro.props
+
+const i18n = getI18N(Astro, product)
+const hero = i18n.HERO_SECTION;
+
+interface Highlight {
+    TITLE: string,
+    DESCRIPTION: string,
+    SVG_URL: string,
+    SVG_ALT: string
+}
+const highlights: [Highlight] = hero.HIGHLIGHTS;
+
+---
+<section class="product-hero content-grid">
+    <img class="full" src={hero.IMG_URL} alt={hero.IMG_ALT} />
+    <div class="content">
+        <header>
+            <div class="line"></div>
+            <h1>{hero.TITLE}</h1>
+            <p>"{hero.HEADLINE}"</p>
+        </header>
+        <div class="wrapper">
+            {highlights.map((highlight) => (
+                <ProductHighlight title={highlight.TITLE} descr={highlight.DESCRIPTION}
+                    imgUrl={highlight.SVG_URL} imgAlt={highlight.SVG_ALT}
+                />
+            ))}
+        </div>
+        <a href="#contact-us">{hero.BTN_TITLE}</a>
+    </div>
+</section>
+
+<style>
+    .product-hero { --margin-top: 64px; position: relative; margin-block: calc(var(--header-height) + var(--margin-top)) 40px }
+    .product-hero img { aspect-ratio: 1.4; width: 100%; max-height: 580px; margin-bottom: 48px; margin-inline: auto }
+    .product-hero .content { display: flex; flex-direction: column; align-items: center }
+    .product-hero header { text-align: center; margin-bottom: 64px }
+    .product-hero header .line { height: 5px; width: 100px; margin-inline: auto; background-color: var(--secondary) }
+    .product-hero header h1 { margin-block: 10px 20px; font-family: KaiseiOpti, sans-serif; font-weight: 500; font-size: 32px }
+    .product-hero header p { opacity: 0.8; font-size: 20px }
+    .product-hero .wrapper { display: flex; flex-direction: column; gap: 28px; margin-bottom: 64px }
+    .product-hero .content a {
+        box-sizing: border-box;
+        display: block;
+        width: fit-content;
+        padding: 16px 24px;
+        border: 1px solid var(--black);
+        border-radius: 32px;
+        text-transform: uppercase;
+        animation: 2s ease-in-out infinite alternate shadowPulse;
+    }
+    .product-hero .content a:hover {
+        background-color: var(--black);
+        color: white;
+    }
+    @media screen and (min-width: 768px) {
+        .product-hero { --margin-top: 80px; margin-bottom: 64px }
+        .product-hero img { max-width: min(860px, calc(100% - var(--padding-inline))); border-radius: 4px }
+        .product-hero header h1 { font-size: 40px }
+        .product-hero header p { font-size: 22px }
+    }
+    @media screen and (min-width: 1280px) {
+        .product-hero { --margin-top: 140px; margin-bottom: 80px }
+        .product-hero img {
+            position: absolute;
+            left: max(var(--padding-inline), calc((100% - 1440px) / 2));
+            aspect-ratio: 664/549;
+            width: 46%;
+            max-width: 664px;
+            margin: 0;
+        }
+        .product-hero .content { max-width: 46%; align-items: flex-start; margin-left: auto }
+        .product-hero header { text-align: left; margin-bottom: 96px }
+        .product-hero header h1 { font-size: 48px }
+        .product-hero header .line { margin-left: 0 }
+        .product-hero header p { font-size: 24px }
+    }
+</style>

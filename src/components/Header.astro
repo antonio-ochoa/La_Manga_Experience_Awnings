@@ -1,16 +1,24 @@
 ---
-import { getI18N } from "@i18n/index";
 import NavDesktop from "@/header_utils/NavDesktop.astro";
 import NavPhone from "@/header_utils/NavPhone.astro"
 import NavLanguages from "./header_utils/NavLanguages.astro";
 import Logo from "@icons/Logo.astro"
+import { getUrl } from "src/utils/getUrl"
+import { getI18N } from "@i18n/index";
+const lang = Astro.currentLocale ?? "en"
+
 const i18n = getI18N(Astro, "index").NAVIGATION;
+
+interface Props {
+    animatedBg: "yes" | "no"
+}
+const { animatedBg } = Astro.props
 
 const header = i18n.HEADER;
 const home = header.HOME_LINK;
 ---
-<header class="navigation">
-    <a href="/"><Logo /></a>
+<header class="navigation" style=`animation-range: 0 ${animatedBg==="yes" ? "280": "0"}px;`>
+    <a href={getUrl(lang, "")}><Logo /></a>
 
     <NavDesktop />
 
@@ -23,7 +31,6 @@ const home = header.HOME_LINK;
 
 <style>
     header.navigation {
-        --header-height: 76px;
         --logo-color: white;
 
         box-sizing: border-box;
@@ -40,7 +47,6 @@ const home = header.HOME_LINK;
 
         animation-name: headerBg;
         animation-timeline: scroll();
-        animation-range: 0 280px;
         animation-fill-mode: both;
     }
     header.navigation .nav-btns a.main-cta {
@@ -57,6 +63,7 @@ const home = header.HOME_LINK;
     header.navigation .nav-btns a.main-cta:hover {
         background-color: white;
         color: var(--black);
+        border-color: var(--black);
     }
     header.navigation .nav-btns {
         display: flex;
@@ -64,11 +71,9 @@ const home = header.HOME_LINK;
         align-items: center;
     }
     @media screen and (min-width: 768px) {
-        header.navigation { --header-height: 82px }
         header.navigation .nav-btns { gap: 28px }
     }
     @media screen and (min-width: 1280px) {
-        header.navigation { --header-height: 90px }
         header.navigation .nav-btns a.main-cta { display: block }
     }
 

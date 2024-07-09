@@ -1,0 +1,80 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Blind / Vertical Awning - Protection and Comfort All Year Round",
+        "DESCRIPTION": "Discover the protection and comfort of our Blind/Vertical Awnings. Ideal for terraces, balconies, and patios, offering all-year weather protection and easy maintenance."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Blind / Vertical Awning",
+        "HEADLINE": "Protection and Comfort All Year Round",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/blind/vertical-black-awning.avif",
+        "IMG_ALT": "Black vertical awning",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Total insulation",
+                "DESCRIPTION": "Protects against rain, wind, and sun; making it perfect for any season",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "House icon"
+            },
+            {
+                "TITLE": "Transparent Options",
+                "DESCRIPTION": "Incorporates windows that allow light entry",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/options.svg",
+                "SVG_ALT": "Options icon"
+            },
+            {
+                "TITLE": "Easy Maintenance",
+                "DESCRIPTION": "Simple cleaning with a damp cloth, no machine washing needed",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/clean-hands.svg",
+                "SVG_ALT": "Clean hands icon"
+            }
+        ],
+        "BTN_TITLE": "Request a quote"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "Exterior vertical awnings, also known as <strong>Wind Zip Screens</strong>, are the perfect solution for enclosing and protecting the sides of terraces, balconies, porches, pergolas, and patios. They not only offer protection against the weather but also provide thermal insulation and privacy, creating a pleasant environment all year round.",
+            "Our <strong>transparent vertical awnings</strong> allow the incorporation of a clear PVC window, providing brightness while maintaining visibility to the outside. This material is treated to prevent expansion or contraction due to climatic changes."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technical Features",
+        "OPENING": {
+            "TITLE": "Opening",
+            "OPTIONS": {
+                "CRANK": "Crank",
+                "CRANK_ICON_ALT": "Awning crank icon",
+                "MOTOR": "Motorized",
+                "MOTOR_ICON_ALT": "Motor icon"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Wall",
+                "ROOF": "Roof"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Previous Works",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/blind/vertical-light-awning.avif",
+                "IMG_ALT": "Light vertical awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/blind/vertical-white-awning.avif",
+                "IMG_ALT": "White vertical awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/blind/vertical-beige-awning.avif",
+                "IMG_ALT": "Beige vertical awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/blind/vertical-transparent-awning.avif",
+                "IMG_ALT": "Transparent vertical awning"
+            }
+        ]
+    }
+}

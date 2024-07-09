@@ -1,0 +1,74 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Pergola Bioclimatique - Innovation et Confort pour Votre Espace Extérieur",
+        "DESCRIPTION": "Découvrez la protection et le confort de nos pergolas bioclimatiques. Idéales pour les terrasses, balcons et patios, elles offrent une protection contre les intempéries toute l'année et un entretien facile."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Pergola Bioclimatique",
+        "HEADLINE": "Innovation et Confort pour Votre Espace Extérieur",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-big-white-pergola.avif",
+        "IMG_ALT": "Pergola bioclimatique noire",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Installation Facile",
+                "DESCRIPTION": "Pas besoin de travaux complexes ou d'installations",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "Icône de maison"
+            },
+            {
+                "TITLE": "Contrôle Climatique Intelligent",
+                "DESCRIPTION": "Régulez la température et la ventilation de votre jardin ou terrasse avec des lames motorisées réglables",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/wind.svg",
+                "SVG_ALT": "Icône de vent"
+            },
+            {
+                "TITLE": "Design Personnalisable",
+                "DESCRIPTION": "Option d'ajouter un éclairage LED",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/led.svg",
+                "SVG_ALT": "Icône LED"
+            }
+        ],
+        "BTN_TITLE": "Demander un devis"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "<strong>Les pergolas bioclimatiques sont la dernière innovation en matière de solutions pour jardins et terrasses</strong>. Conçues pour fournir de l'ombre et réguler la température de votre espace extérieur sans nécessiter de travaux complexes ou d'installations.",
+            "Le système intelligent des pergolas bioclimatiques <strong>prévient l'effet de serre</strong>, renouvelle constamment l'air et évite l'accumulation de chaleur. De plus, leurs lames étanches permettent de profiter de l'extérieur même les jours de pluie ou de neige, grâce à un système de drainage qui empêche l'eau de s'accumuler.",
+            "Nous proposons des <strong>modèles avec éclairage LED intégré</strong>, idéaux pour créer l'ambiance parfaite à tout moment de la journée. De plus, la structure en aluminium de haute qualité est robuste et élégante, avec des vis cachées pour une esthétique propre et moderne."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Caractéristiques Techniques",
+        "OPENING": {
+            "TITLE": "Ouverture",
+            "OPTIONS": {
+                "CRANK": "Manivelle",
+                "CRANK_ICON_ALT": "Icône de manivelle de pergola",
+                "MOTOR": "Motorisé",
+                "MOTOR_ICON_ALT": "Icône motorisé"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Travaux Précédents",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-white-pergola-2.avif",
+                "IMG_ALT": "Pergola bioclimatique blanche"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-bar-white-pergola.avif",
+                "IMG_ALT": "Pergola bioclimatique bar blanche"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-white-pergola.avif",
+                "IMG_ALT": "Pergola bioclimatique blanche"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/pergolas/bioclimatic/bioclimatic-white-black-pergola.avif",
+                "IMG_ALT": "Pergola bioclimatique blanche et noire"
+            }
+        ]
+    }
+}

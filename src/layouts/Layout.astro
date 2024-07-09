@@ -1,4 +1,5 @@
 ---
+import ViewTransitions from 'astro/components/ViewTransitions.astro';
 import Header from '@/Header.astro';
 import Footer from '@/Footer.astro';
 const HeroImgDesktop = "https://cdn.lamangaexperience.com/imgs/awning-beach-bar.avif";
@@ -18,10 +19,11 @@ interface Props {
 	index: 'index' | 'noindex',
 	follow: 'follow' | 'nofollow',
 	descr: string,
+	animatedHeader: 'yes' | 'no',
 	error?: '404'
 }
 
-const { title, path, index, follow, descr, error } = Astro.props;
+const { title, path, index, follow, descr, animatedHeader, error } = Astro.props;
 
 const esPath = getLink(path);
 const enPath = getLink("/en"+path);
@@ -46,8 +48,8 @@ const enPath = getLink("/en"+path);
 		<link rel="preload" href="https://cdn.lamangaexperience.com/fonts/lato/lato-regular.woff2" as="font" type="font/woff2" crossorigin>
 
 		<!-- {(!error) && (
-			<link rel="alternate" hreflang="es" href={esPath} />
-			<link rel="alternate" hreflang="en" href={enPath} />
+			<link rel="alternate" hreflang="de" href={esPath} />
+			<link rel="alternate" hreflang="fr" href={enPath} />
 			<link rel="canonical" href={lang ==="es" ? esPath : enPath} />
 		)} -->
 
@@ -70,11 +72,11 @@ const enPath = getLink("/en"+path);
 		<meta name="twitter:description" content="Diseño y producción de páginas web a un precio competitivo." />
 		<!-- <meta name="twitter:image" content="https://example.com/twitter-image.jpg" /> -->
 		<meta name="twitter:site" content="@LaMangaExperience" />
-
+		<ViewTransitions />
 	</head>
 
 	<body>
-		<Header path={path}/>
+		<Header animatedBg={animatedHeader} />
 		<main>
 			<slot />
 			<Footer />
@@ -83,10 +85,6 @@ const enPath = getLink("/en"+path);
 </html>
 
 <style is:global>
-	@font-face { 
-		font-family: 'KaiseiOpti'; src: url('https://cdn.lamangaexperience.com/fonts/kaiseiopti/kaiseiopti-regular.woff2') format('woff2');
-		font-weight: 400;
-	}
 	@font-face { 
 		font-family: 'KaiseiOpti'; src: url('https://cdn.lamangaexperience.com/fonts/kaiseiopti/kaiseiopti-medium.woff2') format('woff2');
 		font-weight: 500;
@@ -121,9 +119,12 @@ const enPath = getLink("/en"+path);
 		--content-max-width: 1440px;
 		--breakout-max-width: 1920px;
 
+		--header-height: 76px;
+
 		--main: #FFF;
+		--main-dark: #FBFBFB;
 		--main-darker: #F6F6F6;
-		--secondary: #F1DECA;
+		--secondary: #FEEDDA;
 		--black: #1A191E;
 	}
 
@@ -150,7 +151,7 @@ const enPath = getLink("/en"+path);
 		scroll-behavior: smooth;
 	}
 	body { font-size: 16px }
-	span.title { font-family: KaiseiOpti, sans-serif; font-size: 32px }
+	span.title { font-family: KaiseiOpti, sans-serif; font-size: 32px; font-weight: 500; }
 	h2 { text-transform: uppercase; font-size: 26px; font-weight: 600 }
 	h2.big { font-size: 30px }
 	h3 { font-size: 20px}
@@ -160,7 +161,7 @@ const enPath = getLink("/en"+path);
 	.smallest {font-size: 13px }
 
 	@media screen and (min-width: 768px) {
-		:root { --padding-inline: 32px }
+		:root { --padding-inline: 32px; --header-height: 82px }
 		body { font-size: 18px }
 		span.title { font-size: 40px }
 		h2 { font-size: 30px }
@@ -172,7 +173,7 @@ const enPath = getLink("/en"+path);
 		.smallest {font-size: 14px }
 	}
 	@media screen and (min-width: 1280px) {
-		:root { --padding-inline: 48px }
+		:root { --padding-inline: 48px; --header-height: 90px }
 		body { font-size: 20px }
 		span.title { font-size: 52px }
 		h2 { font-size: 34px }

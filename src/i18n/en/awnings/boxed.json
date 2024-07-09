@@ -1,0 +1,81 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Boxed Awning - Elegance and Durability for Any Space",
+        "DESCRIPTION": "Discover the elegance and durability of the Boxed Awning. Perfect for any space, offering modern style, extreme durability, and advanced customization options."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Boxed Awning",
+        "HEADLINE": "Elegance and durability for any space",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/boxed/boxed-white-awning.avif",
+        "IMG_ALT": "White boxed awning",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Modern and Compact Style",
+                "DESCRIPTION": "Integrates perfectly into any space",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "House icon"
+            },
+            {
+                "TITLE": "Extreme Durability",
+                "DESCRIPTION": "The box protects the fabric and awning components when closed",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/wind.svg",
+                "SVG_ALT": "Wind icon"
+            },
+            {
+                "TITLE": "Advanced Customization",
+                "DESCRIPTION": "Option to add wind sensor and LED lighting",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/led.svg",
+                "SVG_ALT": "Led icon"
+            }
+        ],
+        "BTN_TITLE": "Request a quote"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "The key feature of the <strong>boxed awning</strong> is its full box system, which <strong>encloses and protects</strong> both the fabric and the extendable arms and other functional components. This innovative design ensures that all elements of the awning are shielded from the weather when not in use, significantly extending the product's lifespan.",
+            "Additionally, the box <strong>minimizes the required maintenance</strong> and keeps the awning in perfect condition for longer, offering excellent value for money over time.",
+            "For an even more modern and functional experience, you can opt to add <strong>integrated LED lighting</strong>, creating a cozy atmosphere at night. Furthermore, the addition of <strong>wind sensors</strong> provides extra protection, as the awning will automatically retract in strong winds, preventing damage and ensuring its durability."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technical Features",
+        "OPENING": {
+            "TITLE": "Opening",
+            "OPTIONS": {
+                "CRANK": "Manual",
+                "CRANK_ICON_ALT": "Awning crank icon",
+                "MOTOR": "Motorized",
+                "MOTOR_ICON_ALT": "Motor icon"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Wall",
+                "ROOF": "Roof"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Previous Works",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/boxed/boxed-closed-black-awning.avif",
+                "IMG_ALT": "Black boxed awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/boxed/boxed-closed-awning.avif",
+                "IMG_ALT": "Closed boxed awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/boxed/boxed-brown-awning.webp",
+                "IMG_ALT": "Brown boxed awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/boxed/boxed-blue-awning.avif",
+                "IMG_ALT": "Blue boxed awning"
+            }
+        ]
+    }
+}

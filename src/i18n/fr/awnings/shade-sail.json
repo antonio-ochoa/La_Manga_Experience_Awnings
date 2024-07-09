@@ -1,0 +1,81 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Voile d'Ombrage - Élégance et Polyvalence pour les Espaces Extérieurs",
+        "DESCRIPTION": "Découvrez l'élégance et la polyvalence des voiles d'ombrage. Idéal pour offrir de l'ombre dans les espaces extérieurs, avec une installation facile et des designs personnalisables."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Voile d'Ombrage",
+        "HEADLINE": "Élégance et Polyvalence pour les Espaces Extérieurs",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/shade-sail/shade-sail-bar-beach.avif",
+        "IMG_ALT": "Voile d'ombrage sur un bar à la plage",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Installation Facile",
+                "DESCRIPTION": "Installation rapide et facile sans construction complexe",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "Icône de maison"
+            },
+            {
+                "TITLE": "Polyvalence du Design",
+                "DESCRIPTION": "Disponible en formes triangulaires, rectangulaires, carrées et autres",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/shapes.svg",
+                "SVG_ALT": "Icône de formes"
+            },
+            {
+                "TITLE": "Protection Solaire Efficace",
+                "DESCRIPTION": "Protège les meubles et la décoration des rayons UV et des dommages causés par le soleil",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/sun.svg",
+                "SVG_ALT": "Icône de soleil"
+            }
+        ],
+        "BTN_TITLE": "Demander un devis"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "<strong>Les voiles d'ombrage sont une solution idéale pour l'ombre dans les espaces extérieurs</strong> exposés au soleil. Grâce à leur design et leur fonctionnalité, elles s'adaptent à n'importe quelle maison ou établissement commercial, offrant une protection solaire efficace sans perdre en élégance ou modernité.",
+            "Fabriquées sur mesure, les voiles d'ombrage peuvent être personnalisées avec un large éventail de tissus et de combinaisons de formes telles que <strong>triangulaire, rectangulaire, carrée ou même irrégulière</strong>. Cela les rend extrêmement polyvalentes, leur permettant de s'adapter aux caractéristiques et aux styles de divers espaces.",
+            "Les voiles d'ombrage offrent également une grande résistance au vent grâce à leur système de tension, ce qui les rend <strong>idéales pour toute saison de l'année</strong>. De plus, elles sont facilement démontables, permettant de les ranger pendant les mois d'hiver et de les réinstaller au printemps."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Caractéristiques Techniques",
+        "OPENING": {
+            "TITLE": "Ouverture",
+            "OPTIONS": {
+                "CRANK": "Manuel",
+                "CRANK_ICON_ALT": "Icône de manivelle de store",
+                "MOTOR": "Motorisé",
+                "MOTOR_ICON_ALT": "Icône motorisé"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Mur",
+                "ROOF": "Toit"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Travaux Précédents",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/shade-sail/shade-sail-red.avif",
+                "IMG_ALT": "Voile d'ombrage rouge"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/shade-sail/shade-sail-yellow.avif",
+                "IMG_ALT": "Voile d'ombrage jaune"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/shade-sail/shade-sail-blue.avif",
+                "IMG_ALT": "Voile d'ombrage bleu"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/shade-sail/shade-sail-gray.avif",
+                "IMG_ALT": "Voile d'ombrage gris"
+            }
+        ]
+    }
+}

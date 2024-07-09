@@ -1,5 +1,6 @@
 ---
 import Language from "@/icons/Language.astro";
+import { getPath } from "src/utils/getPath";
 import { getI18N } from "@i18n/index";
 const i18n = getI18N(Astro, "index");
 
@@ -16,7 +17,7 @@ const selectedLanguage = i18n.LANGUAGE;
     <Language />
     {selectedLanguage}
     <ul class="languages">
-        {supportedLanguages.map((language) => <li><a href={language.HREF}>{language.TITLE}</a></li> )}
+        {supportedLanguages.map((language) => <li><a href={getPath(language.HREF, Astro.url, selectedLanguage)}>{language.TITLE}</a></li> )}
     </ul>
 </div>
 
@@ -37,7 +38,7 @@ const selectedLanguage = i18n.LANGUAGE;
         left: -4px;
         width: 84px;
         padding: 8px;
-        background-color: var(--main-darker);
+        background-color: var(--main-dark);
         border-radius: 2px;
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     }

@@ -1,0 +1,80 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Store à Point Droit - Idéal pour Balcons, Fenêtres et Façades",
+        "DESCRIPTION": "Découvrez la simplicité et l'efficacité du store à point droit. Parfait pour les fenêtres, petits balcons et façades, offrant une grande résistance au vent et divers angles d'inclinaison."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Store à Point Droit",
+        "HEADLINE": "Idéal pour balcons, fenêtres et façades",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/straight-point/straight-point-gray-awning.webp",
+        "IMG_ALT": "Store à point droit gris",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Grand Angle d'Inclinaison",
+                "DESCRIPTION": "Ses bras mobiles permettent jusqu'à 170º d'inclinaison",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/angle.svg",
+                "SVG_ALT": "Icône d'angle"
+            },
+            {
+                "TITLE": "Résistance au Vent",
+                "DESCRIPTION": "Offre plus de robustesse car il n'a pas de bras à ressort",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/wind.svg",
+                "SVG_ALT": "Icône de vent"
+            },
+            {
+                "TITLE": "Tissu Recommandé: Microperforé",
+                "DESCRIPTION": "Permet le passage du vent tout en réduisant l'accumulation de chaleur",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/cloth.svg",
+                "SVG_ALT": "Icône de tissu"
+            }
+        ],
+        "BTN_TITLE": "Demander un devis"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "Le <strong>store à point droit représente la simplicité à son meilleur</strong>, offrant une solution pratique et efficace pour la protection solaire. Conçu spécialement pour les fenêtres, petits balcons et façades, ce modèle est parfait pour garder l'intérieur frais et protégé de l'éblouissement et de la chaleur excessive.",
+            "Les bras exercent une tension constante sur le tissu, lui permettant de résister au vent sans se déformer et offrant une gamme d'angles d'inclinaison jusqu'à 170º. Cela assure une couverture verticale totale, <strong>nous protégeant des rayons du soleil toute la journée.</strong>"
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Caractéristiques Techniques",
+        "OPENING": {
+            "TITLE": "Ouverture",
+            "OPTIONS": {
+                "CRANK": "Manivelle",
+                "CRANK_ICON_ALT": "Icône de manivelle de store",
+                "MOTOR": "Motorisé",
+                "MOTOR_ICON_ALT": "Icône motorisé"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Mur",
+                "ROOF": "Toit"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Travaux Précédents",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/straight-point/straight-point-black-awning.avif",
+                "IMG_ALT": "Store à point droit noir"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/straight-point/straight-point-red-awning.avif",
+                "IMG_ALT": "Store à point droit rouge"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/straight-point/straight-point-maroon-awning.avif",
+                "IMG_ALT": "Store à point droit marron"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/straight-point/straight-point-gray-yellow-awning.avif",
+                "IMG_ALT": "Store à point droit gris et jaune"
+            }
+        ]
+    }
+}

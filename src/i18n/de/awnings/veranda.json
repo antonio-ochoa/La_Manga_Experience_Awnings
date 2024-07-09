@@ -1,0 +1,80 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Veranda-Markise - Schutz und Komfort für Ihre verglasten Räume",
+        "DESCRIPTION": "Entdecken Sie die Veranda-Markise, ideal zum Schutz aller Arten von Außenglasgehäusen und Terrassen. Genießen Sie einen effektiven Wärmeschutz und Komfort das ganze Jahr über."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Veranda-Markise",
+        "HEADLINE": "Schutz und Komfort für Ihre verglasten Räume",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/veranda/veranda-orange-awning.avif",
+        "IMG_ALT": "Orange Veranda-Markise",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Elegantes Design",
+                "DESCRIPTION": "Qualitätsoberflächen, die jeden Stil ergänzen",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "Haus-Icon"
+            },
+            {
+                "TITLE": "Sonnenschutz",
+                "DESCRIPTION": "Hält eine stabile Innentemperatur aufrecht",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/sun.svg",
+                "SVG_ALT": "Sonnen-Icon"
+            },
+            {
+                "TITLE": "Empfohlen: Schutzgehäuse",
+                "DESCRIPTION": "Zusätzlicher Schutz für Stoff und Mechanismus, wenn nicht in Gebrauch",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/wind.svg",
+                "SVG_ALT": "Wind-Icon"
+            }
+        ],
+        "BTN_TITLE": "Angebot anfordern"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Beschreibung",
+        "PARRAGRAPHS": [
+            "Die Veranda-Markise ist die <strong>ideale Lösung zum Schutz aller Arten von Außenglasgehäusen</strong> und Terrassen. Dieses System bietet einen effektiven Wärmeschutz und sorgt das ganze Jahr über für echten Komfort.",
+            "Wenn Sie in einer windigen Gegend leben, ist die Veranda-Markise eine sichere und stabile Option. Ihre Struktur und seitlichen Führungen gewährleisten vollständigen Schutz und überlegene Stabilität, selbst bei widrigen Wetterbedingungen."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technische Merkmale",
+        "OPENING": {
+            "TITLE": "Öffnung",
+            "OPTIONS": {
+                "CRANK": "Kurbel",
+                "CRANK_ICON_ALT": "Markisenkurbel-Icon",
+                "MOTOR": "Motorisiert",
+                "MOTOR_ICON_ALT": "Motor-Icon"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Wand",
+                "ROOF": "Dach"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Frühere Arbeiten",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/veranda/veranda-dark-orange-awning.avif",
+                "IMG_ALT": "Dunkelorangene Veranda-Markise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/veranda/veranda-gray-awning.avif",
+                "IMG_ALT": "Graue Veranda-Markise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/veranda/veranda-white-awning.avif",
+                "IMG_ALT": "Weiße Veranda-Markise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/veranda/veranda-dark-awning.avif",
+                "IMG_ALT": "Dunkle Veranda-Markise"
+            }
+        ]
+    }
+}

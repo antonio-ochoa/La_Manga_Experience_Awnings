@@ -1,0 +1,22 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Hero from "@/products/Hero.astro";
+import Description from "@/products/Description.astro";
+import Gallery from "@/products/Gallery.astro";
+import TopProducts from "@/main/TopProducts.astro";
+import ContactUs from "@/main/ContactUs.astro";
+import { getI18N } from "@i18n/index";
+
+const product = "awning-straight-point"
+
+const i18n = getI18N(Astro, product).SEO_TAGS;
+
+---
+
+<Layout title={i18n.TITLE} descr={i18n.DESCRIPTION} path="" index="index" follow="follow" animatedHeader="no">
+    <Hero product={product} />
+    <Description {product} />
+    <Gallery {product} />
+    <TopProducts />
+    <ContactUs />
+</Layout>

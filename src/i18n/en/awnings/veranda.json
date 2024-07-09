@@ -1,0 +1,80 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Veranda Awning - Protection and Comfort for Your Glassed Spaces",
+        "DESCRIPTION": "Discover the Veranda Awning, ideal for protecting all types of outdoor glass enclosures and terraces. Enjoy effective thermal insulation and year-round comfort."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Veranda Awning",
+        "HEADLINE": "Protection and Comfort for Your Glassed Spaces",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/veranda/veranda-orange-awning.avif",
+        "IMG_ALT": "Orange veranda awning",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Elegant Design",
+                "DESCRIPTION": "Quality finishes that complement any style",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "House icon"
+            },
+            {
+                "TITLE": "Sun Protection",
+                "DESCRIPTION": "Maintains a stable interior temperature",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/sun.svg",
+                "SVG_ALT": "Sun icon"
+            },
+            {
+                "TITLE": "Recommended: Protective Casing",
+                "DESCRIPTION": "Additional protection for the fabric and mechanism when not in use",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/wind.svg",
+                "SVG_ALT": "Wind icon"
+            }
+        ],
+        "BTN_TITLE": "Request a quote"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "The Veranda Awning is the <strong>ideal solution for protecting all types of outdoor glass enclosures</strong> and terraces. This system offers effective thermal insulation, providing genuine comfort throughout the year.",
+            "If you live in a windy area, the Veranda Awning is a safe and sturdy option. Its structure and side guides ensure complete protection and superior stability, even in adverse weather conditions."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technical Features",
+        "OPENING": {
+            "TITLE": "Opening",
+            "OPTIONS": {
+                "CRANK": "Crank",
+                "CRANK_ICON_ALT": "Awning crank icon",
+                "MOTOR": "Motorized",
+                "MOTOR_ICON_ALT": "Motor icon"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Wall",
+                "ROOF": "Roof"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Previous Works",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/veranda/veranda-dark-orange-awning.avif",
+                "IMG_ALT": "Dark orange veranda awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/veranda/veranda-gray-awning.avif",
+                "IMG_ALT": "Gray veranda awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/veranda/veranda-white-awning.avif",
+                "IMG_ALT": "White veranda awning"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/veranda/veranda-dark-awning.avif",
+                "IMG_ALT": "Dark veranda awning"
+            }
+        ]
+    }
+}

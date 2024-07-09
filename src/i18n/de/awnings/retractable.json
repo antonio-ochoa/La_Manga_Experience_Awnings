@@ -1,0 +1,80 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Einziehbare Markise - Eleganz und Funktionalität für jeden Raum",
+        "DESCRIPTION": "Entdecken Sie die Eleganz und Funktionalität der einziehbaren Markise. Perfekt für Terrassen, Balkone und Fassaden, bietet sie Energieeinsparungen und hohe Haltbarkeit."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Einziehbare Markise",
+        "HEADLINE": "Eleganz und Funktionalität für jeden Raum",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-black-leds-awning.avif",
+        "IMG_ALT": "Banner der einziehbaren Markise",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Raumerweiterung",
+                "DESCRIPTION": "Perfekt für Terrassen, Balkone und Fassaden, bietet Schatten und Komfort",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "Haus-Icon"
+            },
+            {
+                "TITLE": "Hohe Haltbarkeit",
+                "DESCRIPTION": "Hergestellt aus hochwertigen Materialien für eine lange Lebensdauer",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/wind.svg",
+                "SVG_ALT": "Wind-Icon"
+            },
+            {
+                "TITLE": "Erweiterte Anpassung",
+                "DESCRIPTION": "Möglichkeit der Hinzufügung eines Windsensors und LED-Beleuchtung",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/led.svg",
+                "SVG_ALT": "LED-Icon"
+            }
+        ],
+        "BTN_TITLE": "Angebot anfordern"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Beschreibung",
+        "PARRAGRAPHS": [
+            "Auch genannt <strong>Markise mit unsichtbaren Armen</strong> oder <strong>Premium-Markisen</strong>, passt die einziehbare Markise perfekt, wenn man einen Raum in einem Zuhause oder Geschäft <strong>anpassen möchte</strong>. Sie bietet nicht nur einen schönen Stil, sondern harmoniert auch perfekt mit der Umgebung dank ihrer Eleganz.",
+            "Darüber hinaus bietet eine einziehbare Markise Vorteile wie <strong>Raumerweiterung</strong> und Einsparungen bei der Stromrechnung, was sie zu einer zunehmend beliebten Option für Wohnhäuser und Gewerbebetriebe macht."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Technische Merkmale",
+        "OPENING": {
+            "TITLE": "Öffnung",
+            "OPTIONS": {
+                "CRANK": "",
+                "CRANK_ICON_ALT": "Markisenkurbel-Icon",
+                "MOTOR": "Motorisiert",
+                "MOTOR_ICON_ALT": "Motorisiertes Icon"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Wand",
+                "ROOF": "Dach"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Frühere Arbeiten",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-black-awning.avif",
+                "IMG_ALT": "Schwarze einziehbare Markise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-brown-awning.webp",
+                "IMG_ALT": "Braune einziehbare Markise"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-light-awning.webp",
+                "IMG_ALT": "Einziehbare Markise in heller Farbe"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/retractable/retractable-orange-awning.avif",
+                "IMG_ALT": "Orange einziehbare Markise"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "SEO_TAGS": {
+        "TITLE": "Store/Banne Vertical - Protection et Confort Toute l'Année",
+        "DESCRIPTION": "Découvrez la protection et le confort de nos Stores/Bannes Verticales. Idéales pour les terrasses, balcons et patios, elles offrent une protection contre les intempéries toute l'année et un entretien facile."
+    },
+    "HERO_SECTION": {
+        "TITLE": "Store/Banne Vertical",
+        "HEADLINE": "Protection et Confort Toute l'Année",
+        "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/blind/vertical-black-awning.avif",
+        "IMG_ALT": "Store vertical noir",
+        "HIGHLIGHTS": [
+            {
+                "TITLE": "Isolation Totale",
+                "DESCRIPTION": "Protège contre la pluie, le vent et le soleil; parfait pour toutes les saisons",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/house.svg",
+                "SVG_ALT": "Icône de maison"
+            },
+            {
+                "TITLE": "Options Transparentes",
+                "DESCRIPTION": "Incorpore des fenêtres permettant l'entrée de la lumière",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/options.svg",
+                "SVG_ALT": "Icône d'options"
+            },
+            {
+                "TITLE": "Entretien Facile",
+                "DESCRIPTION": "Nettoyage simple avec un chiffon humide, pas de lavage en machine nécessaire",
+                "SVG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/icons/clean-hands.svg",
+                "SVG_ALT": "Icône de mains propres"
+            }
+        ],
+        "BTN_TITLE": "Demander un devis"
+    },
+    "DESCRIPTION_SECTION": {
+        "TITLE": "Description",
+        "PARRAGRAPHS": [
+            "Les stores verticaux extérieurs, également appelés <strong>Wind Zip Screens</strong>, sont la solution parfaite pour fermer et protéger les côtés des terrasses, balcons, porches, pergolas et patios. Ils offrent non seulement une protection contre les intempéries mais aussi une isolation thermique et une intimité, créant une ambiance agréable toute l'année.",
+            "Nos <strong>stores verticaux transparents</strong> permettent l'intégration d'une fenêtre en PVC clair, offrant de la luminosité tout en maintenant la visibilité vers l'extérieur. Ce matériau est traité pour prévenir l'expansion ou la contraction dues aux changements climatiques."
+        ]
+    },
+    "TECHNICAL_FEATURES": {
+        "TITLE": "Caractéristiques Techniques",
+        "OPENING": {
+            "TITLE": "Ouverture",
+            "OPTIONS": {
+                "CRANK": "Manivelle",
+                "CRANK_ICON_ALT": "Icône de manivelle de store",
+                "MOTOR": "Motorisé",
+                "MOTOR_ICON_ALT": "Icône de moteur"
+            }
+        },
+        "INSTALLATION": {
+            "TITLE": "Installation",
+            "OPTIONS": {
+                "WALL": "Mur",
+                "ROOF": "Toit"
+            }
+        }
+    },
+    "GALLERY_SECTION": {
+        "TITLE": "Travaux Précédents",
+        "IMAGES": [
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/blind/vertical-light-awning.avif",
+                "IMG_ALT": "Store vertical clair"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/blind/vertical-white-awning.avif",
+                "IMG_ALT": "Store vertical blanc"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/blind/vertical-beige-awning.avif",
+                "IMG_ALT": "Store vertical beige"
+            },
+            {
+                "IMG_URL": "https://cdn.lamangaexperience.com/subdomain-awnings/awnings/blind/vertical-transparent-awning.avif",
+                "IMG_ALT": "Store vertical transparent"
+            }
+        ]
+    }
+}

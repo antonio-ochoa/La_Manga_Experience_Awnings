@@ -1,6 +1,9 @@
 ---
 import DownArrow from "@/icons/DownArrow.astro";
+import { getUrl } from "src/utils/getUrl"
 import { getI18N } from "@i18n/index";
+const lang = Astro.currentLocale ?? "en"
+
 const i18n = getI18N(Astro, "index").NAVIGATION;
 
 interface SubCategory {
@@ -19,11 +22,11 @@ const home = header.HOME_LINK;
 
 <nav class="desktop small">
     <ul class="category">
-        <li><a href={home.HREF}>{home.TITLE}</a></li>
+        <li><a href={getUrl(lang, "")}>{home.TITLE}</a></li>
         {links.map((link) => (
             <li>{link.CATEGORY}<DownArrow />
                 <ul class="subcategory">
-                    {link.SUB_CATEGORIES.map((e) => <li><a href={e.HREF}>{e.TITLE}</a></li> )}
+                    {link.SUB_CATEGORIES.map((e) => <li><a href={getUrl(lang, e.HREF)}>{e.TITLE}</a></li> )}
                 </ul>
             </li>
         ))}
@@ -48,6 +51,7 @@ const home = header.HOME_LINK;
         padding: 14px 8px;
         cursor: pointer;
     }
+    nav.desktop ul.category > li:hover > a { opacity: 0.6 }
     nav.desktop ul.category > li:hover ul.subcategory {
         display: flex;
     }
@@ -60,7 +64,7 @@ const home = header.HOME_LINK;
         flex-direction: column;
         padding: 8px;
         border-radius: 2px;
-        background-color: var(--main-darker);
+        background-color: var(--main-dark);
         color: var(--black);
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
         z-index: 101;
