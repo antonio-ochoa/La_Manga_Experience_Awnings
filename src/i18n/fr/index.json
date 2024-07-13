@@ -28,31 +28,31 @@
                 "SUB_CATEGORIES": [
                     {
                         "TITLE": "Punto recto",
-                        "HREF": "awnings/straight-point"
+                        "HREF": "awnings/straight-point/"
                     },
                     {
                         "TITLE": "Rétractable",
-                        "HREF": "awnings/retractable"
+                        "HREF": "awnings/retractable/"
                     },
                     {
                         "TITLE": "Coffre",
-                        "HREF": "awnings/boxed"
+                        "HREF": "awnings/boxed/"
                     },
                     {
                         "TITLE": "Stor",
-                        "HREF": "awnings/stor"
+                        "HREF": "awnings/stor/"
                     },
                     {
                         "TITLE": "Voile",
-                        "HREF": "awnings/shade-sail"
+                        "HREF": "awnings/shade-sail/"
                     },
                     {
                         "TITLE": "Vertical",
-                        "HREF": "awnings/blind"
+                        "HREF": "awnings/blind/"
                     },
                     {
                         "TITLE": "Véranda",
-                        "HREF": "awnings/veranda"
+                        "HREF": "awnings/veranda/"
                     }
                 ]
             },
@@ -61,7 +61,7 @@
                 "SUB_CATEGORIES": [
                     {
                         "TITLE": "Bioclimatiques",
-                        "HREF": "pergolas/bioclimatic"
+                        "HREF": "pergolas/bioclimatic/"
                     }
                 ]
             }
@@ -136,14 +136,14 @@
                 "TITLE": "Rétractable",
                 "DESCRIPTION": "Nos stores rétractables offrent une excellente ombre et peuvent être facilement étendus ou rétractés selon vos besoins.",
                 "IMG_ALT": "Store rétractable sur un salon extérieur",
-                "BTN_HREF": "awnings/retractable"
+                "BTN_HREF": "awnings/retractable/"
             },
             {
                 "CATEGORY": "Pergolas",
                 "TITLE": "Gazebo",
                 "DESCRIPTION": "Nos pergolas gazebo offrent un ajout élégant et fonctionnel à tout espace extérieur, parfait pour les activités en plein air.",
                 "IMG_ALT": "Pergola gazebo sur un salon extérieur",
-                "BTN_HREF": "pergolas/bioclimatic"
+                "BTN_HREF": "pergolas/bioclimatic/"
             },
             {
                 "CATEGORY": "Couvertures de Piscine",

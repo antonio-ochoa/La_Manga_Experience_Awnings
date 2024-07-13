@@ -2,15 +2,19 @@
 import ViewTransitions from 'astro/components/ViewTransitions.astro';
 import Header from '@/Header.astro';
 import Footer from '@/Footer.astro';
+import { getI18N } from '@i18n/index';
+import { getPath } from "src/utils/getPath"
 const HeroImgDesktop = "https://cdn.lamangaexperience.com/imgs/awning-beach-bar.avif";
 const HeroImgPhone = "https://cdn.lamangaexperience.com/imgs/awning-beach-bar-phone.avif";
 
+const selectedLang = getI18N(Astro, "index").LANGUAGE;
 
-const currentLocale = Astro.currentLocale;
-const lang = (currentLocale==="es"||currentLocale==="en")? currentLocale : "en";
+const currentLocale = Astro.currentLocale ?? "en";
+const supportedLanguages = ["en", "de", "fr"];
+const lang = supportedLanguages.includes(currentLocale) ? currentLocale : "en";
 
 function getLink(a:string) {
-	return "https://tomatuweb.es" + a
+	return "https://awnings.lamangaexperience.com" + a
 }
 
 interface Props {
@@ -25,8 +29,6 @@ interface Props {
 
 const { title, path, index, follow, descr, animatedHeader, error } = Astro.props;
 
-const esPath = getLink(path);
-const enPath = getLink("/en"+path);
 ---
 
 <!doctype html>
@@ -47,11 +49,11 @@ const enPath = getLink("/en"+path);
 		<link rel="preload" href="https://cdn.lamangaexperience.com/fonts/kaiseiopti/kaiseiopti-medium.woff2" as="font" type="font/woff2" crossorigin>
 		<link rel="preload" href="https://cdn.lamangaexperience.com/fonts/lato/lato-regular.woff2" as="font" type="font/woff2" crossorigin>
 
-		<!-- {(!error) && (
-			<link rel="alternate" hreflang="de" href={esPath} />
-			<link rel="alternate" hreflang="fr" href={enPath} />
-			<link rel="canonical" href={lang ==="es" ? esPath : enPath} />
-		)} -->
+		{(!error) && (
+			<link rel="alternate" hreflang="de" href={getLink(getPath("de", Astro.url, selectedLang))} />
+			<link rel="alternate" hreflang="fr" href={getLink(getPath("fr", Astro.url, selectedLang))} />
+			<link rel="canonical" href={getLink(getPath("en", Astro.url, selectedLang))} />
+		)}
 
 		<meta name="description" content={descr} />
 		<meta name="robots" content={index + ', ' + follow} />

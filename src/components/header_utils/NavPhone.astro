@@ -2,6 +2,7 @@
 import DownArrow from "@/icons/DownArrow.astro";
 import { getUrl } from "src/utils/getUrl";
 import { getI18N } from "@i18n/index";
+import Logo from "@icons/Logo.astro";
 const lang = Astro.currentLocale ?? "en"
 
 const i18n = getI18N(Astro, "index").NAVIGATION;
@@ -29,8 +30,8 @@ const toggleBars = Array(3).fill(0);
 
     <nav class="phone">
         <div class="header">
-            <img src="" alt="" />
-            <div class="close-menu">O</div>
+            <Logo />
+            <div class="close-menu">X</div>
         </div>
         <ul class="category">
             <li><a href={home.HREF}>{home.TITLE}</a></li>

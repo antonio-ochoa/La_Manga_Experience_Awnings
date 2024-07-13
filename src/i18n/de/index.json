@@ -28,31 +28,31 @@
                 "SUB_CATEGORIES": [
                     {
                         "TITLE": "Punto recto",
-                        "HREF": "awnings/straight-point"
+                        "HREF": "awnings/straight-point/"
                     },
                     {
                         "TITLE": "Einziehbar",
-                        "HREF": "awnings/retractable"
+                        "HREF": "awnings/retractable/"
                     },
                     {
                         "TITLE": "Kassette",
-                        "HREF": "awnings/boxed"
+                        "HREF": "awnings/boxed/"
                     },
                     {
                         "TITLE": "Stor",
-                        "HREF": "awnings/stor"
+                        "HREF": "awnings/stor/"
                     },
                     {
                         "TITLE": "Segel",
-                        "HREF": "awnings/shade-sail"
+                        "HREF": "awnings/shade-sail/"
                     },
                     {
                         "TITLE": "Vertikal",
-                        "HREF": "awnings/blind"
+                        "HREF": "awnings/blind/"
                     },
                     {
                         "TITLE": "Veranda",
-                        "HREF": "awnings/veranda"
+                        "HREF": "awnings/veranda/"
                     }
                 ]
             },
@@ -61,7 +61,7 @@
                 "SUB_CATEGORIES": [
                     {
                         "TITLE": "Bioklimatisch",
-                        "HREF": "pergolas/bioclimatic"
+                        "HREF": "pergolas/bioclimatic/"
                     }
                 ]
             }
@@ -136,14 +136,14 @@
                 "TITLE": "Einziehbar",
                 "DESCRIPTION": "Unsere einziehbaren Markisen bieten hervorragenden Schatten und können je nach Bedarf bequem ein- oder ausgefahren werden.",
                 "IMG_ALT": "Einziehbare Markise in einem Außenwohnzimmer",
-                "BTN_HREF": "awnings/retractable"
+                "BTN_HREF": "awnings/retractable/"
             },
             {
                 "CATEGORY": "Pergolen",
                 "TITLE": "Gazebo",
                 "DESCRIPTION": "Unsere Gazebo-Pergolen bieten eine stilvolle und funktionale Ergänzung für jeden Außenbereich und sind perfekt für Outdoor-Aktivitäten.",
                 "IMG_ALT": "Gazebo-Pergola in einem Außenwohnzimmer",
-                "BTN_HREF": "pergolas/bioclimatic"
+                "BTN_HREF": "pergolas/bioclimatic/"
             },
             {
                 "CATEGORY": "Poolabdeckungen",

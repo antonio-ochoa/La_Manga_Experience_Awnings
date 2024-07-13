@@ -28,31 +28,31 @@
                 "SUB_CATEGORIES": [
                     {
                         "TITLE": "Straight Point",
-                        "HREF": "awnings/straight-point"
+                        "HREF": "awnings/straight-point/"
                     },
                     {
                         "TITLE": "Retractable",
-                        "HREF": "awnings/retractable"
+                        "HREF": "awnings/retractable/"
                     },
                     {
                         "TITLE": "Boxed",
-                        "HREF": "awnings/boxed"
+                        "HREF": "awnings/boxed/"
                     },
                     {
                         "TITLE": "Stor",
-                        "HREF": "awnings/stor"
+                        "HREF": "awnings/stor/"
                     },
                     {
                         "TITLE": "Shade Sails",
-                        "HREF": "awnings/shade-sail"
+                        "HREF": "awnings/shade-sail/"
                     },
                     {
                         "TITLE": "Blind / Vertical",
-                        "HREF": "awnings/blind"
+                        "HREF": "awnings/blind/"
                     },
                     {
                         "TITLE": "Veranda",
-                        "HREF": "awnings/veranda"
+                        "HREF": "awnings/veranda/"
                     }
                 ]
             },
@@ -60,8 +60,8 @@
                 "CATEGORY": "Pergolas",
                 "SUB_CATEGORIES": [
                     {
-                        "TITLE": "Bioclimáticas",
-                        "HREF": "pergolas/bioclimatic"
+                        "TITLE": "Bioclimatic",
+                        "HREF": "pergolas/bioclimatic/"
                     }
                 ]
             }
@@ -136,14 +136,14 @@
                 "TITLE": "Retractable",
                 "DESCRIPTION": "Our retractable awnings provide excellent shade and can be conveniently extended or retracted based on your needs.",
                 "IMG_ALT": "Retractable awning on an outdoor living room",
-                "BTN_HREF": "awnings/retractable"
+                "BTN_HREF": "awnings/retractable/"
             },
             {
                 "CATEGORY": "Pergolas",
                 "TITLE": "Bioclimatic",
                 "DESCRIPTION": "Our bioclimatic pergolas offer a stylish and functional addition to any outdoor area, being perfect for outdoor activities.",
                 "IMG_ALT": "Bioclimatic pergola on an outdoor living room",
-                "BTN_HREF": "pergolas/bioclimatic"
+                "BTN_HREF": "pergolas/bioclimatic/"
             },
             {
                 "CATEGORY": "Pool Covers",

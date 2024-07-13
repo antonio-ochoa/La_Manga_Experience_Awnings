@@ -13,13 +13,14 @@ const selectedLanguage = i18n.LANGUAGE;
 
 ---
 
-<div class="lang-btn small">
+<label class="lang-btn small">
+    <input type="checkbox" />
     <Language />
     {selectedLanguage}
     <ul class="languages">
         {supportedLanguages.map((language) => <li><a href={getPath(language.HREF, Astro.url, selectedLanguage)}>{language.TITLE}</a></li> )}
     </ul>
-</div>
+</l>
 
 <style>
     .lang-btn {
@@ -30,6 +31,7 @@ const selectedLanguage = i18n.LANGUAGE;
         padding: 14px 8px;
         cursor: pointer;
     }
+    .lang-btn input { display: none }
     .lang-btn ul.languages {
         box-sizing: border-box;
         position: absolute;
@@ -53,4 +55,5 @@ const selectedLanguage = i18n.LANGUAGE;
         color: white;
     }
     .lang-btn:hover ul.languages { display: block }
+    .lang-btn input:active ~ ul.languages { display: block }
 </style>
