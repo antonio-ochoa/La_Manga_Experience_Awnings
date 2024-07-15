@@ -76,7 +76,7 @@
             },
             "TERMS_AND_CONDITIONS": {
                 "TITLE": "Conditions Générales",
-                "HREF": "/fr/legal"
+                "HREF": "https://awnings.lamangaexperience.com/fr/legal"
             }
         }
     },
@@ -158,7 +158,7 @@
     "WHAT_AWNING_CHOOSE": {
         "TITLE": "Quel store dois-je choisir ?",
         "P1": "Lors du choix d'un store, <strong>le confort doit être votre priorité absolue.</strong> Bien que les stores puissent sembler être un investissement important au départ, opter pour un modèle rétractable automatique peut vous faire gagner du temps et des efforts au fil des ans.",
-        "P2": "D'après notre vaste expérience, <strong>le regret le plus courant parmi les clients ayant acheté de grands stores est de ne pas avoir choisi un modèle rétractable.</strong> Ce qui semble au départ être une simple tâche consistant à tourner une manivelle peut rapidement devenir une corvée fastidieuse.",
+        "P2": "D'après notre vaste expérience, <strong>le regret le plus courant</strong> parmi les clients ayant acheté de grands stores <strong>est de ne pas avoir choisi un modèle rétractable.</strong> Ce qui semble au départ être une simple tâche consistant à tourner une manivelle peut rapidement devenir une corvée fastidieuse.",
         "P3": "Si vous avez besoin d'ombre dans un grand espace avec des arbres, envisagez d'explorer nos options de voiles. Elles offrent une solution élégante et pratique pour les grands espaces, fournissant une ombre abondante et améliorant l'esthétique générale de votre espace extérieur.",
         "IMG_ALT": "Voiles vertes et orange couvrant le soleil"
     },

@@ -76,7 +76,7 @@
             },
             "TERMS_AND_CONDITIONS": {
                 "TITLE": "Terms and Conditions",
-                "HREF": "legal"
+                "HREF": "https://awnings.lamangaexperience.com/legal"
             }
         }
     },
@@ -158,7 +158,7 @@
     "WHAT_AWNING_CHOOSE": {
         "TITLE": "What awning should I choose?",
         "P1": "When choosing an awning, <strong>comfort should be your top priority.</strong> While awnings might seem like a significant investment initially, opting for an automatic retractable model can save you time and effort over the years.",
-        "P2": "From our extensive experience, <strong>the most common regret among clients who have purchased large awnings is not choosing a retractable one.</strong> What initially seems like a simple task of turning a handle can quickly become a cumbersome chore.",
+        "P2": "From our extensive experience, <strong>the most common regret</strong> among clients who have purchased large awnings <strong>is not choosing a retractable one.</strong> What initially seems like a simple task of turning a handle can quickly become a cumbersome chore.",
         "P3": "If you need shade in a spacious area with trees, consider exploring our sail options. They offer a stylish and practical solution for larger spaces, providing ample shade and enhancing the overall aesthetic of your outdoor area.",
         "IMG_ALT": "Green and orange sails covering the sun"
     },

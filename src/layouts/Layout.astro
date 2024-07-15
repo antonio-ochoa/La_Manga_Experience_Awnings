@@ -13,9 +13,7 @@ const currentLocale = Astro.currentLocale ?? "en";
 const supportedLanguages = ["en", "de", "fr"];
 const lang = supportedLanguages.includes(currentLocale) ? currentLocale : "en";
 
-function getLink(a:string) {
-	return "https://awnings.lamangaexperience.com" + a
-}
+function getLink(a:string) { return "https://awnings.lamangaexperience.com" + a }
 
 interface Props {
 	title: string,
@@ -52,6 +50,7 @@ const { title, path, index, follow, descr, animatedHeader, error } = Astro.props
 		{(!error) && (
 			<link rel="alternate" hreflang="de" href={getLink(getPath("de", Astro.url, selectedLang))} />
 			<link rel="alternate" hreflang="fr" href={getLink(getPath("fr", Astro.url, selectedLang))} />
+			<link rel="alternate" hreflang="en" href={getLink(getPath("en", Astro.url, selectedLang))} />
 			<link rel="canonical" href={getLink(getPath("en", Astro.url, selectedLang))} />
 		)}
 
@@ -60,20 +59,24 @@ const { title, path, index, follow, descr, animatedHeader, error } = Astro.props
 		<meta name="referrer" content="no-referrer-when-downgrade" />
 
 		<link rel="icon" type="image/svg+xml" href="https://cdn.lamangaexperience.com/icons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.lamangaexperience.com/icons/favicon.svg">
 
 		<!-- Open Graph for Social Media -->
-		<meta property="og:title" content="TomaTuWeb - Agencia de diseño Web" />
-		<meta property="og:description" content="Diseño y producción de páginas web a un precio competitivo." />
-		<!-- <meta property="og:image" content="https://example.com/og-image.jpg" /> -->
-		<meta property="og:url" content="https://lamangaexperience.com" />
+		<meta property="og:title" content="Awnings in La Manga del Mar Menor | La Manga Experience" />
+		<meta property="og:description" content="Local experts in installation and selling of awnings, pergolas and pool covers in La Manga and surroundings. We are fluent in English." />
+		<!-- <meta property="og:image" content="https://yourwebsite.com/path/to/og-image.jpg" /> -->
+		<meta property="og:url" content="https://awnings.lamangaexperience.com" />
 		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:site_name" content="La Manga Experience" />
 
 		<!-- Twitter Card -->
 		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content="TomaTuWeb - Agencia de diseño Web" />
-		<meta name="twitter:description" content="Diseño y producción de páginas web a un precio competitivo." />
-		<!-- <meta name="twitter:image" content="https://example.com/twitter-image.jpg" /> -->
+		<meta name="twitter:title" content="Awnings in La Manga del Mar Menor | La Manga Experience" />
+		<meta name="twitter:description" content="Local experts in installation and selling of awnings, pergolas and pool covers in La Manga and surroundings. We are fluent in English." />
+		<!-- <meta name="twitter:image" content="https://yourwebsite.com/path/to/twitter-image.jpg" /> -->
 		<meta name="twitter:site" content="@LaMangaExperience" />
+		<meta name="twitter:creator" content="@LaMangaExperience" />
 		<ViewTransitions />
 	</head>
 
